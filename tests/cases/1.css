@@ -56,3 +56,11 @@ content: "\201d";
 		width: calc(12em +   (5px -3em));
 	}
 }
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

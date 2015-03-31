@@ -1,11 +1,21 @@
-var stylecow = require(__dirname + '/../lib');
-var fs = require('fs');
-var assert = require('assert');
+var stylecow = require('./../lib'),
+	assert = require('assert');
 
-[1, 2].forEach(function (num) {
-	var code = stylecow.Reader.readFile(__dirname + '/cases/' + num + '.css');
-	var css = stylecow.Root.create(code);
-	var expected = fs.readFileSync(__dirname + '/expected/' + num + '.css', 'utf8');
-
-	assert.equal(css.toString(), expected);
-});
+//Check all elements
+require('./elements/class-selector')(stylecow, assert);
+require('./elements/combinator')(stylecow, assert);
+require('./elements/comment')(stylecow, assert);
+require('./elements/declaration')(stylecow, assert);
+require('./elements/function')(stylecow, assert);
+require('./elements/id-selector')(stylecow, assert);
+require('./elements/keyword')(stylecow, assert);
+require('./elements/number')(stylecow, assert);
+require('./elements/pseudo-class')(stylecow, assert);
+require('./elements/pseudo-element')(stylecow, assert);
+require('./elements/rule')(stylecow, assert);
+require('./elements/selector')(stylecow, assert);
+require('./elements/selectors')(stylecow, assert);
+require('./elements/string')(stylecow, assert);
+require('./elements/type-selector')(stylecow, assert);
+require('./elements/unit')(stylecow, assert);
+require('./elements/value')(stylecow, assert);

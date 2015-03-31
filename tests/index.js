@@ -2,6 +2,7 @@ var stylecow = require('./../lib'),
 	assert = require('assert');
 
 //Check all elements
+require('./elements/block')(stylecow, assert);
 require('./elements/class-selector')(stylecow, assert);
 require('./elements/combinator')(stylecow, assert);
 require('./elements/comment')(stylecow, assert);
@@ -18,4 +19,5 @@ require('./elements/selectors')(stylecow, assert);
 require('./elements/string')(stylecow, assert);
 require('./elements/type-selector')(stylecow, assert);
 require('./elements/unit')(stylecow, assert);
+require('./elements/url')(stylecow, assert);
 require('./elements/value')(stylecow, assert);

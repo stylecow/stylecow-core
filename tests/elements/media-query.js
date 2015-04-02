@@ -13,6 +13,12 @@ module.exports = function (stylecow, assert) {
 	assert.strictEqual('MediaType', element[1].type);
 	assert.strictEqual('only screen', element.toString());
 
+	reader = stylecow.Reader.fromString('(min-resolution:  2dppx)');
+	element = stylecow.MediaQuery.create(reader);
+	assert.strictEqual(1, element.length);
+	assert.strictEqual('MediaFeature', element[0].type);
+	assert.strictEqual('(min-resolution: 2dppx)', element.toString());
+
 	reader = stylecow.Reader.fromString('only color and (min-width: 23px)');
 	element = stylecow.MediaQuery.create(reader);
 	assert.strictEqual(3, element.length);
@@ -22,6 +28,15 @@ module.exports = function (stylecow, assert) {
 	assert.strictEqual('min-width', element[2].name);
 	assert.strictEqual('Unit', element[2][0].type);
 	assert.strictEqual('only color and (min-width: 23px)', element.toString());
+
+	reader = stylecow.Reader.fromString('only color and (min-width: 23px) and (max-width: 400px)');
+	element = stylecow.MediaQuery.create(reader);
+	assert.strictEqual(4, element.length);
+	assert.strictEqual('Keyword', element[0].type);
+	assert.strictEqual('MediaType', element[1].type);
+	assert.strictEqual('MediaFeature', element[2].type);
+	assert.strictEqual('MediaFeature', element[3].type);
+	assert.strictEqual('only color and (min-width: 23px) and (max-width: 400px)', element.toString());
 
 	reader = stylecow.Reader.fromString('12(color)');
 	element = stylecow.MediaQuery.create(reader);

@@ -3,14 +3,21 @@ var stylecow = require('./../lib'),
 
 //Check all elements
 require('./elements/block')(stylecow, assert);
+require('./elements/charset')(stylecow, assert);
 require('./elements/class-selector')(stylecow, assert);
 require('./elements/combinator')(stylecow, assert);
 require('./elements/comment')(stylecow, assert);
 require('./elements/declaration')(stylecow, assert);
 require('./elements/function')(stylecow, assert);
 require('./elements/id-selector')(stylecow, assert);
+require('./elements/import')(stylecow, assert);
+require('./elements/keyframes')(stylecow, assert);
+require('./elements/keyframe')(stylecow, assert);
+require('./elements/keyframe-selectors')(stylecow, assert);
 require('./elements/keyword')(stylecow, assert);
+require('./elements/media')(stylecow, assert);
 require('./elements/media-feature')(stylecow, assert);
+require('./elements/media-queries')(stylecow, assert);
 require('./elements/media-query')(stylecow, assert);
 require('./elements/media-type')(stylecow, assert);
 require('./elements/number')(stylecow, assert);

@@ -1,0 +1,13 @@
+html {
+	color: blue;
+	text-decoration: underline;
+
+	p {
+		display: none;
+		overflow: hidden;
+	}
+
+	h1 {
+		color: rgb(12, 34, 56);
+	}
+}

@@ -20,5 +20,10 @@
   "dependencies": {
     "multi-stage-sourcemap": "^0.2.1",
     "source-map": "^0.1.*"
+  },
+  "devDependencies": {
+    "benchmark": "*",
+    "microtime": "*",
+    "stylecow-parser": "1.*"
   }
 }

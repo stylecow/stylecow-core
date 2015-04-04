@@ -19,5 +19,5 @@ module.exports = function (stylecow, assert) {
 		element = e;
 	}
 
-	assert.strictEqual('Unespected token: |<SPACE>\nline: 8\ncol: 1\n', element.message);
+	assert.strictEqual('Unespected token: |<SPACE>\nline: 1\ncol: 8\n', element.message);
 };

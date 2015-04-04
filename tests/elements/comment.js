@@ -17,6 +17,12 @@ module.exports = function (stylecow, assert) {
 	assert.strictEqual(false, element.important);
 	assert.strictEqual('/* hello world */', element.toString());
 
+	reader = stylecow.Reader.fromString('/** hello world */');
+	element = stylecow.Comment.create(reader);
+	assert.strictEqual('* hello world ', element.name);
+	assert.strictEqual(false, element.important);
+	assert.strictEqual('/** hello world */', element.toString());
+
 	reader = stylecow.Reader.fromString('/*! hello world */');
 	element = stylecow.Comment.create(reader);
 	assert.strictEqual(' hello world ', element.name);

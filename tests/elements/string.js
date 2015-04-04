@@ -19,6 +19,11 @@ module.exports = function (stylecow, assert) {
 	assert.strictEqual('ola', element.name);
 	assert.strictEqual('"ola"', element.toString());
 
+	reader = stylecow.Reader.fromString("''");
+	element = stylecow.String.create(reader);
+	assert.strictEqual('', element.name);
+	assert.strictEqual('""', element.toString());
+
 	reader = stylecow.Reader.fromString('ola');
 	element = stylecow.String.create(reader);
 	assert.strictEqual(undefined, element);

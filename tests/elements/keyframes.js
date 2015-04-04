@@ -21,7 +21,12 @@ module.exports = function (stylecow, assert) {
 	assert.strictEqual(2, element[1].length);
 	assert.strictEqual('@-webkit-keyframes foo {\n\tfrom {\n\t\tcolor: blue;\n\t}\n\tto {\n\t\tcolor: red;\n\t}\n}', element.toString());
 
-	reader = stylecow.Reader.fromString('@keyframes {}');
-	element = stylecow.Media.create(reader);
-	assert.strictEqual(undefined, element);
+	try {
+		reader = stylecow.Reader.fromString('@keyframes {}');
+		element = stylecow.Keyframes.create(reader);
+	} catch (error) {
+		element = error;
+	}
+
+	assert.strictEqual('Unespected token: {}\nline: 1\ncol: 12\n', element.message);
 };

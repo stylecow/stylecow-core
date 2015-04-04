@@ -18,5 +18,5 @@ module.exports = function (stylecow, assert) {
 		element = e;
 	}
 
-	assert.strictEqual('Unespected token: utf-8<EOF>\nline: 10\ncol: 1\n', element.message);
+	assert.strictEqual('Unespected token: utf-8<EOF>\nline: 1\ncol: 10\n', element.message);
 };

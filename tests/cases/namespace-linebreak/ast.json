@@ -1,0 +1,19 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Namespace",
+			"children": [
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "http://www.w3.org/1999/xhtml"
+				}
+			],
+			"name": "namespace"
+		}
+	]
+}

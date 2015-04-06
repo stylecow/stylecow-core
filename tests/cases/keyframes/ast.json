@@ -1,0 +1,135 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Media",
+			"children": [
+				{
+					"type": "Keyword",
+					"class": "Keyword",
+					"children": [],
+					"name": "fade"
+				},
+				{
+					"type": "KeyframesBlock",
+					"class": "KeyframesBlock",
+					"children": [
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " from above "
+						},
+						{
+							"type": "Keyframe",
+							"class": "Keyframe",
+							"children": [
+								{
+									"type": "KeyframeSelectors",
+									"class": "KeyframeSelectors",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "from"
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "DeclarationBlock",
+									"children": [
+										{
+											"type": "Comment",
+											"class": "Comment",
+											"children": [],
+											"name": " from inside "
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 0
+														}
+													]
+												}
+											],
+											"name": "opacity"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " to above "
+						},
+						{
+							"type": "Keyframe",
+							"class": "Keyframe",
+							"children": [
+								{
+									"type": "KeyframeSelectors",
+									"class": "KeyframeSelectors",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "to"
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "DeclarationBlock",
+									"children": [
+										{
+											"type": "Comment",
+											"class": "Comment",
+											"children": [],
+											"name": " to inside "
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 1
+														}
+													]
+												}
+											],
+											"name": "opacity"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "keyframes"
+		}
+	]
+}

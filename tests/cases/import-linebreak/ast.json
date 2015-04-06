@@ -1,0 +1,37 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Import",
+			"children": [
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "test.css"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "screen"
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "import"
+		}
+	]
+}

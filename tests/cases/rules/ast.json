@@ -1,0 +1,142 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "tobi"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "String",
+											"class": "String",
+											"children": [],
+											"name": "tobi"
+										}
+									]
+								}
+							],
+							"name": "name"
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Number",
+											"class": "Number",
+											"children": [],
+											"name": 2
+										}
+									]
+								}
+							],
+							"name": "age"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "loki"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "String",
+											"class": "String",
+											"children": [],
+											"name": "loki"
+										}
+									]
+								}
+							],
+							"name": "name"
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Number",
+											"class": "Number",
+											"children": [],
+											"name": 1
+										}
+									]
+								}
+							],
+							"name": "age"
+						}
+					]
+				}
+			]
+		}
+	]
+}

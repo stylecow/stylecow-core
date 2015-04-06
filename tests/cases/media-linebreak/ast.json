@@ -1,0 +1,105 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Media",
+			"children": [
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "ConditionalExpression",
+									"class": "ConditionalExpression",
+									"children": [
+										{
+											"type": "ConditionalFeature",
+											"class": "ConditionalFeature",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "px"
+														}
+													]
+												}
+											],
+											"name": "min-width"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Rule",
+							"class": "Rule",
+							"children": [
+								{
+									"type": "Selectors",
+									"class": "Selectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "test"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "Block",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "px"
+														}
+													]
+												}
+											],
+											"name": "width"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "media"
+		}
+	]
+}

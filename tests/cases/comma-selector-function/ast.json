@@ -1,0 +1,393 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "foo"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClassSelectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "bar"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "baz"
+												}
+											]
+										}
+									],
+									"name": "matches"
+								}
+							]
+						},
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "foo"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClassSelectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "bar"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "baz"
+												}
+											]
+										}
+									],
+									"name": "matches"
+								}
+							]
+						},
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "foo"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClassSelectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "bar"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "baz"
+												}
+											]
+										}
+									],
+									"name": "matches"
+								}
+							]
+						},
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "foo"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClassSelectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "bar"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "baz"
+												}
+											]
+										}
+									],
+									"name": "matches"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "value"
+										}
+									]
+								}
+							],
+							"name": "prop"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "foo"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClassSelectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "bar"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "baz"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "foobar"
+												}
+											]
+										}
+									],
+									"name": "matches"
+								}
+							]
+						},
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "foo"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClassSelectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "bar"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "baz"
+												}
+											]
+										}
+									],
+									"name": "matches"
+								}
+							]
+						},
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "foo"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClassSelectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "bar"
+												}
+											]
+										},
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "baz"
+												}
+											]
+										}
+									],
+									"name": "matches"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "anothervalue"
+										}
+									]
+								}
+							],
+							"name": "anotherprop"
+						}
+					]
+				}
+			]
+		}
+	]
+}

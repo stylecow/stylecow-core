@@ -4,16 +4,14 @@ var suite = require('benchmark').Suite();
 var v1 = require('../node_modules/stylecow-parser/lib'); 
 var v2 = require('../lib');
 
-var code = fs.readFileSync(__dirname + '/code.css', 'utf-8');
-
-var results = [];
+var code = fs.readFileSync(__dirname + '/css/1.css', 'utf-8');
 
 suite
 	.add('v1', function () {
-		results[0] = v1.Root.create(new v1.Reader(code));
+		v1.Root.create(new v1.Reader(code));
 	})
 	.add('v2', function () {
-		results[1] = v2.Root.create(v2.Reader.fromString(code));
+		v2.Root.create(v2.Reader.fromString(code));
 	})
 	.on('cycle', function(event) {
 		console.log(String(event.target));
@@ -22,6 +20,6 @@ suite
 		console.log(error);
 	})
 	.on('complete', function () {
-		console.log(results.join('\n\n'));
+		console.log('fin');
 	})
 	.run();

@@ -1,0 +1,121 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " 1 "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "head"
+								}
+							]
+						},
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "Comment",
+									"class": "Comment",
+									"children": [],
+									"name": " footer, "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "body"
+								},
+								{
+									"type": "Comment",
+									"class": "Comment",
+									"children": [],
+									"name": ", nav "
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " 2 "
+						},
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " 3 "
+						},
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": ""
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "String",
+											"class": "String",
+											"children": [],
+											"name": "bar"
+										}
+									]
+								}
+							],
+							"name": "foo"
+						},
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " 4 "
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " 5 "
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " 6 "
+		}
+	]
+}

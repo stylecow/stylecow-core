@@ -1,0 +1,56 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "CustomMedia",
+			"children": [
+				{
+					"type": "ExtensionName",
+					"class": "ExtensionName",
+					"children": [],
+					"name": "--test"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "ConditionalExpression",
+									"class": "ConditionalExpression",
+									"children": [
+										{
+											"type": "ConditionalFeature",
+											"class": "ConditionalFeature",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "px"
+														}
+													]
+												}
+											],
+											"name": "min-width"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "custom-media"
+		}
+	]
+}

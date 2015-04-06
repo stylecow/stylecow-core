@@ -1,0 +1,198 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Import",
+			"children": [
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "fineprint.css"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "print"
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "import"
+		},
+		{
+			"type": "AtRule",
+			"class": "Import",
+			"children": [
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "bluish.css"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "projection"
+								}
+							]
+						},
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "tv"
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "import"
+		},
+		{
+			"type": "AtRule",
+			"class": "Import",
+			"children": [
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "custom.css"
+				}
+			],
+			"name": "import"
+		},
+		{
+			"type": "AtRule",
+			"class": "Import",
+			"children": [
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "common.css"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "screen"
+								}
+							]
+						},
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "projection"
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "import"
+		},
+		{
+			"type": "AtRule",
+			"class": "Import",
+			"children": [
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "landscape.css"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "screen"
+								},
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "and"
+								},
+								{
+									"type": "ConditionalExpression",
+									"class": "ConditionalExpression",
+									"children": [
+										{
+											"type": "ConditionalFeature",
+											"class": "ConditionalFeature",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Keyword",
+															"class": "Keyword",
+															"children": [],
+															"name": "landscape"
+														}
+													]
+												}
+											],
+											"name": "orientation"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "import"
+		}
+	]
+}

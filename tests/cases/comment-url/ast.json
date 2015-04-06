@@ -1,0 +1,85 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " http://foo.com/bar/baz.html "
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": ""
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "foo"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": "/"
+						},
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " something "
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "baz"
+										}
+									]
+								}
+							],
+							"name": "bar"
+						},
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " http://foo.com/bar/baz.html "
+						}
+					]
+				}
+			]
+		}
+	]
+}

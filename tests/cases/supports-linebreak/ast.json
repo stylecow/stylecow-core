@@ -1,0 +1,99 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Supports",
+			"children": [
+				{
+					"type": "ConditionalSelector",
+					"class": "ConditionalSelector",
+					"children": [
+						{
+							"type": "ConditionalExpression",
+							"class": "ConditionalExpression",
+							"children": [
+								{
+									"type": "ConditionalFeature",
+									"class": "ConditionalFeature",
+									"children": [
+										{
+											"type": "Value",
+											"class": "Value",
+											"children": [
+												{
+													"type": "Keyword",
+													"class": "Keyword",
+													"children": [],
+													"name": "flex"
+												}
+											]
+										}
+									],
+									"name": "display"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Rule",
+							"class": "Rule",
+							"children": [
+								{
+									"type": "Selectors",
+									"class": "Selectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "ClassSelector",
+													"class": "ClassSelector",
+													"children": [],
+													"name": "test"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "Block",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Keyword",
+															"class": "Keyword",
+															"children": [],
+															"name": "flex"
+														}
+													]
+												}
+											],
+											"name": "display"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "supports"
+		}
+	]
+}

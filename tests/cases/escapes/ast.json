@@ -1,0 +1,2166 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " tests compressed for easy testing "
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " http://mathiasbynens.be/notes/css-escapes "
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " will match elements with class=\":`(\" "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "\\3A"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "\\`\\("
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": []
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " will match elements with class=\"1a2b3c\" "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "ClassSelector",
+									"class": "ClassSelector",
+									"children": [],
+									"name": "\\31"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "a2b3c"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": []
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " will match the element with id=\"#fake-id\" "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\#fake-id"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": []
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " will match the element with id=\"---\" "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\---"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": []
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " will match the element with id=\"-a-b-c-\" "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "-a-b-c-"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": []
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " will match the element with id=\"©\" "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "©"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": []
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " More tests from http://mathiasbynens.be/demo/html5-id "
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "em"
+										},
+										{
+											"type": "ValueSeparator",
+											"class": "ValueSeparator",
+											"children": []
+										},
+										{
+											"type": "Number",
+											"class": "Number",
+											"children": [],
+											"name": 1.6
+										},
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "Arial"
+										}
+									]
+								}
+							],
+							"name": "font"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "code"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "Consolas"
+										}
+									]
+								}
+							],
+							"name": "font-family"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "li"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "code"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Function",
+											"class": "Function",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 255
+														}
+													]
+												},
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 255
+														}
+													]
+												},
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 255
+														}
+													]
+												},
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 0.5
+														}
+													]
+												}
+											],
+											"name": "rgba"
+										}
+									]
+								}
+							],
+							"name": "background"
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "em"
+										}
+									]
+								}
+							],
+							"name": "padding"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "li"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "orange"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "♥"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "©"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "“‘’”"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "☺☃"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "⌘⌥"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "𝄞♪♩♫♬"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\?"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\@"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\3A"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "\\)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\3A"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "\\`\\("
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\31"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "a2b3c"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\<p\\>"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\<\\>\\<\\<\\<\\>\\>\\<\\>"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\[\\>\\+\\+\\+\\+\\+\\+\\+\\>\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\>\\+\\+\\+\\>\\+\\<\\<\\<\\<\\-\\]\\>\\+\\+\\.\\>\\+\\.\\+\\+\\+\\+\\+\\+\\+\\.\\.\\+\\+\\+\\.\\>\\+\\+\\.\\<\\<\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\+\\.\\>\\.\\+\\+\\+\\.\\-\\-\\-\\-\\-\\-\\.\\-\\-\\-\\-\\-\\-\\-\\-\\.\\>\\+\\.\\>\\."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\#"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\#\\#"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\#\\.\\#\\.\\#"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\_"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\.fake\\-class"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "foo\\.bar"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\3A"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "hover"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\3A"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "hover\\3A"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "focus\\3A"
+								},
+								{
+									"type": "Combinator",
+									"class": "Combinator",
+									"children": [],
+									"name": " "
+								},
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "active"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "\\[attr\\=value\\]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "f\\/o\\/o"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "f\\\\o\\\\o"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "f\\*o\\*o"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "f\\!o\\!o"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "f\\'o\\'o"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "f\\~o\\~o"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "IdSelector",
+									"class": "IdSelector",
+									"children": [],
+									"name": "f\\+o\\+o"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "lime"
+										}
+									]
+								}
+							],
+							"name": "background"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " css-parse does not yet pass this test "
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": "#\\{\\}{background:lime;}"
+		}
+	]
+}

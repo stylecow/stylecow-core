@@ -10,7 +10,7 @@
     "url": "https://github.com/stylecow/stylecow-parser.git"
   },
   "scripts": {
-    "test": "node tests/index.js"
+    "test": "mocha tests/cases.js"
   },
   "main": "./lib/index",
   "license": "MIT",

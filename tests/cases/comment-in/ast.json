@@ -1,0 +1,136 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "Rule",
+			"class": "Rule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "a"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "px"
+										}
+									]
+								}
+							],
+							"name": "color"
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "px"
+										},
+										{
+											"type": "Comment",
+											"class": "Comment",
+											"children": [],
+											"name": ""
+										},
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "px"
+										},
+										{
+											"type": "Comment",
+											"class": "Comment",
+											"children": [],
+											"name": "13"
+										},
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "px"
+										}
+									]
+								}
+							],
+							"name": "padding"
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "solid"
+										}
+									]
+								}
+							],
+							"name": "border"
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "none\\9"
+										}
+									]
+								}
+							],
+							"name": "border-top"
+						}
+					]
+				}
+			]
+		}
+	]
+}

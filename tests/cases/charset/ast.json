@@ -1,0 +1,44 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Charset",
+			"children": [
+				{
+					"type": "String",
+					"class": "String",
+					"children": [],
+					"name": "UTF-8"
+				}
+			],
+			"name": "charset"
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " Set the encoding of the style sheet to Unicode UTF-8 "
+		},
+		{
+			"type": "AtRule",
+			"class": "Charset",
+			"children": [
+				{
+					"type": "String",
+					"class": "String",
+					"children": [],
+					"name": "iso-8859-15"
+				}
+			],
+			"name": "charset"
+		},
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " Set the encoding of the style sheet to Latin-9 (Western European languages, with euro sign) "
+		}
+	]
+}

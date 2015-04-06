@@ -1,0 +1,118 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "CustomMedia",
+			"children": [
+				{
+					"type": "ExtensionName",
+					"class": "ExtensionName",
+					"children": [],
+					"name": "--narrow-window"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "ConditionalExpression",
+									"class": "ConditionalExpression",
+									"children": [
+										{
+											"type": "ConditionalFeature",
+											"class": "ConditionalFeature",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "em"
+														}
+													]
+												}
+											],
+											"name": "max-width"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "custom-media"
+		},
+		{
+			"type": "AtRule",
+			"class": "CustomMedia",
+			"children": [
+				{
+					"type": "ExtensionName",
+					"class": "ExtensionName",
+					"children": [],
+					"name": "--wide-window"
+				},
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "screen"
+								},
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "and"
+								},
+								{
+									"type": "ConditionalExpression",
+									"class": "ConditionalExpression",
+									"children": [
+										{
+											"type": "ConditionalFeature",
+											"class": "ConditionalFeature",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "em"
+														}
+													]
+												}
+											],
+											"name": "min-width"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "custom-media"
+		}
+	]
+}

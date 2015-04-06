@@ -1,0 +1,168 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "Comment",
+			"class": "Comment",
+			"children": [],
+			"name": " toc above "
+		},
+		{
+			"type": "AtRule",
+			"class": "AtRule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "toc"
+								}
+							]
+						},
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "TypeSelector",
+									"class": "TypeSelector",
+									"children": [],
+									"name": "index"
+								},
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClass",
+									"children": [],
+									"name": "blank"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " toc inside "
+						},
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Keyword",
+											"class": "Keyword",
+											"children": [],
+											"name": "green"
+										}
+									]
+								}
+							],
+							"name": "color"
+						}
+					]
+				}
+			],
+			"name": "page"
+		},
+		{
+			"type": "AtRule",
+			"class": "AtRule",
+			"children": [
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "pt"
+										}
+									]
+								}
+							],
+							"name": "font-size"
+						}
+					]
+				}
+			],
+			"name": "page"
+		},
+		{
+			"type": "AtRule",
+			"class": "AtRule",
+			"children": [
+				{
+					"type": "Selectors",
+					"class": "Selectors",
+					"children": [
+						{
+							"type": "Selector",
+							"class": "Selector",
+							"children": [
+								{
+									"type": "PseudoClass",
+									"class": "PseudoClass",
+									"children": [],
+									"name": "left"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Declaration",
+							"class": "Declaration",
+							"children": [
+								{
+									"type": "Value",
+									"class": "Value",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "cm"
+										}
+									]
+								}
+							],
+							"name": "margin-left"
+						}
+					]
+				}
+			],
+			"name": "page"
+		}
+	]
+}

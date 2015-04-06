@@ -1,0 +1,394 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Media",
+			"children": [
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "screen"
+								}
+							]
+						},
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "projection"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " html above "
+						},
+						{
+							"type": "Rule",
+							"class": "Rule",
+							"children": [
+								{
+									"type": "Selectors",
+									"class": "Selectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "TypeSelector",
+													"class": "TypeSelector",
+													"children": [],
+													"name": "html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "Block",
+									"children": [
+										{
+											"type": "Comment",
+											"class": "Comment",
+											"children": [],
+											"name": " html inside "
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Hex",
+															"class": "Hex",
+															"children": [],
+															"name": "fffef0"
+														}
+													]
+												}
+											],
+											"name": "background"
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Hex",
+															"class": "Hex",
+															"children": [],
+															"name": "300"
+														}
+													]
+												}
+											],
+											"name": "color"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "Comment",
+							"class": "Comment",
+							"children": [],
+							"name": " body above "
+						},
+						{
+							"type": "Rule",
+							"class": "Rule",
+							"children": [
+								{
+									"type": "Selectors",
+									"class": "Selectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "TypeSelector",
+													"class": "TypeSelector",
+													"children": [],
+													"name": "body"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "Block",
+									"children": [
+										{
+											"type": "Comment",
+											"class": "Comment",
+											"children": [],
+											"name": " body inside "
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "em"
+														}
+													]
+												}
+											],
+											"name": "max-width"
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 0
+														},
+														{
+															"type": "Keyword",
+															"class": "Keyword",
+															"children": [],
+															"name": "auto"
+														}
+													]
+												}
+											],
+											"name": "margin"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "media"
+		},
+		{
+			"type": "AtRule",
+			"class": "Media",
+			"children": [
+				{
+					"type": "MediaQueries",
+					"class": "MediaQueries",
+					"children": [
+						{
+							"type": "MediaQuery",
+							"class": "MediaQuery",
+							"children": [
+								{
+									"type": "Keyword",
+									"class": "Keyword",
+									"children": [],
+									"name": "print"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "Block",
+					"class": "Block",
+					"children": [
+						{
+							"type": "Rule",
+							"class": "Rule",
+							"children": [
+								{
+									"type": "Selectors",
+									"class": "Selectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "TypeSelector",
+													"class": "TypeSelector",
+													"children": [],
+													"name": "html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "Block",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Hex",
+															"class": "Hex",
+															"children": [],
+															"name": "fff"
+														}
+													]
+												}
+											],
+											"name": "background"
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Hex",
+															"class": "Hex",
+															"children": [],
+															"name": "000"
+														}
+													]
+												}
+											],
+											"name": "color"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "Rule",
+							"class": "Rule",
+							"children": [
+								{
+									"type": "Selectors",
+									"class": "Selectors",
+									"children": [
+										{
+											"type": "Selector",
+											"class": "Selector",
+											"children": [
+												{
+													"type": "TypeSelector",
+													"class": "TypeSelector",
+													"children": [],
+													"name": "body"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "Block",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "in"
+														}
+													]
+												}
+											],
+											"name": "padding"
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "pt"
+														},
+														{
+															"type": "Keyword",
+															"class": "Keyword",
+															"children": [],
+															"name": "solid"
+														},
+														{
+															"type": "Hex",
+															"class": "Hex",
+															"children": [],
+															"name": "666"
+														}
+													]
+												}
+											],
+											"name": "border"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "media"
+		}
+	]
+}

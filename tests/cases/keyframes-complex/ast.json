@@ -1,0 +1,247 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Media",
+			"children": [
+				{
+					"type": "Keyword",
+					"class": "Keyword",
+					"children": [],
+					"name": "foo"
+				},
+				{
+					"type": "KeyframesBlock",
+					"class": "KeyframesBlock",
+					"children": [
+						{
+							"type": "Keyframe",
+							"class": "Keyframe",
+							"children": [
+								{
+									"type": "KeyframeSelectors",
+									"class": "KeyframeSelectors",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "%"
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "DeclarationBlock",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 0
+														}
+													]
+												}
+											],
+											"name": "top"
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Number",
+															"class": "Number",
+															"children": [],
+															"name": 0
+														}
+													]
+												}
+											],
+											"name": "left"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "Keyframe",
+							"class": "Keyframe",
+							"children": [
+								{
+									"type": "KeyframeSelectors",
+									"class": "KeyframeSelectors",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "%"
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "DeclarationBlock",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "px"
+														}
+													]
+												}
+											],
+											"name": "top"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "Keyframe",
+							"class": "Keyframe",
+							"children": [
+								{
+									"type": "KeyframeSelectors",
+									"class": "KeyframeSelectors",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "%"
+										},
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "%"
+										},
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "%"
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "DeclarationBlock",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "px"
+														}
+													]
+												}
+											],
+											"name": "left"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "Keyframe",
+							"class": "Keyframe",
+							"children": [
+								{
+									"type": "KeyframeSelectors",
+									"class": "KeyframeSelectors",
+									"children": [
+										{
+											"type": "Unit",
+											"class": "Unit",
+											"children": [],
+											"name": "%"
+										}
+									]
+								},
+								{
+									"type": "Block",
+									"class": "DeclarationBlock",
+									"children": [
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "px"
+														}
+													]
+												}
+											],
+											"name": "top"
+										},
+										{
+											"type": "Declaration",
+											"class": "Declaration",
+											"children": [
+												{
+													"type": "Value",
+													"class": "Value",
+													"children": [
+														{
+															"type": "Unit",
+															"class": "Unit",
+															"children": [],
+															"name": "%"
+														}
+													]
+												}
+											],
+											"name": "left"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"name": "keyframes"
+		}
+	]
+}

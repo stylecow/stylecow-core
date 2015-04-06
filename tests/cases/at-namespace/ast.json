@@ -1,0 +1,25 @@
+{
+	"type": "Root",
+	"class": "Root",
+	"children": [
+		{
+			"type": "AtRule",
+			"class": "Namespace",
+			"children": [
+				{
+					"type": "Keyword",
+					"class": "Keyword",
+					"children": [],
+					"name": "svg"
+				},
+				{
+					"type": "Url",
+					"class": "Url",
+					"children": [],
+					"name": "http://www.w3.org/2000/svg"
+				}
+			],
+			"name": "namespace"
+		}
+	]
+}

@@ -1,238 +1,454 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Media",
+			"name": "keyframes",
+			"vendor": null,
+			"data": {
+				"line": 1,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Keyword",
 					"class": "Keyword",
-					"children": [],
-					"name": "foo"
+					"name": "foo",
+					"vendor": null,
+					"data": {
+						"line": 1,
+						"col": 12
+					}
 				},
 				{
-					"type": "KeyframesBlock",
 					"class": "KeyframesBlock",
+					"data": {
+						"line": 1,
+						"col": 16
+					},
 					"children": [
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 2,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 2,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "%"
+											"name": "%",
+											"data": {
+												"line": 2,
+												"col": 3
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 0,
+													"data": {
+														"line": 2,
+														"col": 3
+													}
+												}
+											]
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 2,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "top",
+											"vendor": null,
+											"data": {
+												"line": 2,
+												"col": 8
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 2,
+														"col": 13
+													},
 													"children": [
 														{
-															"type": "Number",
 															"class": "Number",
-															"children": [],
-															"name": 0
+															"name": 0,
+															"data": {
+																"line": 2,
+																"col": 13
+															}
 														}
 													]
 												}
-											],
-											"name": "top"
+											]
 										},
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "left",
+											"vendor": null,
+											"data": {
+												"line": 2,
+												"col": 16
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 2,
+														"col": 22
+													},
 													"children": [
 														{
-															"type": "Number",
 															"class": "Number",
-															"children": [],
-															"name": 0
+															"name": 0,
+															"data": {
+																"line": 2,
+																"col": 22
+															}
 														}
 													]
 												}
-											],
-											"name": "left"
+											]
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 3,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 3,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "%"
+											"name": "%",
+											"data": {
+												"line": 3,
+												"col": 3
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 30.5,
+													"data": {
+														"line": 3,
+														"col": 3
+													}
+												}
+											]
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 3,
+										"col": 10
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "top",
+											"vendor": null,
+											"data": {
+												"line": 3,
+												"col": 12
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 3,
+														"col": 17
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "px"
+															"name": "px",
+															"data": {
+																"line": 3,
+																"col": 17
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 50,
+																	"data": {
+																		"line": 3,
+																		"col": 17
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "top"
+											]
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 4,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 4,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "%"
+											"name": "%",
+											"data": {
+												"line": 4,
+												"col": 3
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 0.68,
+													"data": {
+														"line": 4,
+														"col": 3
+													}
+												}
+											]
 										},
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "%"
+											"name": "%",
+											"data": {
+												"line": 5,
+												"col": 3
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 72,
+													"data": {
+														"line": 5,
+														"col": 3
+													}
+												}
+											]
 										},
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "%"
+											"name": "%",
+											"data": {
+												"line": 6,
+												"col": 9
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 85,
+													"data": {
+														"line": 6,
+														"col": 9
+													}
+												}
+											]
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 6,
+										"col": 13
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "left",
+											"vendor": null,
+											"data": {
+												"line": 6,
+												"col": 15
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 6,
+														"col": 21
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "px"
+															"name": "px",
+															"data": {
+																"line": 6,
+																"col": 21
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 50,
+																	"data": {
+																		"line": 6,
+																		"col": 21
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "left"
+											]
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 7,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 7,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "%"
+											"name": "%",
+											"data": {
+												"line": 7,
+												"col": 3
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 100,
+													"data": {
+														"line": 7,
+														"col": 3
+													}
+												}
+											]
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 7,
+										"col": 8
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "top",
+											"vendor": null,
+											"data": {
+												"line": 7,
+												"col": 10
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 7,
+														"col": 15
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "px"
+															"name": "px",
+															"data": {
+																"line": 7,
+																"col": 15
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 100,
+																	"data": {
+																		"line": 7,
+																		"col": 15
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "top"
+											]
 										},
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "left",
+											"vendor": null,
+											"data": {
+												"line": 7,
+												"col": 22
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 7,
+														"col": 28
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "%"
+															"name": "%",
+															"data": {
+																"line": 7,
+																"col": 28
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 100,
+																	"data": {
+																		"line": 7,
+																		"col": 28
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "left"
+											]
 										}
 									]
 								}
@@ -240,8 +456,7 @@
 						}
 					]
 				}
-			],
-			"name": "keyframes"
+			]
 		}
 	]
 }

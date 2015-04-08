@@ -1,46 +1,70 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 1,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 1,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 1,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 1,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 1,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 1,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "baz,quz"
+											"name": "baz,quz",
+											"data": {
+												"line": 1,
+												"col": 10
+											}
 										}
 									]
 								}
@@ -49,312 +73,448 @@
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 1,
+						"col": 21
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foobar",
+							"vendor": null,
+							"data": {
+								"line": 2,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 2,
+										"col": 11
+									},
 									"children": [
 										{
-											"type": "Number",
 											"class": "Number",
-											"children": [],
-											"name": 123
+											"name": 123,
+											"data": {
+												"line": 2,
+												"col": 11
+											}
 										}
 									]
 								}
-							],
-							"name": "foobar"
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 5,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 5,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 5,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "bar"
+									"name": "bar",
+									"data": {
+										"line": 5,
+										"col": 2
+									}
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 6,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "bar"
+									"name": "bar",
+									"data": {
+										"line": 6,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 6,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "baz"
+											"name": "baz",
+											"vendor": null,
+											"data": {
+												"line": 6,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 6,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "qux,foo"
+											"name": "qux,foo",
+											"data": {
+												"line": 6,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 7,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "qux"
+									"name": "qux",
+									"data": {
+										"line": 7,
+										"col": 1
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 7,
+						"col": 6
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foobar",
+							"vendor": null,
+							"data": {
+								"line": 8,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 8,
+										"col": 11
+									},
 									"children": [
 										{
-											"type": "Number",
 											"class": "Number",
-											"children": [],
-											"name": 456
+											"name": 456,
+											"data": {
+												"line": 8,
+												"col": 11
+											}
 										}
 									]
 								}
-							],
-							"name": "foobar"
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 11,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 11,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 11,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "baz"
+									"name": "baz",
+									"data": {
+										"line": 11,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 11,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 11,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 11,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ",foo"
+											"name": ",foo",
+											"data": {
+												"line": 11,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 12,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "baz"
+									"name": "baz",
+									"data": {
+										"line": 12,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 12,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 12,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 12,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "foo,"
+											"name": "foo,",
+											"data": {
+												"line": 12,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 13,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "baz"
+									"name": "baz",
+									"data": {
+										"line": 13,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 13,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 13,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 13,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "foo,bar,baz"
+											"name": "foo,bar,baz",
+											"data": {
+												"line": 13,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 14,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "baz"
+									"name": "baz",
+									"data": {
+										"line": 14,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 14,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 14,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 14,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ",foo,bar,baz,"
+											"name": ",foo,bar,baz,",
+											"data": {
+												"line": 14,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 15,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "baz"
+									"name": "baz",
+									"data": {
+										"line": 15,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 15,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 15,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 15,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": " , foo , bar , baz , "
+											"name": " , foo , bar , baz , ",
+											"data": {
+												"line": 15,
+												"col": 10
+											}
 										}
 									]
 								}
@@ -363,179 +523,257 @@
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 15,
+						"col": 35
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foobar",
+							"vendor": null,
+							"data": {
+								"line": 16,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 16,
+										"col": 11
+									},
 									"children": [
 										{
-											"type": "Number",
 											"class": "Number",
-											"children": [],
-											"name": 789
+											"name": 789,
+											"data": {
+												"line": 16,
+												"col": 11
+											}
 										}
 									]
 								}
-							],
-							"name": "foobar"
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 19,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 19,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 19,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "qux"
+									"name": "qux",
+									"data": {
+										"line": 19,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 19,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "foo"
+											"name": "foo",
+											"vendor": null,
+											"data": {
+												"line": 19,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 19,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "bar,baz"
+											"name": "bar,baz",
+											"data": {
+												"line": 19,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 20,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "qux"
+									"name": "qux",
+									"data": {
+										"line": 20,
+										"col": 2
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 20,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 20,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 20,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "baz,foo"
+											"name": "baz,foo",
+											"data": {
+												"line": 20,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 21,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "qux"
+									"name": "qux",
+									"data": {
+										"line": 21,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 21,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "foo"
+											"name": "foo",
+											"vendor": null,
+											"data": {
+												"line": 21,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 21,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "foobar"
+											"name": "foobar",
+											"data": {
+												"line": 21,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 22,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "qux"
+									"name": "qux",
+									"data": {
+										"line": 22,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 22,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "foo"
+											"name": "foo",
+											"vendor": null,
+											"data": {
+												"line": 22,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 22,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ",bar,baz, "
+											"name": ",bar,baz, ",
+											"data": {
+												"line": 22,
+												"col": 10
+											}
 										}
 									]
 								}
@@ -544,467 +782,665 @@
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 22,
+						"col": 24
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foobar",
+							"vendor": null,
+							"data": {
+								"line": 23,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 23,
+										"col": 11
+									},
 									"children": [
 										{
-											"type": "Number",
 											"class": "Number",
-											"children": [],
-											"name": 12
+											"name": 12,
+											"data": {
+												"line": 23,
+												"col": 11
+											}
 										}
 									]
 								}
-							],
-							"name": "foobar"
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 26,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 26,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 26,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 26,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 26,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "foo"
+											"name": "foo",
+											"vendor": null,
+											"data": {
+												"line": 26,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 26,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ""
+											"name": "",
+											"data": {
+												"line": 26,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 27,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 27,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 27,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 27,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 27,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": " "
+											"name": " ",
+											"data": {
+												"line": 27,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 28,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 28,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 28,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 28,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 28,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ","
+											"name": ",",
+											"data": {
+												"line": 28,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 29,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 29,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 29,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 29,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 29,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ", "
+											"name": ", ",
+											"data": {
+												"line": 29,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 30,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 30,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 30,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 30,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 30,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": " ,"
+											"name": " ,",
+											"data": {
+												"line": 30,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 31,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 31,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 31,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 31,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 31,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": " , "
+											"name": " , ",
+											"data": {
+												"line": 31,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 32,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 32,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 32,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "baz"
+											"name": "baz",
+											"vendor": null,
+											"data": {
+												"line": 32,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 32,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ""
+											"name": "",
+											"data": {
+												"line": 32,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 33,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 33,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 33,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 33,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 33,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": " "
+											"name": " ",
+											"data": {
+												"line": 33,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 34,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 34,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 34,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 34,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 34,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ","
+											"name": ",",
+											"data": {
+												"line": 34,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 35,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 35,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 35,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 35,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 35,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": ", "
+											"name": ", ",
+											"data": {
+												"line": 35,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 36,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 36,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 36,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 36,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 36,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": " ,"
+											"name": " ,",
+											"data": {
+												"line": 36,
+												"col": 10
+											}
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 37,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "IdSelector",
 									"class": "IdSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 37,
+										"col": 1
+									}
 								},
 								{
-									"type": "AttributeSelector",
 									"class": "AttributeSelector",
+									"data": {
+										"line": 37,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "qux"
+											"name": "qux",
+											"vendor": null,
+											"data": {
+												"line": 37,
+												"col": 6
+											}
 										},
 										{
-											"type": "Combinator",
 											"class": "Combinator",
-											"children": [],
-											"name": "="
+											"name": "=",
+											"data": {
+												"line": 37,
+												"col": 10
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": " , "
+											"name": " , ",
+											"data": {
+												"line": 37,
+												"col": 10
+											}
 										}
 									]
 								}
@@ -1013,27 +1449,39 @@
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 37,
+						"col": 17
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foobar",
+							"vendor": null,
+							"data": {
+								"line": 38,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 38,
+										"col": 11
+									},
 									"children": [
 										{
-											"type": "Number",
 											"class": "Number",
-											"children": [],
-											"name": 345
+											"name": 345,
+											"data": {
+												"line": 38,
+												"col": 11
+											}
 										}
 									]
 								}
-							],
-							"name": "foobar"
+							]
 						}
 					]
 				}

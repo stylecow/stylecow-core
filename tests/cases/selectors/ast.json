@@ -1,75 +1,111 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 1,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 1,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 1,
+										"col": 1
+									}
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 2,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "bar"
+									"name": "bar",
+									"data": {
+										"line": 2,
+										"col": 1
+									}
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 3,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "baz"
+									"name": "baz",
+									"data": {
+										"line": 3,
+										"col": 1
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 3,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "color",
+							"vendor": null,
+							"data": {
+								"line": 4,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 4,
+										"col": 10
+									},
 									"children": [
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "black"
+											"name": "black",
+											"data": {
+												"line": 4,
+												"col": 10
+											}
 										}
 									]
 								}
-							],
-							"name": "color"
+							]
 						}
 					]
 				}

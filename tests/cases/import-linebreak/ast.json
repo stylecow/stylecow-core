@@ -1,37 +1,54 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Import",
+			"name": "import",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "test.css"
+					"name": "test.css",
+					"data": {
+						"line": 2,
+						"col": 9
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 3,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 3,
+								"col": 5
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "screen"
+									"name": "screen",
+									"vendor": null,
+									"data": {
+										"line": 3,
+										"col": 5
+									}
 								}
 							]
 						}
 					]
 				}
-			],
-			"name": "import"
+			]
 		}
 	]
 }

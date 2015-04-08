@@ -1,51 +1,78 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 1,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 1,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ClassSelector",
 									"class": "ClassSelector",
-									"children": [],
-									"name": "wtf"
+									"name": "wtf",
+									"data": {
+										"line": 1,
+										"col": 2
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 1,
+						"col": 6
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "*overflow-x",
+							"vendor": null,
+							"data": {
+								"line": 2,
+								"col": 4
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 2,
+										"col": 16
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "hidden"
+											"name": "hidden",
+											"vendor": null,
+											"data": {
+												"line": 2,
+												"col": 16
+											}
 										}
 									]
 								}
-							],
-							"name": "*overflow-x"
+							]
 						}
 					]
 				}

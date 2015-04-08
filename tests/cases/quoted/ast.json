@@ -1,82 +1,122 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 1,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 1,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "body"
+									"name": "body",
+									"data": {
+										"line": 1,
+										"col": 1
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 1,
+						"col": 6
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "background",
+							"vendor": null,
+							"data": {
+								"line": 2,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 2,
+										"col": 15
+									},
 									"children": [
 										{
-											"type": "Function",
-											"class": "Function",
+											"class": "Url",
+											"name": "some;stuff;here",
+											"data": {
+												"line": 2,
+												"col": 19
+											}
+										},
+										{
+											"class": "Unit",
+											"name": "%",
+											"data": {
+												"line": 2,
+												"col": 38
+											},
 											"children": [
 												{
-													"type": "Value",
-													"class": "Value",
-													"children": [
-														{
-															"type": "String",
-															"class": "String",
-															"children": [],
-															"name": "some;stuff;here"
-														}
-													]
+													"class": "Number",
+													"name": 50,
+													"data": {
+														"line": 2,
+														"col": 38
+													}
 												}
-											],
-											"name": "url"
+											]
 										},
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "%"
+											"name": "%",
+											"data": {
+												"line": 2,
+												"col": 42
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 50,
+													"data": {
+														"line": 2,
+														"col": 42
+													}
+												}
+											]
 										},
 										{
-											"type": "Unit",
-											"class": "Unit",
-											"children": [],
-											"name": "%"
-										},
-										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "no-repeat"
+											"name": "no-repeat",
+											"vendor": null,
+											"data": {
+												"line": 2,
+												"col": 46
+											}
 										}
 									]
 								}
-							],
-							"name": "background"
+							]
 						}
 					]
 				}

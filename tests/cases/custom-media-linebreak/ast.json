@@ -1,47 +1,84 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "CustomMedia",
+			"name": "custom-media",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "ExtensionName",
 					"class": "ExtensionName",
-					"children": [],
-					"name": "--test"
+					"name": "--test",
+					"data": {
+						"line": 2,
+						"col": 5
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 3,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 3,
+								"col": 5
+							},
 							"children": [
 								{
-									"type": "ConditionalExpression",
 									"class": "ConditionalExpression",
+									"data": {
+										"line": 3,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "ConditionalFeature",
 											"class": "ConditionalFeature",
+											"name": "min-width",
+											"vendor": null,
+											"data": {
+												"line": 3,
+												"col": 6
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 3,
+														"col": 17
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "px"
+															"name": "px",
+															"data": {
+																"line": 3,
+																"col": 17
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 200,
+																	"data": {
+																		"line": 3,
+																		"col": 17
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "min-width"
+											]
 										}
 									]
 								}
@@ -49,8 +86,7 @@
 						}
 					]
 				}
-			],
-			"name": "custom-media"
+			]
 		}
 	]
 }

@@ -1,47 +1,84 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "CustomMedia",
+			"name": "custom-media",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "ExtensionName",
 					"class": "ExtensionName",
-					"children": [],
-					"name": "--narrow-window"
+					"name": "--narrow-window",
+					"data": {
+						"line": 1,
+						"col": 15
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 1,
+						"col": 31
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 1,
+								"col": 31
+							},
 							"children": [
 								{
-									"type": "ConditionalExpression",
 									"class": "ConditionalExpression",
+									"data": {
+										"line": 1,
+										"col": 32
+									},
 									"children": [
 										{
-											"type": "ConditionalFeature",
 											"class": "ConditionalFeature",
+											"name": "max-width",
+											"vendor": null,
+											"data": {
+												"line": 1,
+												"col": 32
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 1,
+														"col": 43
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "em"
+															"name": "em",
+															"data": {
+																"line": 1,
+																"col": 43
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 30,
+																	"data": {
+																		"line": 1,
+																		"col": 43
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "max-width"
+											]
 										}
 									]
 								}
@@ -49,61 +86,100 @@
 						}
 					]
 				}
-			],
-			"name": "custom-media"
+			]
 		},
 		{
-			"type": "AtRule",
 			"class": "CustomMedia",
+			"name": "custom-media",
+			"data": {
+				"line": 2,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "ExtensionName",
 					"class": "ExtensionName",
-					"children": [],
-					"name": "--wide-window"
+					"name": "--wide-window",
+					"data": {
+						"line": 2,
+						"col": 15
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 2,
+						"col": 29
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 2,
+								"col": 29
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "screen"
+									"name": "screen",
+									"vendor": null,
+									"data": {
+										"line": 2,
+										"col": 29
+									}
 								},
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "and"
+									"name": "and",
+									"vendor": null,
+									"data": {
+										"line": 2,
+										"col": 36
+									}
 								},
 								{
-									"type": "ConditionalExpression",
 									"class": "ConditionalExpression",
+									"data": {
+										"line": 2,
+										"col": 41
+									},
 									"children": [
 										{
-											"type": "ConditionalFeature",
 											"class": "ConditionalFeature",
+											"name": "min-width",
+											"vendor": null,
+											"data": {
+												"line": 2,
+												"col": 41
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 2,
+														"col": 52
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "em"
+															"name": "em",
+															"data": {
+																"line": 2,
+																"col": 52
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 40,
+																	"data": {
+																		"line": 2,
+																		"col": 52
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "min-width"
+											]
 										}
 									]
 								}
@@ -111,8 +187,7 @@
 						}
 					]
 				}
-			],
-			"name": "custom-media"
+			]
 		}
 	]
 }

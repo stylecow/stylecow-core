@@ -1,81 +1,118 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Comment",
 			"class": "Comment",
-			"children": [],
-			"name": " http://foo.com/bar/baz.html "
+			"name": " http://foo.com/bar/baz.html ",
+			"data": {
+				"line": 1,
+				"col": 1
+			}
 		},
 		{
-			"type": "Comment",
 			"class": "Comment",
-			"children": [],
-			"name": ""
+			"name": "",
+			"data": {
+				"line": 2,
+				"col": 1
+			}
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 4,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 4,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 4,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "foo"
+									"name": "foo",
+									"data": {
+										"line": 4,
+										"col": 1
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 4,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "Comment",
 							"class": "Comment",
-							"children": [],
-							"name": "/"
+							"name": "/",
+							"data": {
+								"line": 4,
+								"col": 7
+							}
 						},
 						{
-							"type": "Comment",
 							"class": "Comment",
-							"children": [],
-							"name": " something "
+							"name": " something ",
+							"data": {
+								"line": 5,
+								"col": 3
+							}
 						},
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "bar",
+							"vendor": null,
+							"data": {
+								"line": 6,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 6,
+										"col": 8
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "baz"
+											"name": "baz",
+											"vendor": null,
+											"data": {
+												"line": 6,
+												"col": 8
+											}
 										}
 									]
 								}
-							],
-							"name": "bar"
+							]
 						},
 						{
-							"type": "Comment",
 							"class": "Comment",
-							"children": [],
-							"name": " http://foo.com/bar/baz.html "
+							"name": " http://foo.com/bar/baz.html ",
+							"data": {
+								"line": 6,
+								"col": 13
+							}
 						}
 					]
 				}

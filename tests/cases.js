@@ -19,11 +19,10 @@ cases.forEach(function(name) {
 		var css = stylecow.Root.create(stylecow.Reader.fromFile(inputFile));
 
 		//fs.writeFileSync(astFile, JSON.stringify(css.toAst(), null, '\t'));
-		/*
+
 		it('should match ast.json', function() {
 			assert.deepEqual(require(astFile), css.toAst());
 		});
-		*/
 
 		it('should match output.css', function() {
 			assert.equal(readFile(outputFile), css.toString());

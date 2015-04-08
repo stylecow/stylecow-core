@@ -1,102 +1,158 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Media",
+			"name": "keyframes",
+			"vendor": null,
+			"data": {
+				"line": 1,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Keyword",
 					"class": "Keyword",
-					"children": [],
-					"name": "test"
+					"name": "test",
+					"vendor": null,
+					"data": {
+						"line": 2,
+						"col": 5
+					}
 				},
 				{
-					"type": "KeyframesBlock",
 					"class": "KeyframesBlock",
+					"data": {
+						"line": 3,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 4,
+								"col": 9
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 4,
+										"col": 9
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "from"
+											"name": "from",
+											"vendor": null,
+											"data": {
+												"line": 4,
+												"col": 9
+											}
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 4,
+										"col": 14
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "opacity",
+											"vendor": null,
+											"data": {
+												"line": 4,
+												"col": 16
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 4,
+														"col": 25
+													},
 													"children": [
 														{
-															"type": "Number",
 															"class": "Number",
-															"children": [],
-															"name": 1
+															"name": 1,
+															"data": {
+																"line": 4,
+																"col": 25
+															}
 														}
 													]
 												}
-											],
-											"name": "opacity"
+											]
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 5,
+								"col": 9
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 5,
+										"col": 9
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "to"
+											"name": "to",
+											"vendor": null,
+											"data": {
+												"line": 5,
+												"col": 9
+											}
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 5,
+										"col": 12
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "opacity",
+											"vendor": null,
+											"data": {
+												"line": 5,
+												"col": 14
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 5,
+														"col": 23
+													},
 													"children": [
 														{
-															"type": "Number",
 															"class": "Number",
-															"children": [],
-															"name": 0
+															"name": 0,
+															"data": {
+																"line": 5,
+																"col": 23
+															}
 														}
 													]
 												}
-											],
-											"name": "opacity"
+											]
 										}
 									]
 								}
@@ -104,8 +160,7 @@
 						}
 					]
 				}
-			],
-			"name": "keyframes"
+			]
 		}
 	]
 }

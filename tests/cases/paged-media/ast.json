@@ -1,168 +1,269 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Comment",
 			"class": "Comment",
-			"children": [],
-			"name": " toc above "
+			"name": " toc above ",
+			"data": {
+				"line": 1,
+				"col": 1
+			}
 		},
 		{
-			"type": "AtRule",
 			"class": "AtRule",
+			"name": "page",
+			"vendor": null,
+			"data": {
+				"line": 2,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 2,
+						"col": 7
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 2,
+								"col": 7
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "toc"
+									"name": "toc",
+									"data": {
+										"line": 2,
+										"col": 7
+									}
 								}
 							]
 						},
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 2,
+								"col": 12
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "index"
+									"name": "index",
+									"data": {
+										"line": 2,
+										"col": 12
+									}
 								},
 								{
-									"type": "PseudoClass",
 									"class": "PseudoClass",
-									"children": [],
-									"name": "blank"
+									"name": "blank",
+									"vendor": null,
+									"data": {
+										"line": 2,
+										"col": 18
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 2,
+						"col": 24
+					},
 					"children": [
 						{
-							"type": "Comment",
 							"class": "Comment",
-							"children": [],
-							"name": " toc inside "
+							"name": " toc inside ",
+							"data": {
+								"line": 3,
+								"col": 3
+							}
 						},
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "color",
+							"vendor": null,
+							"data": {
+								"line": 4,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 4,
+										"col": 10
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "green"
+											"name": "green",
+											"vendor": null,
+											"data": {
+												"line": 4,
+												"col": 10
+											}
 										}
 									]
 								}
-							],
-							"name": "color"
+							]
 						}
 					]
 				}
-			],
-			"name": "page"
+			]
 		},
 		{
-			"type": "AtRule",
 			"class": "AtRule",
+			"name": "page",
+			"vendor": null,
+			"data": {
+				"line": 7,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 7,
+						"col": 7
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "font-size",
+							"vendor": null,
+							"data": {
+								"line": 8,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 8,
+										"col": 14
+									},
 									"children": [
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "pt"
+											"name": "pt",
+											"data": {
+												"line": 8,
+												"col": 14
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 16,
+													"data": {
+														"line": 8,
+														"col": 14
+													}
+												}
+											]
 										}
 									]
 								}
-							],
-							"name": "font-size"
+							]
 						}
 					]
 				}
-			],
-			"name": "page"
+			]
 		},
 		{
-			"type": "AtRule",
 			"class": "AtRule",
+			"name": "page",
+			"vendor": null,
+			"data": {
+				"line": 11,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 11,
+						"col": 7
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 11,
+								"col": 7
+							},
 							"children": [
 								{
-									"type": "PseudoClass",
 									"class": "PseudoClass",
-									"children": [],
-									"name": "left"
+									"name": "left",
+									"vendor": null,
+									"data": {
+										"line": 11,
+										"col": 8
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 11,
+						"col": 13
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "margin-left",
+							"vendor": null,
+							"data": {
+								"line": 12,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 12,
+										"col": 16
+									},
 									"children": [
 										{
-											"type": "Unit",
 											"class": "Unit",
-											"children": [],
-											"name": "cm"
+											"name": "cm",
+											"data": {
+												"line": 12,
+												"col": 16
+											},
+											"children": [
+												{
+													"class": "Number",
+													"name": 5,
+													"data": {
+														"line": 12,
+														"col": 16
+													}
+												}
+											]
 										}
 									]
 								}
-							],
-							"name": "margin-left"
+							]
 						}
 					]
 				}
-			],
-			"name": "page"
+			]
 		}
 	]
 }

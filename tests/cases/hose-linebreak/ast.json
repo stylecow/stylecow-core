@@ -1,59 +1,95 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "AtRule",
+			"name": "host",
+			"vendor": null,
+			"data": {
+				"line": 1,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 2,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "Rule",
 							"class": "Rule",
+							"data": {
+								"line": 3,
+								"col": 9
+							},
 							"children": [
 								{
-									"type": "Selectors",
 									"class": "Selectors",
+									"data": {
+										"line": 3,
+										"col": 9
+									},
 									"children": [
 										{
-											"type": "Selector",
 											"class": "Selector",
+											"data": {
+												"line": 3,
+												"col": 9
+											},
 											"children": [
 												{
-													"type": "PseudoClass",
 													"class": "PseudoClass",
-													"children": [],
-													"name": "scope"
+													"name": "scope",
+													"vendor": null,
+													"data": {
+														"line": 3,
+														"col": 10
+													}
 												}
 											]
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "Block",
+									"data": {
+										"line": 3,
+										"col": 16
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "color",
+											"vendor": null,
+											"data": {
+												"line": 3,
+												"col": 18
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 3,
+														"col": 25
+													},
 													"children": [
 														{
-															"type": "Keyword",
 															"class": "Keyword",
-															"children": [],
-															"name": "white"
+															"name": "white",
+															"vendor": null,
+															"data": {
+																"line": 3,
+																"col": 25
+															}
 														}
 													]
 												}
-											],
-											"name": "color"
+											]
 										}
 									]
 								}
@@ -61,8 +97,7 @@
 						}
 					]
 				}
-			],
-			"name": "host"
+			]
 		}
 	]
 }

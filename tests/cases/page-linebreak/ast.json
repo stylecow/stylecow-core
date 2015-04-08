@@ -1,56 +1,84 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "AtRule",
+			"name": "page",
+			"vendor": null,
+			"data": {
+				"line": 1,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 2,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 2,
+								"col": 5
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "toc"
+									"name": "toc",
+									"data": {
+										"line": 2,
+										"col": 5
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 3,
+						"col": 5
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "color",
+							"vendor": null,
+							"data": {
+								"line": 4,
+								"col": 9
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 4,
+										"col": 16
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "black"
+											"name": "black",
+											"vendor": null,
+											"data": {
+												"line": 4,
+												"col": 16
+											}
 										}
 									]
 								}
-							],
-							"name": "color"
+							]
 						}
 					]
 				}
-			],
-			"name": "page"
+			]
 		}
 	]
 }

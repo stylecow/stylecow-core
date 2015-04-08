@@ -1,189 +1,282 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Import",
+			"name": "import",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "fineprint.css"
+					"name": "fineprint.css",
+					"data": {
+						"line": 1,
+						"col": 13
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 1,
+						"col": 30
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 1,
+								"col": 30
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "print"
+									"name": "print",
+									"vendor": null,
+									"data": {
+										"line": 1,
+										"col": 30
+									}
 								}
 							]
 						}
 					]
 				}
-			],
-			"name": "import"
+			]
 		},
 		{
-			"type": "AtRule",
 			"class": "Import",
+			"name": "import",
+			"data": {
+				"line": 2,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "bluish.css"
+					"name": "bluish.css",
+					"data": {
+						"line": 2,
+						"col": 13
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 2,
+						"col": 27
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 2,
+								"col": 27
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "projection"
+									"name": "projection",
+									"vendor": null,
+									"data": {
+										"line": 2,
+										"col": 27
+									}
 								}
 							]
 						},
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 2,
+								"col": 39
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "tv"
+									"name": "tv",
+									"vendor": null,
+									"data": {
+										"line": 2,
+										"col": 39
+									}
 								}
 							]
 						}
 					]
 				}
-			],
-			"name": "import"
+			]
 		},
 		{
-			"type": "AtRule",
 			"class": "Import",
+			"name": "import",
+			"data": {
+				"line": 3,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "custom.css"
+					"name": "custom.css",
+					"data": {
+						"line": 3,
+						"col": 9
+					}
 				}
-			],
-			"name": "import"
+			]
 		},
 		{
-			"type": "AtRule",
 			"class": "Import",
+			"name": "import",
+			"data": {
+				"line": 4,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "common.css"
+					"name": "common.css",
+					"data": {
+						"line": 4,
+						"col": 9
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 4,
+						"col": 22
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 4,
+								"col": 22
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "screen"
+									"name": "screen",
+									"vendor": null,
+									"data": {
+										"line": 4,
+										"col": 22
+									}
 								}
 							]
 						},
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 4,
+								"col": 30
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "projection"
+									"name": "projection",
+									"vendor": null,
+									"data": {
+										"line": 4,
+										"col": 30
+									}
 								}
 							]
 						}
 					]
 				}
-			],
-			"name": "import"
+			]
 		},
 		{
-			"type": "AtRule",
 			"class": "Import",
+			"name": "import",
+			"data": {
+				"line": 5,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "landscape.css"
+					"name": "landscape.css",
+					"data": {
+						"line": 5,
+						"col": 13
+					}
 				},
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 5,
+						"col": 30
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 5,
+								"col": 30
+							},
 							"children": [
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "screen"
+									"name": "screen",
+									"vendor": null,
+									"data": {
+										"line": 5,
+										"col": 30
+									}
 								},
 								{
-									"type": "Keyword",
 									"class": "Keyword",
-									"children": [],
-									"name": "and"
+									"name": "and",
+									"vendor": null,
+									"data": {
+										"line": 5,
+										"col": 37
+									}
 								},
 								{
-									"type": "ConditionalExpression",
 									"class": "ConditionalExpression",
+									"data": {
+										"line": 5,
+										"col": 42
+									},
 									"children": [
 										{
-											"type": "ConditionalFeature",
 											"class": "ConditionalFeature",
+											"name": "orientation",
+											"vendor": null,
+											"data": {
+												"line": 5,
+												"col": 42
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 5,
+														"col": 54
+													},
 													"children": [
 														{
-															"type": "Keyword",
 															"class": "Keyword",
-															"children": [],
-															"name": "landscape"
+															"name": "landscape",
+															"vendor": null,
+															"data": {
+																"line": 5,
+																"col": 54
+															}
 														}
 													]
 												}
-											],
-											"name": "orientation"
+											]
 										}
 									]
 								}
@@ -191,8 +284,7 @@
 						}
 					]
 				}
-			],
-			"name": "import"
+			]
 		}
 	]
 }

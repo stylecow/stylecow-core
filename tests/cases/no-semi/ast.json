@@ -1,100 +1,146 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 2,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 2,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 2,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 2,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "tobi"
+									"name": "tobi",
+									"data": {
+										"line": 2,
+										"col": 1
+									}
 								},
 								{
-									"type": "Combinator",
 									"class": "Combinator",
-									"children": [],
-									"name": " "
+									"name": " ",
+									"data": {
+										"line": 2,
+										"col": 6
+									}
 								},
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "loki"
+									"name": "loki",
+									"data": {
+										"line": 2,
+										"col": 6
+									}
 								},
 								{
-									"type": "Combinator",
 									"class": "Combinator",
-									"children": [],
-									"name": " "
+									"name": " ",
+									"data": {
+										"line": 2,
+										"col": 11
+									}
 								},
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "jane"
+									"name": "jane",
+									"data": {
+										"line": 2,
+										"col": 11
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 2,
+						"col": 16
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "are",
+							"vendor": null,
+							"data": {
+								"line": 3,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 3,
+										"col": 8
+									},
 									"children": [
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "all"
+											"name": "all",
+											"data": {
+												"line": 3,
+												"col": 8
+											}
 										}
 									]
 								}
-							],
-							"name": "are"
+							]
 						},
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "the-species",
+							"vendor": null,
+							"data": {
+								"line": 4,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 4,
+										"col": 16
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "called"
+											"name": "called",
+											"vendor": null,
+											"data": {
+												"line": 4,
+												"col": 16
+											}
 										},
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "ferrets"
+											"name": "ferrets",
+											"data": {
+												"line": 4,
+												"col": 23
+											}
 										}
 									]
 								}
-							],
-							"name": "the-species"
+							]
 						}
 					]
 				}

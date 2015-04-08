@@ -1,5 +1,8 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 2,
+		"col": 1
+	},
 	"children": []
 }

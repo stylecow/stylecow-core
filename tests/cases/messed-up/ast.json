@@ -1,187 +1,281 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 1,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 1,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "body"
+									"name": "body",
+									"data": {
+										"line": 1,
+										"col": 1
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 1,
+						"col": 6
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foo",
+							"vendor": null,
+							"data": {
+								"line": 1,
+								"col": 8
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 3,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"data": {
+												"line": 3,
+												"col": 3
+											}
 										}
 									]
 								}
-							],
-							"name": "foo"
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 5,
+				"col": 4
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 5,
+						"col": 4
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 5,
+								"col": 4
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "body"
+									"name": "body",
+									"data": {
+										"line": 5,
+										"col": 4
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 5,
+						"col": 8
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foo",
+							"vendor": null,
+							"data": {
+								"line": 5,
+								"col": 9
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 5,
+										"col": 13
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 5,
+												"col": 13
+											}
 										}
 									]
 								}
-							],
-							"name": "foo"
+							]
 						},
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "bar",
+							"vendor": null,
+							"data": {
+								"line": 5,
+								"col": 17
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 5,
+										"col": 21
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "baz"
+											"name": "baz",
+											"vendor": null,
+											"data": {
+												"line": 5,
+												"col": 21
+											}
 										}
 									]
 								}
-							],
-							"name": "bar"
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 6,
+				"col": 4
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 6,
+						"col": 4
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 6,
+								"col": 4
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "body"
+									"name": "body",
+									"data": {
+										"line": 6,
+										"col": 4
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 7,
+						"col": 4
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "foo",
+							"vendor": null,
+							"data": {
+								"line": 8,
+								"col": 6
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 10,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "bar"
+											"name": "bar",
+											"vendor": null,
+											"data": {
+												"line": 10,
+												"col": 6
+											}
 										}
 									]
 								}
-							],
-							"name": "foo"
+							]
 						},
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "bar",
+							"vendor": null,
+							"data": {
+								"line": 12,
+								"col": 6
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 14,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "baz"
+											"name": "baz",
+											"vendor": null,
+											"data": {
+												"line": 14,
+												"col": 6
+											}
 										}
 									]
 								}
-							],
-							"name": "bar"
+							]
 						}
 					]
 				}

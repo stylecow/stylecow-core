@@ -1,59 +1,95 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "AtRule",
+			"name": "host",
+			"vendor": null,
+			"data": {
+				"line": 1,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 1,
+						"col": 7
+					},
 					"children": [
 						{
-							"type": "Rule",
 							"class": "Rule",
+							"data": {
+								"line": 2,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Selectors",
 									"class": "Selectors",
+									"data": {
+										"line": 2,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "Selector",
 											"class": "Selector",
+											"data": {
+												"line": 2,
+												"col": 3
+											},
 											"children": [
 												{
-													"type": "PseudoClass",
 													"class": "PseudoClass",
-													"children": [],
-													"name": "scope"
+													"name": "scope",
+													"vendor": null,
+													"data": {
+														"line": 2,
+														"col": 4
+													}
 												}
 											]
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "Block",
+									"data": {
+										"line": 2,
+										"col": 10
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "display",
+											"vendor": null,
+											"data": {
+												"line": 3,
+												"col": 5
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 3,
+														"col": 14
+													},
 													"children": [
 														{
-															"type": "Keyword",
 															"class": "Keyword",
-															"children": [],
-															"name": "block"
+															"name": "block",
+															"vendor": null,
+															"data": {
+																"line": 3,
+																"col": 14
+															}
 														}
 													]
 												}
-											],
-											"name": "display"
+											]
 										}
 									]
 								}
@@ -61,8 +97,7 @@
 						}
 					]
 				}
-			],
-			"name": "host"
+			]
 		}
 	]
 }

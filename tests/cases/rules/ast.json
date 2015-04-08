@@ -1,138 +1,205 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 1,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 1,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "tobi"
+									"name": "tobi",
+									"data": {
+										"line": 1,
+										"col": 1
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 1,
+						"col": 6
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "name",
+							"vendor": null,
+							"data": {
+								"line": 2,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 2,
+										"col": 9
+									},
 									"children": [
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "tobi"
+											"name": "tobi",
+											"data": {
+												"line": 2,
+												"col": 9
+											}
 										}
 									]
 								}
-							],
-							"name": "name"
+							]
 						},
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "age",
+							"vendor": null,
+							"data": {
+								"line": 3,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 3,
+										"col": 8
+									},
 									"children": [
 										{
-											"type": "Number",
 											"class": "Number",
-											"children": [],
-											"name": 2
+											"name": 2,
+											"data": {
+												"line": 3,
+												"col": 8
+											}
 										}
 									]
 								}
-							],
-							"name": "age"
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"type": "Rule",
 			"class": "Rule",
+			"data": {
+				"line": 6,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Selectors",
 					"class": "Selectors",
+					"data": {
+						"line": 6,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Selector",
 							"class": "Selector",
+							"data": {
+								"line": 6,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "TypeSelector",
 									"class": "TypeSelector",
-									"children": [],
-									"name": "loki"
+									"name": "loki",
+									"data": {
+										"line": 6,
+										"col": 1
+									}
 								}
 							]
 						}
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 6,
+						"col": 6
+					},
 					"children": [
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "name",
+							"vendor": null,
+							"data": {
+								"line": 7,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 7,
+										"col": 9
+									},
 									"children": [
 										{
-											"type": "String",
 											"class": "String",
-											"children": [],
-											"name": "loki"
+											"name": "loki",
+											"data": {
+												"line": 7,
+												"col": 9
+											}
 										}
 									]
 								}
-							],
-							"name": "name"
+							]
 						},
 						{
-							"type": "Declaration",
 							"class": "Declaration",
+							"name": "age",
+							"vendor": null,
+							"data": {
+								"line": 8,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "Value",
 									"class": "Value",
+									"data": {
+										"line": 8,
+										"col": 8
+									},
 									"children": [
 										{
-											"type": "Number",
 											"class": "Number",
-											"children": [],
-											"name": 1
+											"name": 1,
+											"data": {
+												"line": 8,
+												"col": 8
+											}
 										}
 									]
 								}
-							],
-							"name": "age"
+							]
 						}
 					]
 				}

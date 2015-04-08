@@ -1,19 +1,27 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Charset",
+			"name": "charset",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "String",
 					"class": "String",
-					"children": [],
-					"name": "UTF-8"
+					"name": "UTF-8",
+					"data": {
+						"line": 2,
+						"col": 5
+					}
 				}
-			],
-			"name": "charset"
+			]
 		}
 	]
 }

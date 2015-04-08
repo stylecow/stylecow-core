@@ -1,19 +1,27 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Namespace",
+			"name": "namespace",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "http://www.w3.org/1999/xhtml"
+					"name": "http://www.w3.org/1999/xhtml",
+					"data": {
+						"line": 2,
+						"col": 5
+					}
 				}
-			],
-			"name": "namespace"
+			]
 		}
 	]
 }

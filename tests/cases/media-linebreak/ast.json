@@ -1,41 +1,76 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Media",
+			"name": "media",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "MediaQueries",
 					"class": "MediaQueries",
+					"data": {
+						"line": 3,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "MediaQuery",
 							"class": "MediaQuery",
+							"data": {
+								"line": 3,
+								"col": 1
+							},
 							"children": [
 								{
-									"type": "ConditionalExpression",
 									"class": "ConditionalExpression",
+									"data": {
+										"line": 4,
+										"col": 5
+									},
 									"children": [
 										{
-											"type": "ConditionalFeature",
 											"class": "ConditionalFeature",
+											"name": "min-width",
+											"vendor": null,
+											"data": {
+												"line": 4,
+												"col": 5
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 4,
+														"col": 16
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "px"
+															"name": "px",
+															"data": {
+																"line": 4,
+																"col": 16
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 300,
+																	"data": {
+																		"line": 4,
+																		"col": 16
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "min-width"
+											]
 										}
 									]
 								}
@@ -44,53 +79,89 @@
 					]
 				},
 				{
-					"type": "Block",
 					"class": "Block",
+					"data": {
+						"line": 6,
+						"col": 1
+					},
 					"children": [
 						{
-							"type": "Rule",
 							"class": "Rule",
+							"data": {
+								"line": 7,
+								"col": 5
+							},
 							"children": [
 								{
-									"type": "Selectors",
 									"class": "Selectors",
+									"data": {
+										"line": 7,
+										"col": 5
+									},
 									"children": [
 										{
-											"type": "Selector",
 											"class": "Selector",
+											"data": {
+												"line": 7,
+												"col": 5
+											},
 											"children": [
 												{
-													"type": "ClassSelector",
 													"class": "ClassSelector",
-													"children": [],
-													"name": "test"
+													"name": "test",
+													"data": {
+														"line": 7,
+														"col": 6
+													}
 												}
 											]
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "Block",
+									"data": {
+										"line": 7,
+										"col": 11
+									},
 									"children": [
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "width",
+											"vendor": null,
+											"data": {
+												"line": 7,
+												"col": 13
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 7,
+														"col": 20
+													},
 													"children": [
 														{
-															"type": "Unit",
 															"class": "Unit",
-															"children": [],
-															"name": "px"
+															"name": "px",
+															"data": {
+																"line": 7,
+																"col": 20
+															},
+															"children": [
+																{
+																	"class": "Number",
+																	"name": 100,
+																	"data": {
+																		"line": 7,
+																		"col": 20
+																	}
+																}
+															]
 														}
 													]
 												}
-											],
-											"name": "width"
+											]
 										}
 									]
 								}
@@ -98,8 +169,7 @@
 						}
 					]
 				}
-			],
-			"name": "media"
+			]
 		}
 	]
 }

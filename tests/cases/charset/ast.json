@@ -1,44 +1,61 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Charset",
+			"name": "charset",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "String",
 					"class": "String",
-					"children": [],
-					"name": "UTF-8"
+					"name": "UTF-8",
+					"data": {
+						"line": 1,
+						"col": 10
+					}
 				}
-			],
-			"name": "charset"
+			]
 		},
 		{
-			"type": "Comment",
 			"class": "Comment",
-			"children": [],
-			"name": " Set the encoding of the style sheet to Unicode UTF-8 "
+			"name": " Set the encoding of the style sheet to Unicode UTF-8 ",
+			"data": {
+				"line": 1,
+				"col": 25
+			}
 		},
 		{
-			"type": "AtRule",
 			"class": "Charset",
+			"name": "charset",
+			"data": {
+				"line": 2,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "String",
 					"class": "String",
-					"children": [],
-					"name": "iso-8859-15"
+					"name": "iso-8859-15",
+					"data": {
+						"line": 2,
+						"col": 10
+					}
 				}
-			],
-			"name": "charset"
+			]
 		},
 		{
-			"type": "Comment",
 			"class": "Comment",
-			"children": [],
-			"name": " Set the encoding of the style sheet to Latin-9 (Western European languages, with euro sign) "
+			"name": " Set the encoding of the style sheet to Latin-9 (Western European languages, with euro sign) ",
+			"data": {
+				"line": 2,
+				"col": 25
+			}
 		}
 	]
 }

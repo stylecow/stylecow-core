@@ -1,25 +1,36 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Namespace",
+			"name": "namespace",
+			"data": {
+				"line": 1,
+				"col": 1
+			},
 			"children": [
 				{
-					"type": "Keyword",
 					"class": "Keyword",
-					"children": [],
-					"name": "svg"
+					"name": "svg",
+					"vendor": null,
+					"data": {
+						"line": 1,
+						"col": 12
+					}
 				},
 				{
-					"type": "Url",
 					"class": "Url",
-					"children": [],
-					"name": "http://www.w3.org/2000/svg"
+					"name": "http://www.w3.org/2000/svg",
+					"data": {
+						"line": 1,
+						"col": 16
+					}
 				}
-			],
-			"name": "namespace"
+			]
 		}
 	]
 }

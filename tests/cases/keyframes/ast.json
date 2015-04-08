@@ -1,126 +1,190 @@
 {
-	"type": "Root",
 	"class": "Root",
+	"data": {
+		"line": 1,
+		"col": 1
+	},
 	"children": [
 		{
-			"type": "AtRule",
 			"class": "Media",
+			"name": "keyframes",
+			"vendor": null,
+			"data": {
+				"line": 1,
+				"col": 2
+			},
 			"children": [
 				{
-					"type": "Keyword",
 					"class": "Keyword",
-					"children": [],
-					"name": "fade"
+					"name": "fade",
+					"vendor": null,
+					"data": {
+						"line": 1,
+						"col": 12
+					}
 				},
 				{
-					"type": "KeyframesBlock",
 					"class": "KeyframesBlock",
+					"data": {
+						"line": 1,
+						"col": 17
+					},
 					"children": [
 						{
-							"type": "Comment",
 							"class": "Comment",
-							"children": [],
-							"name": " from above "
+							"name": " from above ",
+							"data": {
+								"line": 2,
+								"col": 3
+							}
 						},
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 3,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 3,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "from"
+											"name": "from",
+											"vendor": null,
+											"data": {
+												"line": 3,
+												"col": 3
+											}
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 3,
+										"col": 8
+									},
 									"children": [
 										{
-											"type": "Comment",
 											"class": "Comment",
-											"children": [],
-											"name": " from inside "
+											"name": " from inside ",
+											"data": {
+												"line": 4,
+												"col": 5
+											}
 										},
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "opacity",
+											"vendor": null,
+											"data": {
+												"line": 5,
+												"col": 5
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 5,
+														"col": 14
+													},
 													"children": [
 														{
-															"type": "Number",
 															"class": "Number",
-															"children": [],
-															"name": 0
+															"name": 0,
+															"data": {
+																"line": 5,
+																"col": 14
+															}
 														}
 													]
 												}
-											],
-											"name": "opacity"
+											]
 										}
 									]
 								}
 							]
 						},
 						{
-							"type": "Comment",
 							"class": "Comment",
-							"children": [],
-							"name": " to above "
+							"name": " to above ",
+							"data": {
+								"line": 8,
+								"col": 3
+							}
 						},
 						{
-							"type": "Keyframe",
 							"class": "Keyframe",
+							"data": {
+								"line": 9,
+								"col": 3
+							},
 							"children": [
 								{
-									"type": "KeyframeSelectors",
 									"class": "KeyframeSelectors",
+									"data": {
+										"line": 9,
+										"col": 3
+									},
 									"children": [
 										{
-											"type": "Keyword",
 											"class": "Keyword",
-											"children": [],
-											"name": "to"
+											"name": "to",
+											"vendor": null,
+											"data": {
+												"line": 9,
+												"col": 3
+											}
 										}
 									]
 								},
 								{
-									"type": "Block",
 									"class": "DeclarationBlock",
+									"data": {
+										"line": 9,
+										"col": 6
+									},
 									"children": [
 										{
-											"type": "Comment",
 											"class": "Comment",
-											"children": [],
-											"name": " to inside "
+											"name": " to inside ",
+											"data": {
+												"line": 10,
+												"col": 5
+											}
 										},
 										{
-											"type": "Declaration",
 											"class": "Declaration",
+											"name": "opacity",
+											"vendor": null,
+											"data": {
+												"line": 11,
+												"col": 5
+											},
 											"children": [
 												{
-													"type": "Value",
 													"class": "Value",
+													"data": {
+														"line": 11,
+														"col": 14
+													},
 													"children": [
 														{
-															"type": "Number",
 															"class": "Number",
-															"children": [],
-															"name": 1
+															"name": 1,
+															"data": {
+																"line": 11,
+																"col": 14
+															}
 														}
 													]
 												}
-											],
-											"name": "opacity"
+											]
 										}
 									]
 								}
@@ -128,8 +192,7 @@
 						}
 					]
 				}
-			],
-			"name": "keyframes"
+			]
 		}
 	]
 }

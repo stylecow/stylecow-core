@@ -66,12 +66,22 @@
 									},
 									"children": [
 										{
-											"class": "Url",
-											"name": "http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf",
+											"class": "Function",
+											"name": "url",
 											"data": {
 												"line": 3,
-												"col": 12
-											}
+												"col": 8
+											},
+											"children": [
+												{
+													"class": "String",
+													"name": "http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf",
+													"data": {
+														"line": 3,
+														"col": 12
+													}
+												}
+											]
 										}
 									]
 								}

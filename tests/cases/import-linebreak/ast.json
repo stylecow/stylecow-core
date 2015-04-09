@@ -14,12 +14,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "test.css",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 2,
-						"col": 9
-					}
+						"col": 5
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "test.css",
+							"data": {
+								"line": 2,
+								"col": 9
+							}
+						}
+					]
 				},
 				{
 					"class": "MediaQueries",

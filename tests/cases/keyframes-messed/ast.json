@@ -56,7 +56,7 @@
 									]
 								},
 								{
-									"class": "DeclarationBlock",
+									"class": "Block",
 									"data": {
 										"line": 2,
 										"col": 3
@@ -120,7 +120,7 @@
 									]
 								},
 								{
-									"class": "DeclarationBlock",
+									"class": "Block",
 									"data": {
 										"line": 5,
 										"col": 3

@@ -14,12 +14,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "fineprint.css",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 2,
-						"col": 16
-					}
+						"col": 12
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "fineprint.css",
+							"data": {
+								"line": 2,
+								"col": 16
+							}
+						}
+					]
 				},
 				{
 					"class": "MediaQueries",
@@ -59,12 +69,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "bluish.css",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 3,
-						"col": 15
-					}
+						"col": 11
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "bluish.css",
+							"data": {
+								"line": 3,
+								"col": 15
+							}
+						}
+					]
 				},
 				{
 					"class": "MediaQueries",
@@ -122,12 +142,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "custom.css",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 4,
 						"col": 15
-					}
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "custom.css",
+							"data": {
+								"line": 4,
+								"col": 15
+							}
+						}
+					]
 				}
 			]
 		},
@@ -140,12 +170,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "common.css",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 5,
 						"col": 11
-					}
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "common.css",
+							"data": {
+								"line": 5,
+								"col": 11
+							}
+						}
+					]
 				},
 				{
 					"class": "MediaQueries",
@@ -203,12 +243,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "landscape.css",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 7,
-						"col": 15
-					}
+						"col": 11
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "landscape.css",
+							"data": {
+								"line": 7,
+								"col": 15
+							}
+						}
+					]
 				},
 				{
 					"class": "MediaQueries",

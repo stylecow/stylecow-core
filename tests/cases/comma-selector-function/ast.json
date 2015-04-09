@@ -35,7 +35,7 @@
 									}
 								},
 								{
-									"class": "PseudoClassSelectors",
+									"class": "PseudoClassFunction",
 									"name": "matches",
 									"vendor": null,
 									"data": {
@@ -97,7 +97,7 @@
 									}
 								},
 								{
-									"class": "PseudoClassSelectors",
+									"class": "PseudoClassFunction",
 									"name": "matches",
 									"vendor": null,
 									"data": {
@@ -159,7 +159,7 @@
 									}
 								},
 								{
-									"class": "PseudoClassSelectors",
+									"class": "PseudoClassFunction",
 									"name": "matches",
 									"vendor": null,
 									"data": {
@@ -221,7 +221,7 @@
 									}
 								},
 								{
-									"class": "PseudoClassSelectors",
+									"class": "PseudoClassFunction",
 									"name": "matches",
 									"vendor": null,
 									"data": {
@@ -339,7 +339,7 @@
 									}
 								},
 								{
-									"class": "PseudoClassSelectors",
+									"class": "PseudoClassFunction",
 									"name": "matches",
 									"vendor": null,
 									"data": {
@@ -418,7 +418,7 @@
 									}
 								},
 								{
-									"class": "PseudoClassSelectors",
+									"class": "PseudoClassFunction",
 									"name": "matches",
 									"vendor": null,
 									"data": {
@@ -480,7 +480,7 @@
 									}
 								},
 								{
-									"class": "PseudoClassSelectors",
+									"class": "PseudoClassFunction",
 									"name": "matches",
 									"vendor": null,
 									"data": {

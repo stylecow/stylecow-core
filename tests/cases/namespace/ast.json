@@ -14,12 +14,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "http://www.w3.org/1999/xhtml",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 1,
 						"col": 12
-					}
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "http://www.w3.org/1999/xhtml",
+							"data": {
+								"line": 1,
+								"col": 12
+							}
+						}
+					]
 				}
 			]
 		},
@@ -41,12 +51,22 @@
 					}
 				},
 				{
-					"class": "Url",
-					"name": "http://www.w3.org/2000/svg",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 2,
 						"col": 16
-					}
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "http://www.w3.org/2000/svg",
+							"data": {
+								"line": 2,
+								"col": 16
+							}
+						}
+					]
 				}
 			]
 		}

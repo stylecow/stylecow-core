@@ -442,7 +442,8 @@
 											]
 										},
 										{
-											"class": "ValueSeparator",
+											"class": "Operator",
+											"name": "/",
 											"data": {
 												"line": 16,
 												"col": 17

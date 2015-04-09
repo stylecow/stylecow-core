@@ -65,7 +65,7 @@
 									]
 								},
 								{
-									"class": "DeclarationBlock",
+									"class": "Block",
 									"data": {
 										"line": 2,
 										"col": 6
@@ -166,7 +166,7 @@
 									]
 								},
 								{
-									"class": "DeclarationBlock",
+									"class": "Block",
 									"data": {
 										"line": 3,
 										"col": 10
@@ -285,7 +285,7 @@
 									]
 								},
 								{
-									"class": "DeclarationBlock",
+									"class": "Block",
 									"data": {
 										"line": 6,
 										"col": 13
@@ -368,7 +368,7 @@
 									]
 								},
 								{
-									"class": "DeclarationBlock",
+									"class": "Block",
 									"data": {
 										"line": 7,
 										"col": 8

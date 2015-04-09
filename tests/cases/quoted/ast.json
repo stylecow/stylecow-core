@@ -62,12 +62,22 @@
 									},
 									"children": [
 										{
-											"class": "Url",
-											"name": "some;stuff;here",
+											"class": "Function",
+											"name": "url",
 											"data": {
 												"line": 2,
-												"col": 19
-											}
+												"col": 15
+											},
+											"children": [
+												{
+													"class": "String",
+													"name": "some;stuff;here",
+													"data": {
+														"line": 2,
+														"col": 19
+													}
+												}
+											]
 										},
 										{
 											"class": "Unit",

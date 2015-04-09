@@ -14,12 +14,22 @@
 			},
 			"children": [
 				{
-					"class": "Url",
-					"name": "http://www.w3.org/1999/xhtml",
+					"class": "Function",
+					"name": "url",
 					"data": {
 						"line": 2,
 						"col": 5
-					}
+					},
+					"children": [
+						{
+							"class": "String",
+							"name": "http://www.w3.org/1999/xhtml",
+							"data": {
+								"line": 2,
+								"col": 5
+							}
+						}
+					]
 				}
 			]
 		}

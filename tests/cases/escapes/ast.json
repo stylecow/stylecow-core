@@ -622,6 +622,7 @@
 										{
 											"class": "Function",
 											"name": "rgba",
+											"vendor": null,
 											"data": {
 												"line": 18,
 												"col": 20

@@ -24,21 +24,21 @@
 					}
 				},
 				{
-					"class": "KeyframesBlock",
+					"class": "Block",
 					"data": {
 						"line": 3,
 						"col": 5
 					},
 					"children": [
 						{
-							"class": "Keyframe",
+							"class": "Rule",
 							"data": {
 								"line": 4,
 								"col": 9
 							},
 							"children": [
 								{
-									"class": "KeyframeSelectors",
+									"class": "Selectors",
 									"data": {
 										"line": 4,
 										"col": 9
@@ -95,14 +95,14 @@
 							]
 						},
 						{
-							"class": "Keyframe",
+							"class": "Rule",
 							"data": {
 								"line": 5,
 								"col": 9
 							},
 							"children": [
 								{
-									"class": "KeyframeSelectors",
+									"class": "Selectors",
 									"data": {
 										"line": 5,
 										"col": 9

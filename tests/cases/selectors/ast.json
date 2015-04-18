@@ -1,115 +1,63 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Rule",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 1,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 1,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "foo",
-									"data": {
-										"line": 1,
-										"col": 1
-									}
-								}
-							]
-						},
-						{
-							"class": "Selector",
-							"data": {
-								"line": 2,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "bar",
-									"data": {
-										"line": 2,
-										"col": 1
-									}
-								}
-							]
-						},
-						{
-							"class": "Selector",
-							"data": {
-								"line": 3,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "baz",
-									"data": {
-										"line": 3,
-										"col": 1
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 3,
-						"col": 5
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "color",
-							"vendor": null,
-							"data": {
-								"line": 4,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 4,
-										"col": 10
-									},
-									"children": [
-										{
-											"class": "String",
-											"name": "black",
-											"data": {
-												"line": 4,
-												"col": 10
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "foo"
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "bar"
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "baz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "String",
+                      "name": "black"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,64 +1,36 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Import",
-			"name": "import",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 2,
-						"col": 5
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "test.css",
-							"data": {
-								"line": 2,
-								"col": 9
-							}
-						}
-					]
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 3,
-						"col": 5
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 3,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "screen",
-									"vendor": null,
-									"data": {
-										"line": 3,
-										"col": 5
-									}
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "test.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

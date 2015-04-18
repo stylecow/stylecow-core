@@ -1,185 +1,105 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "AtRule",
-			"name": "font-face",
-			"vendor": null,
-			"data": {
-				"line": 1,
-				"col": 2
-			},
-			"children": [
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 12
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "font-family",
-							"vendor": null,
-							"data": {
-								"line": 2,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 2,
-										"col": 16
-									},
-									"children": [
-										{
-											"class": "String",
-											"name": "Bitstream Vera Serif Bold",
-											"data": {
-												"line": 2,
-												"col": 16
-											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "src",
-							"vendor": null,
-							"data": {
-								"line": 3,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 3,
-										"col": 8
-									},
-									"children": [
-										{
-											"class": "Function",
-											"name": "url",
-											"data": {
-												"line": 3,
-												"col": 8
-											},
-											"children": [
-												{
-													"class": "String",
-													"name": "http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf",
-													"data": {
-														"line": 3,
-														"col": 12
-													}
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Rule",
-			"data": {
-				"line": 6,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 6,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 6,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "body",
-									"data": {
-										"line": 6,
-										"col": 1
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 6,
-						"col": 6
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "font-family",
-							"vendor": null,
-							"data": {
-								"line": 7,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 7,
-										"col": 16
-									},
-									"children": [
-										{
-											"class": "String",
-											"name": "Bitstream Vera Serif Bold",
-											"data": {
-												"line": 7,
-												"col": 16
-											}
-										}
-									]
-								},
-								{
-									"class": "Value",
-									"data": {
-										"line": 7,
-										"col": 45
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "serif",
-											"vendor": null,
-											"data": {
-												"line": 7,
-												"col": 45
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "AtRule",
+      "name": "font-face",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "font-family",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "String",
+                      "name": "Bitstream Vera Serif Bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "src",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "url",
+                      "children": [
+                        {
+                          "class": "String",
+                          "name": "http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "body"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "font-family",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "String",
+                      "name": "Bitstream Vera Serif Bold"
+                    }
+                  ]
+                },
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "serif",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

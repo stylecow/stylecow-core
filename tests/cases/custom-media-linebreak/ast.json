@@ -1,92 +1,52 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "CustomMedia",
-			"name": "custom-media",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "ExtensionName",
-					"name": "--test",
-					"data": {
-						"line": 2,
-						"col": 5
-					}
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 3,
-						"col": 5
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 3,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "ConditionalExpression",
-									"data": {
-										"line": 3,
-										"col": 6
-									},
-									"children": [
-										{
-											"class": "ConditionalFeature",
-											"name": "min-width",
-											"vendor": null,
-											"data": {
-												"line": 3,
-												"col": 6
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 3,
-														"col": 17
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "px",
-															"data": {
-																"line": 3,
-																"col": 17
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 200,
-																	"data": {
-																		"line": 3,
-																		"col": 17
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "CustomMedia",
+      "name": "custom-media",
+      "children": [
+        {
+          "class": "ExtensionName",
+          "name": "--test"
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "min-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 200
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

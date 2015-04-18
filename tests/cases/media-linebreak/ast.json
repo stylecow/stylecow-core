@@ -1,175 +1,99 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Media",
-			"name": "media",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 3,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 3,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "ConditionalExpression",
-									"data": {
-										"line": 4,
-										"col": 5
-									},
-									"children": [
-										{
-											"class": "ConditionalFeature",
-											"name": "min-width",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 4,
-														"col": 16
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "px",
-															"data": {
-																"line": 4,
-																"col": 16
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 300,
-																	"data": {
-																		"line": 4,
-																		"col": 16
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 6,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Rule",
-							"data": {
-								"line": 7,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 7,
-										"col": 5
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 7,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "ClassSelector",
-													"name": "test",
-													"data": {
-														"line": 7,
-														"col": 6
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 7,
-										"col": 11
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "width",
-											"vendor": null,
-											"data": {
-												"line": 7,
-												"col": 13
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 7,
-														"col": 20
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "px",
-															"data": {
-																"line": 7,
-																"col": 20
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 100,
-																	"data": {
-																		"line": 7,
-																		"col": 20
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Media",
+      "name": "media",
+      "children": [
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "min-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 300
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "ClassSelector",
+                          "name": "test"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 100
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

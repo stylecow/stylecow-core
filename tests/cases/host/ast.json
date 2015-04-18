@@ -1,103 +1,59 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "AtRule",
-			"name": "host",
-			"vendor": null,
-			"data": {
-				"line": 1,
-				"col": 2
-			},
-			"children": [
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 7
-					},
-					"children": [
-						{
-							"class": "Rule",
-							"data": {
-								"line": 2,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 2,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 2,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "PseudoClass",
-													"name": "scope",
-													"vendor": null,
-													"data": {
-														"line": 2,
-														"col": 4
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 2,
-										"col": 10
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "display",
-											"vendor": null,
-											"data": {
-												"line": 3,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 3,
-														"col": 14
-													},
-													"children": [
-														{
-															"class": "Keyword",
-															"name": "block",
-															"vendor": null,
-															"data": {
-																"line": 3,
-																"col": 14
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "AtRule",
+      "name": "host",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "PseudoClass",
+                          "name": "scope",
+                          "vendor": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "display",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "block",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

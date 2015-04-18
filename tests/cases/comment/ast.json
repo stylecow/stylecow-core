@@ -1,170 +1,90 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Comment",
-			"name": " 1 ",
-			"data": {
-				"line": 1,
-				"col": 1
-			}
-		},
-		{
-			"class": "Rule",
-			"data": {
-				"line": 3,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 3,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 3,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "head",
-									"data": {
-										"line": 3,
-										"col": 1
-									}
-								}
-							]
-						},
-						{
-							"class": "Selector",
-							"data": {
-								"line": 3,
-								"col": 7
-							},
-							"children": [
-								{
-									"class": "Comment",
-									"name": " footer, ",
-									"data": {
-										"line": 3,
-										"col": 7
-									}
-								},
-								{
-									"class": "TypeSelector",
-									"name": "body",
-									"data": {
-										"line": 3,
-										"col": 20
-									}
-								},
-								{
-									"class": "Comment",
-									"name": ", nav ",
-									"data": {
-										"line": 3,
-										"col": 24
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 3,
-						"col": 35
-					},
-					"children": [
-						{
-							"class": "Comment",
-							"name": " 2 ",
-							"data": {
-								"line": 3,
-								"col": 37
-							}
-						},
-						{
-							"class": "Comment",
-							"name": " 3 ",
-							"data": {
-								"line": 4,
-								"col": 3
-							}
-						},
-						{
-							"class": "Comment",
-							"name": "",
-							"data": {
-								"line": 5,
-								"col": 3
-							}
-						},
-						{
-							"class": "Declaration",
-							"name": "foo",
-							"vendor": null,
-							"data": {
-								"line": 5,
-								"col": 7
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 5,
-										"col": 12
-									},
-									"children": [
-										{
-											"class": "String",
-											"name": "bar",
-											"data": {
-												"line": 5,
-												"col": 12
-											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Comment",
-							"name": " 4 ",
-							"data": {
-								"line": 6,
-								"col": 3
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Comment",
-			"name": " 5 ",
-			"data": {
-				"line": 7,
-				"col": 3
-			}
-		},
-		{
-			"class": "Comment",
-			"name": " 6 ",
-			"data": {
-				"line": 9,
-				"col": 1
-			}
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Comment",
+      "name": " 1 "
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "head"
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "Comment",
+                  "name": " footer, "
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "body"
+                },
+                {
+                  "class": "Comment",
+                  "name": ", nav "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Comment",
+              "name": " 2 "
+            },
+            {
+              "class": "Comment",
+              "name": " 3 "
+            },
+            {
+              "class": "Comment",
+              "name": ""
+            },
+            {
+              "class": "Declaration",
+              "name": "foo",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "String",
+                      "name": "bar"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Comment",
+              "name": " 4 "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Comment",
+      "name": " 5 "
+    },
+    {
+      "class": "Comment",
+      "name": " 6 "
+    }
+  ]
 }

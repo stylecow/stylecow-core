@@ -17,10 +17,10 @@ suite
 		v1.Root.create(new v1.Reader(css4));
 	})
 	.add('v2', function () {
-		v2.Root.create(v2.Reader.fromString(css1));
-		v2.Root.create(v2.Reader.fromString(css2));
-		v2.Root.create(v2.Reader.fromString(css3));
-		v2.Root.create(v2.Reader.fromString(css4));
+		v2.parse(css1);
+		v2.parse(css2);
+		v2.parse(css3);
+		v2.parse(css4);
 	})
 	.on('cycle', function(event) {
 		console.log(String(event.target));

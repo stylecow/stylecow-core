@@ -1,269 +1,153 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Comment",
-			"name": " toc above ",
-			"data": {
-				"line": 1,
-				"col": 1
-			}
-		},
-		{
-			"class": "AtRule",
-			"name": "page",
-			"vendor": null,
-			"data": {
-				"line": 2,
-				"col": 2
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 2,
-						"col": 7
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 2,
-								"col": 7
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "toc",
-									"data": {
-										"line": 2,
-										"col": 7
-									}
-								}
-							]
-						},
-						{
-							"class": "Selector",
-							"data": {
-								"line": 2,
-								"col": 12
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "index",
-									"data": {
-										"line": 2,
-										"col": 12
-									}
-								},
-								{
-									"class": "PseudoClass",
-									"name": "blank",
-									"vendor": null,
-									"data": {
-										"line": 2,
-										"col": 18
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 2,
-						"col": 24
-					},
-					"children": [
-						{
-							"class": "Comment",
-							"name": " toc inside ",
-							"data": {
-								"line": 3,
-								"col": 3
-							}
-						},
-						{
-							"class": "Declaration",
-							"name": "color",
-							"vendor": null,
-							"data": {
-								"line": 4,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 4,
-										"col": 10
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "green",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 10
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "AtRule",
-			"name": "page",
-			"vendor": null,
-			"data": {
-				"line": 7,
-				"col": 2
-			},
-			"children": [
-				{
-					"class": "Block",
-					"data": {
-						"line": 7,
-						"col": 7
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "font-size",
-							"vendor": null,
-							"data": {
-								"line": 8,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 8,
-										"col": 14
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "pt",
-											"data": {
-												"line": 8,
-												"col": 14
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 16,
-													"data": {
-														"line": 8,
-														"col": 14
-													}
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "AtRule",
-			"name": "page",
-			"vendor": null,
-			"data": {
-				"line": 11,
-				"col": 2
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 11,
-						"col": 7
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 11,
-								"col": 7
-							},
-							"children": [
-								{
-									"class": "PseudoClass",
-									"name": "left",
-									"vendor": null,
-									"data": {
-										"line": 11,
-										"col": 8
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 11,
-						"col": 13
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "margin-left",
-							"vendor": null,
-							"data": {
-								"line": 12,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 12,
-										"col": 16
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "cm",
-											"data": {
-												"line": 12,
-												"col": 16
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 5,
-													"data": {
-														"line": 12,
-														"col": 16
-													}
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Comment",
+      "name": " toc above "
+    },
+    {
+      "class": "AtRule",
+      "name": "page",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "toc"
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "index"
+                },
+                {
+                  "class": "PseudoClass",
+                  "name": "blank",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Comment",
+              "name": " toc inside "
+            },
+            {
+              "class": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "green",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "AtRule",
+      "name": "page",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "font-size",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "pt",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 16
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "AtRule",
+      "name": "page",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "PseudoClass",
+                  "name": "left",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "margin-left",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "cm",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

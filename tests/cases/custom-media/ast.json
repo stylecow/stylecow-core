@@ -1,193 +1,109 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "CustomMedia",
-			"name": "custom-media",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "ExtensionName",
-					"name": "--narrow-window",
-					"data": {
-						"line": 1,
-						"col": 15
-					}
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 1,
-						"col": 31
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 1,
-								"col": 31
-							},
-							"children": [
-								{
-									"class": "ConditionalExpression",
-									"data": {
-										"line": 1,
-										"col": 32
-									},
-									"children": [
-										{
-											"class": "ConditionalFeature",
-											"name": "max-width",
-											"vendor": null,
-											"data": {
-												"line": 1,
-												"col": 32
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 1,
-														"col": 43
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "em",
-															"data": {
-																"line": 1,
-																"col": 43
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 30,
-																	"data": {
-																		"line": 1,
-																		"col": 43
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "CustomMedia",
-			"name": "custom-media",
-			"data": {
-				"line": 2,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "ExtensionName",
-					"name": "--wide-window",
-					"data": {
-						"line": 2,
-						"col": 15
-					}
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 2,
-						"col": 29
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 2,
-								"col": 29
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "screen",
-									"vendor": null,
-									"data": {
-										"line": 2,
-										"col": 29
-									}
-								},
-								{
-									"class": "Keyword",
-									"name": "and",
-									"vendor": null,
-									"data": {
-										"line": 2,
-										"col": 36
-									}
-								},
-								{
-									"class": "ConditionalExpression",
-									"data": {
-										"line": 2,
-										"col": 41
-									},
-									"children": [
-										{
-											"class": "ConditionalFeature",
-											"name": "min-width",
-											"vendor": null,
-											"data": {
-												"line": 2,
-												"col": 41
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 2,
-														"col": 52
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "em",
-															"data": {
-																"line": 2,
-																"col": 52
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 40,
-																	"data": {
-																		"line": 2,
-																		"col": 52
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "CustomMedia",
+      "name": "custom-media",
+      "children": [
+        {
+          "class": "ExtensionName",
+          "name": "--narrow-window"
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "max-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "em",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 30
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "CustomMedia",
+      "name": "custom-media",
+      "children": [
+        {
+          "class": "ExtensionName",
+          "name": "--wide-window"
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "class": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "min-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "em",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 40
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

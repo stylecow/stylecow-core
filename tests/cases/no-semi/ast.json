@@ -1,150 +1,82 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 2,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Rule",
-			"data": {
-				"line": 2,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 2,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 2,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "tobi",
-									"data": {
-										"line": 2,
-										"col": 1
-									}
-								},
-								{
-									"class": "Combinator",
-									"name": " ",
-									"data": {
-										"line": 2,
-										"col": 6
-									}
-								},
-								{
-									"class": "TypeSelector",
-									"name": "loki",
-									"data": {
-										"line": 2,
-										"col": 6
-									}
-								},
-								{
-									"class": "Combinator",
-									"name": " ",
-									"data": {
-										"line": 2,
-										"col": 11
-									}
-								},
-								{
-									"class": "TypeSelector",
-									"name": "jane",
-									"data": {
-										"line": 2,
-										"col": 11
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 2,
-						"col": 16
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "are",
-							"vendor": null,
-							"data": {
-								"line": 3,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 3,
-										"col": 8
-									},
-									"children": [
-										{
-											"class": "String",
-											"name": "all",
-											"data": {
-												"line": 3,
-												"col": 8
-											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "the-species",
-							"vendor": null,
-							"data": {
-								"line": 4,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 4,
-										"col": 16
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "called",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 16
-											}
-										},
-										{
-											"class": "String",
-											"name": "ferrets",
-											"data": {
-												"line": 4,
-												"col": 23
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "tobi"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "loki"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "jane"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "are",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "String",
+                      "name": "all"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "the-species",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "called",
+                      "vendor": null
+                    },
+                    {
+                      "class": "String",
+                      "name": "ferrets"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

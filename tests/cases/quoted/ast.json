@@ -1,136 +1,76 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Rule",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 1,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 1,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "body",
-									"data": {
-										"line": 1,
-										"col": 1
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 6
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "background",
-							"vendor": null,
-							"data": {
-								"line": 2,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 2,
-										"col": 15
-									},
-									"children": [
-										{
-											"class": "Function",
-											"name": "url",
-											"data": {
-												"line": 2,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "String",
-													"name": "some;stuff;here",
-													"data": {
-														"line": 2,
-														"col": 19
-													}
-												}
-											]
-										},
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 2,
-												"col": 38
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 50,
-													"data": {
-														"line": 2,
-														"col": 38
-													}
-												}
-											]
-										},
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 2,
-												"col": 42
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 50,
-													"data": {
-														"line": 2,
-														"col": 42
-													}
-												}
-											]
-										},
-										{
-											"class": "Keyword",
-											"name": "no-repeat",
-											"vendor": null,
-											"data": {
-												"line": 2,
-												"col": 46
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "body"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "background",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "url",
+                      "children": [
+                        {
+                          "class": "String",
+                          "name": "some;stuff;here"
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 50
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 50
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "no-repeat",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,46 +1,26 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Namespace",
-			"name": "namespace",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Keyword",
-					"name": "svg",
-					"vendor": null,
-					"data": {
-						"line": 1,
-						"col": 12
-					}
-				},
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 1,
-						"col": 16
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "http://www.w3.org/2000/svg",
-							"data": {
-								"line": 1,
-								"col": 16
-							}
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Namespace",
+      "name": "namespace",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "svg",
+          "vendor": null
+        },
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "http://www.w3.org/2000/svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

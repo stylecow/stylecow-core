@@ -1,462 +1,262 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Media",
-			"name": "keyframes",
-			"vendor": null,
-			"data": {
-				"line": 1,
-				"col": 2
-			},
-			"children": [
-				{
-					"class": "Keyword",
-					"name": "foo",
-					"vendor": null,
-					"data": {
-						"line": 1,
-						"col": 12
-					}
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 16
-					},
-					"children": [
-						{
-							"class": "Rule",
-							"data": {
-								"line": 2,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 2,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 2,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 0,
-													"data": {
-														"line": 2,
-														"col": 3
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 2,
-										"col": 6
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "top",
-											"vendor": null,
-											"data": {
-												"line": 2,
-												"col": 8
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 2,
-														"col": 13
-													},
-													"children": [
-														{
-															"class": "Number",
-															"name": 0,
-															"data": {
-																"line": 2,
-																"col": 13
-															}
-														}
-													]
-												}
-											]
-										},
-										{
-											"class": "Declaration",
-											"name": "left",
-											"vendor": null,
-											"data": {
-												"line": 2,
-												"col": 16
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 2,
-														"col": 22
-													},
-													"children": [
-														{
-															"class": "Number",
-															"name": 0,
-															"data": {
-																"line": 2,
-																"col": 22
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 3,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 3,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 3,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 30.5,
-													"data": {
-														"line": 3,
-														"col": 3
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 3,
-										"col": 10
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "top",
-											"vendor": null,
-											"data": {
-												"line": 3,
-												"col": 12
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 3,
-														"col": 17
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "px",
-															"data": {
-																"line": 3,
-																"col": 17
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 50,
-																	"data": {
-																		"line": 3,
-																		"col": 17
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 4,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 4,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 4,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 0.68,
-													"data": {
-														"line": 4,
-														"col": 3
-													}
-												}
-											]
-										},
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 5,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 72,
-													"data": {
-														"line": 5,
-														"col": 3
-													}
-												}
-											]
-										},
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 6,
-												"col": 9
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 85,
-													"data": {
-														"line": 6,
-														"col": 9
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 6,
-										"col": 13
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "left",
-											"vendor": null,
-											"data": {
-												"line": 6,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 6,
-														"col": 21
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "px",
-															"data": {
-																"line": 6,
-																"col": 21
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 50,
-																	"data": {
-																		"line": 6,
-																		"col": 21
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 7,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 7,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "%",
-											"data": {
-												"line": 7,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 100,
-													"data": {
-														"line": 7,
-														"col": 3
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 7,
-										"col": 8
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "top",
-											"vendor": null,
-											"data": {
-												"line": 7,
-												"col": 10
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 7,
-														"col": 15
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "px",
-															"data": {
-																"line": 7,
-																"col": 15
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 100,
-																	"data": {
-																		"line": 7,
-																		"col": 15
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"class": "Declaration",
-											"name": "left",
-											"vendor": null,
-											"data": {
-												"line": 7,
-												"col": 22
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 7,
-														"col": 28
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "%",
-															"data": {
-																"line": 7,
-																"col": 28
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 100,
-																	"data": {
-																		"line": 7,
-																		"col": 28
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "foo",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "top",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 0
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "left",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 30.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "top",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 50
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 0.68
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 72
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 85
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "left",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 50
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "top",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 100
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "left",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "%",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 100
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

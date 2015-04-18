@@ -1,82 +1,46 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Rule",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 1,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 1,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "ClassSelector",
-									"name": "wtf",
-									"data": {
-										"line": 1,
-										"col": 2
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 6
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "*overflow-x",
-							"vendor": null,
-							"data": {
-								"line": 2,
-								"col": 4
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 2,
-										"col": 16
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "hidden",
-											"vendor": null,
-											"data": {
-												"line": 2,
-												"col": 16
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "wtf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "*overflow-x",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "hidden",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

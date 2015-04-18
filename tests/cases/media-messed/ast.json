@@ -1,575 +1,323 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Media",
-			"name": "media",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 1,
-						"col": 8
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 1,
-								"col": 8
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "screen",
-									"vendor": null,
-									"data": {
-										"line": 1,
-										"col": 8
-									}
-								}
-							]
-						},
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 1,
-								"col": 16
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "projection",
-									"vendor": null,
-									"data": {
-										"line": 1,
-										"col": 16
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 26
-					},
-					"children": [
-						{
-							"class": "Rule",
-							"data": {
-								"line": 1,
-								"col": 28
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 1,
-										"col": 28
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 1,
-												"col": 28
-											},
-											"children": [
-												{
-													"class": "TypeSelector",
-													"name": "html",
-													"data": {
-														"line": 1,
-														"col": 28
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 3,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "background",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 1
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 4,
-														"col": 13
-													},
-													"children": [
-														{
-															"class": "Hex",
-															"name": "fffef0",
-															"data": {
-																"line": 4,
-																"col": 13
-															}
-														}
-													]
-												}
-											]
-										},
-										{
-											"class": "Declaration",
-											"name": "color",
-											"vendor": null,
-											"data": {
-												"line": 5,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 5,
-														"col": 11
-													},
-													"children": [
-														{
-															"class": "Hex",
-															"name": "300",
-															"data": {
-																"line": 5,
-																"col": 11
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 7,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 7,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 7,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "TypeSelector",
-													"name": "body",
-													"data": {
-														"line": 7,
-														"col": 3
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 9,
-										"col": 1
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "max-width",
-											"vendor": null,
-											"data": {
-												"line": 10,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 10,
-														"col": 16
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "em",
-															"data": {
-																"line": 10,
-																"col": 16
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 35,
-																	"data": {
-																		"line": 10,
-																		"col": 16
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"class": "Declaration",
-											"name": "margin",
-											"vendor": null,
-											"data": {
-												"line": 11,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 11,
-														"col": 13
-													},
-													"children": [
-														{
-															"class": "Number",
-															"name": 0,
-															"data": {
-																"line": 11,
-																"col": 13
-															}
-														},
-														{
-															"class": "Keyword",
-															"name": "auto",
-															"vendor": null,
-															"data": {
-																"line": 11,
-																"col": 15
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Media",
-			"name": "media",
-			"data": {
-				"line": 17,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 17,
-						"col": 8
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 17,
-								"col": 8
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "print",
-									"vendor": null,
-									"data": {
-										"line": 17,
-										"col": 8
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 18,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Rule",
-							"data": {
-								"line": 19,
-								"col": 15
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 19,
-										"col": 15
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 19,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "TypeSelector",
-													"name": "html",
-													"data": {
-														"line": 19,
-														"col": 15
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 19,
-										"col": 20
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "background",
-											"vendor": null,
-											"data": {
-												"line": 20,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 20,
-														"col": 27
-													},
-													"children": [
-														{
-															"class": "Hex",
-															"name": "fff",
-															"data": {
-																"line": 20,
-																"col": 27
-															}
-														}
-													]
-												}
-											]
-										},
-										{
-											"class": "Declaration",
-											"name": "color",
-											"vendor": null,
-											"data": {
-												"line": 21,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 21,
-														"col": 22
-													},
-													"children": [
-														{
-															"class": "Hex",
-															"name": "000",
-															"data": {
-																"line": 21,
-																"col": 22
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 23,
-								"col": 15
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 23,
-										"col": 15
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 23,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "TypeSelector",
-													"name": "body",
-													"data": {
-														"line": 23,
-														"col": 15
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 23,
-										"col": 20
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "padding",
-											"vendor": null,
-											"data": {
-												"line": 24,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 24,
-														"col": 24
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "in",
-															"data": {
-																"line": 24,
-																"col": 24
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 1,
-																	"data": {
-																		"line": 24,
-																		"col": 24
-																	}
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"class": "Declaration",
-											"name": "border",
-											"vendor": null,
-											"data": {
-												"line": 25,
-												"col": 15
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 25,
-														"col": 23
-													},
-													"children": [
-														{
-															"class": "Unit",
-															"name": "pt",
-															"data": {
-																"line": 25,
-																"col": 23
-															},
-															"children": [
-																{
-																	"class": "Number",
-																	"name": 0.5,
-																	"data": {
-																		"line": 25,
-																		"col": 23
-																	}
-																}
-															]
-														},
-														{
-															"class": "Keyword",
-															"name": "solid",
-															"vendor": null,
-															"data": {
-																"line": 25,
-																"col": 29
-															}
-														},
-														{
-															"class": "Hex",
-															"name": "666",
-															"data": {
-																"line": 25,
-																"col": 35
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Media",
+      "name": "media",
+      "children": [
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                }
+              ]
+            },
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "projection",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "TypeSelector",
+                          "name": "html"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "background",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Hex",
+                              "name": "fffef0"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Hex",
+                              "name": "300"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "TypeSelector",
+                          "name": "body"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "max-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "em",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 35
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "margin",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 0
+                            },
+                            {
+                              "class": "Keyword",
+                              "name": "auto",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Media",
+      "name": "media",
+      "children": [
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "print",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "TypeSelector",
+                          "name": "html"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "background",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Hex",
+                              "name": "fff"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Hex",
+                              "name": "000"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "TypeSelector",
+                          "name": "body"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "padding",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "in",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "border",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "pt",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 0.5
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Keyword",
+                              "name": "solid",
+                              "vendor": null
+                            },
+                            {
+                              "class": "Hex",
+                              "name": "666"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

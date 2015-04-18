@@ -1,37 +1,21 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Namespace",
-			"name": "namespace",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 2,
-						"col": 5
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "http://www.w3.org/1999/xhtml",
-							"data": {
-								"line": 2,
-								"col": 5
-							}
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Namespace",
+      "name": "namespace",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "http://www.w3.org/1999/xhtml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,239 +1,135 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Rule",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 1,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 1,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "a",
-									"data": {
-										"line": 1,
-										"col": 1
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 3
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "color",
-							"vendor": null,
-							"data": {
-								"line": 2,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 2,
-										"col": 16
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "px",
-											"data": {
-												"line": 2,
-												"col": 16
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 12,
-													"data": {
-														"line": 2,
-														"col": 16
-													}
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "padding",
-							"vendor": null,
-							"data": {
-								"line": 3,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 3,
-										"col": 28
-									},
-									"children": [
-										{
-											"class": "Unit",
-											"name": "px",
-											"data": {
-												"line": 3,
-												"col": 28
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 1,
-													"data": {
-														"line": 3,
-														"col": 28
-													}
-												}
-											]
-										},
-										{
-											"class": "Comment",
-											"name": "",
-											"data": {
-												"line": 3,
-												"col": 32
-											}
-										},
-										{
-											"class": "Unit",
-											"name": "px",
-											"data": {
-												"line": 3,
-												"col": 37
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 2,
-													"data": {
-														"line": 3,
-														"col": 37
-													}
-												}
-											]
-										},
-										{
-											"class": "Comment",
-											"name": "13",
-											"data": {
-												"line": 3,
-												"col": 41
-											}
-										},
-										{
-											"class": "Unit",
-											"name": "px",
-											"data": {
-												"line": 3,
-												"col": 48
-											},
-											"children": [
-												{
-													"class": "Number",
-													"name": 3,
-													"data": {
-														"line": 3,
-														"col": 48
-													}
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "border",
-							"vendor": null,
-							"data": {
-								"line": 4,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 4,
-										"col": 19
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "solid",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 19
-											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "border-top",
-							"vendor": null,
-							"data": {
-								"line": 4,
-								"col": 26
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 4,
-										"col": 44
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "none\\9",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 44
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 12
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "padding",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 1
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Comment",
+                      "name": ""
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Comment",
+                      "name": "13"
+                    },
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 3
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "border",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "solid",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "border-top",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none\\9",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

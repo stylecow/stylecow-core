@@ -1,313 +1,177 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Supports",
-			"name": "supports",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "ConditionalSelector",
-					"data": {
-						"line": 1,
-						"col": 11
-					},
-					"children": [
-						{
-							"class": "ConditionalExpression",
-							"data": {
-								"line": 1,
-								"col": 12
-							},
-							"children": [
-								{
-									"class": "ConditionalFeature",
-									"name": "display",
-									"vendor": null,
-									"data": {
-										"line": 1,
-										"col": 12
-									},
-									"children": [
-										{
-											"class": "Value",
-											"data": {
-												"line": 1,
-												"col": 21
-											},
-											"children": [
-												{
-													"class": "Keyword",
-													"name": "flex",
-													"vendor": null,
-													"data": {
-														"line": 1,
-														"col": 21
-													}
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Keyword",
-							"name": "or",
-							"vendor": null,
-							"data": {
-								"line": 1,
-								"col": 27
-							}
-						},
-						{
-							"class": "ConditionalExpression",
-							"data": {
-								"line": 1,
-								"col": 31
-							},
-							"children": [
-								{
-									"class": "ConditionalFeature",
-									"name": "display",
-									"vendor": null,
-									"data": {
-										"line": 1,
-										"col": 31
-									},
-									"children": [
-										{
-											"class": "Value",
-											"data": {
-												"line": 1,
-												"col": 40
-											},
-											"children": [
-												{
-													"class": "Keyword",
-													"name": "box",
-													"vendor": null,
-													"data": {
-														"line": 1,
-														"col": 40
-													}
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 45
-					},
-					"children": [
-						{
-							"class": "Comment",
-							"name": " flex above ",
-							"data": {
-								"line": 2,
-								"col": 3
-							}
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 3,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 3,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 3,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "ClassSelector",
-													"name": "flex",
-													"data": {
-														"line": 3,
-														"col": 4
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 3,
-										"col": 9
-									},
-									"children": [
-										{
-											"class": "Comment",
-											"name": " flex inside ",
-											"data": {
-												"line": 4,
-												"col": 5
-											}
-										},
-										{
-											"class": "Declaration",
-											"name": "display",
-											"vendor": null,
-											"data": {
-												"line": 5,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 5,
-														"col": 14
-													},
-													"children": [
-														{
-															"class": "Keyword",
-															"name": "box",
-															"vendor": null,
-															"data": {
-																"line": 5,
-																"col": 14
-															}
-														}
-													]
-												}
-											]
-										},
-										{
-											"class": "Declaration",
-											"name": "display",
-											"vendor": null,
-											"data": {
-												"line": 6,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 6,
-														"col": 14
-													},
-													"children": [
-														{
-															"class": "Keyword",
-															"name": "flex",
-															"vendor": null,
-															"data": {
-																"line": 6,
-																"col": 14
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 9,
-								"col": 3
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 9,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "Selector",
-											"data": {
-												"line": 9,
-												"col": 3
-											},
-											"children": [
-												{
-													"class": "TypeSelector",
-													"name": "div",
-													"data": {
-														"line": 9,
-														"col": 3
-													}
-												}
-											]
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 9,
-										"col": 7
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "something",
-											"vendor": null,
-											"data": {
-												"line": 10,
-												"col": 5
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 10,
-														"col": 16
-													},
-													"children": [
-														{
-															"class": "Keyword",
-															"name": "else",
-															"vendor": null,
-															"data": {
-																"line": 10,
-																"col": 16
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Supports",
+      "name": "supports",
+      "children": [
+        {
+          "class": "ConditionalSelector",
+          "children": [
+            {
+              "class": "ConditionalExpression",
+              "children": [
+                {
+                  "class": "ConditionalFeature",
+                  "name": "display",
+                  "vendor": null,
+                  "children": [
+                    {
+                      "class": "Value",
+                      "children": [
+                        {
+                          "class": "Keyword",
+                          "name": "flex",
+                          "vendor": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Keyword",
+              "name": "or",
+              "vendor": null
+            },
+            {
+              "class": "ConditionalExpression",
+              "children": [
+                {
+                  "class": "ConditionalFeature",
+                  "name": "display",
+                  "vendor": null,
+                  "children": [
+                    {
+                      "class": "Value",
+                      "children": [
+                        {
+                          "class": "Keyword",
+                          "name": "box",
+                          "vendor": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Comment",
+              "name": " flex above "
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "ClassSelector",
+                          "name": "flex"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Comment",
+                      "name": " flex inside "
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "display",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "box",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "display",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "flex",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "TypeSelector",
+                          "name": "div"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "something",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "else",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

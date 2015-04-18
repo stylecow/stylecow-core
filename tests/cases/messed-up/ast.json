@@ -1,285 +1,161 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Rule",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 1,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 1,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "body",
-									"data": {
-										"line": 1,
-										"col": 1
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 6
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "foo",
-							"vendor": null,
-							"data": {
-								"line": 1,
-								"col": 8
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 3,
-										"col": 3
-									},
-									"children": [
-										{
-											"class": "String",
-											"name": "bar",
-											"data": {
-												"line": 3,
-												"col": 3
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Rule",
-			"data": {
-				"line": 5,
-				"col": 4
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 5,
-						"col": 4
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 5,
-								"col": 4
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "body",
-									"data": {
-										"line": 5,
-										"col": 4
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 5,
-						"col": 8
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "foo",
-							"vendor": null,
-							"data": {
-								"line": 5,
-								"col": 9
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 5,
-										"col": 13
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "bar",
-											"vendor": null,
-											"data": {
-												"line": 5,
-												"col": 13
-											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "bar",
-							"vendor": null,
-							"data": {
-								"line": 5,
-								"col": 17
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 5,
-										"col": 21
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "baz",
-											"vendor": null,
-											"data": {
-												"line": 5,
-												"col": 21
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Rule",
-			"data": {
-				"line": 6,
-				"col": 4
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 6,
-						"col": 4
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 6,
-								"col": 4
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "body",
-									"data": {
-										"line": 6,
-										"col": 4
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 7,
-						"col": 4
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "foo",
-							"vendor": null,
-							"data": {
-								"line": 8,
-								"col": 6
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 10,
-										"col": 6
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "bar",
-											"vendor": null,
-											"data": {
-												"line": 10,
-												"col": 6
-											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "bar",
-							"vendor": null,
-							"data": {
-								"line": 12,
-								"col": 6
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 14,
-										"col": 6
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "baz",
-											"vendor": null,
-											"data": {
-												"line": 14,
-												"col": 6
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "body"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foo",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "String",
+                      "name": "bar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "body"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foo",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "bar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "baz",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "body"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foo",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "bar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "baz",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,27 +1,15 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Charset",
-			"name": "charset",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "String",
-					"name": "UTF-8",
-					"data": {
-						"line": 2,
-						"col": 5
-					}
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Charset",
+      "name": "charset",
+      "children": [
+        {
+          "class": "String",
+          "name": "UTF-8"
+        }
+      ]
+    }
+  ]
 }

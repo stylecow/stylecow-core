@@ -1,340 +1,192 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Import",
-			"name": "import",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 1,
-						"col": 9
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "fineprint.css",
-							"data": {
-								"line": 1,
-								"col": 13
-							}
-						}
-					]
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 1,
-						"col": 30
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 1,
-								"col": 30
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "print",
-									"vendor": null,
-									"data": {
-										"line": 1,
-										"col": 30
-									}
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Import",
-			"name": "import",
-			"data": {
-				"line": 2,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 2,
-						"col": 9
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "bluish.css",
-							"data": {
-								"line": 2,
-								"col": 13
-							}
-						}
-					]
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 2,
-						"col": 27
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 2,
-								"col": 27
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "projection",
-									"vendor": null,
-									"data": {
-										"line": 2,
-										"col": 27
-									}
-								}
-							]
-						},
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 2,
-								"col": 39
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "tv",
-									"vendor": null,
-									"data": {
-										"line": 2,
-										"col": 39
-									}
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Import",
-			"name": "import",
-			"data": {
-				"line": 3,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 3,
-						"col": 9
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "custom.css",
-							"data": {
-								"line": 3,
-								"col": 9
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Import",
-			"name": "import",
-			"data": {
-				"line": 4,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 4,
-						"col": 9
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "common.css",
-							"data": {
-								"line": 4,
-								"col": 9
-							}
-						}
-					]
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 4,
-						"col": 22
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 4,
-								"col": 22
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "screen",
-									"vendor": null,
-									"data": {
-										"line": 4,
-										"col": 22
-									}
-								}
-							]
-						},
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 4,
-								"col": 30
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "projection",
-									"vendor": null,
-									"data": {
-										"line": 4,
-										"col": 30
-									}
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"class": "Import",
-			"name": "import",
-			"data": {
-				"line": 5,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Function",
-					"name": "url",
-					"data": {
-						"line": 5,
-						"col": 9
-					},
-					"children": [
-						{
-							"class": "String",
-							"name": "landscape.css",
-							"data": {
-								"line": 5,
-								"col": 13
-							}
-						}
-					]
-				},
-				{
-					"class": "MediaQueries",
-					"data": {
-						"line": 5,
-						"col": 30
-					},
-					"children": [
-						{
-							"class": "MediaQuery",
-							"data": {
-								"line": 5,
-								"col": 30
-							},
-							"children": [
-								{
-									"class": "Keyword",
-									"name": "screen",
-									"vendor": null,
-									"data": {
-										"line": 5,
-										"col": 30
-									}
-								},
-								{
-									"class": "Keyword",
-									"name": "and",
-									"vendor": null,
-									"data": {
-										"line": 5,
-										"col": 37
-									}
-								},
-								{
-									"class": "ConditionalExpression",
-									"data": {
-										"line": 5,
-										"col": 42
-									},
-									"children": [
-										{
-											"class": "ConditionalFeature",
-											"name": "orientation",
-											"vendor": null,
-											"data": {
-												"line": 5,
-												"col": 42
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 5,
-														"col": 54
-													},
-													"children": [
-														{
-															"class": "Keyword",
-															"name": "landscape",
-															"vendor": null,
-															"data": {
-																"line": 5,
-																"col": 54
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "fineprint.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "print",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "bluish.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "projection",
+                  "vendor": null
+                }
+              ]
+            },
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "tv",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "custom.css"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "common.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                }
+              ]
+            },
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "projection",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "landscape.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "class": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "orientation",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "landscape",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

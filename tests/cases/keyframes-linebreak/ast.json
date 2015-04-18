@@ -1,166 +1,94 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Media",
-			"name": "keyframes",
-			"vendor": null,
-			"data": {
-				"line": 1,
-				"col": 2
-			},
-			"children": [
-				{
-					"class": "Keyword",
-					"name": "test",
-					"vendor": null,
-					"data": {
-						"line": 2,
-						"col": 5
-					}
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 3,
-						"col": 5
-					},
-					"children": [
-						{
-							"class": "Rule",
-							"data": {
-								"line": 4,
-								"col": 9
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 4,
-										"col": 9
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "from",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 9
-											}
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 4,
-										"col": 14
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "opacity",
-											"vendor": null,
-											"data": {
-												"line": 4,
-												"col": 16
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 4,
-														"col": 25
-													},
-													"children": [
-														{
-															"class": "Number",
-															"name": 1,
-															"data": {
-																"line": 4,
-																"col": 25
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Rule",
-							"data": {
-								"line": 5,
-								"col": 9
-							},
-							"children": [
-								{
-									"class": "Selectors",
-									"data": {
-										"line": 5,
-										"col": 9
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "to",
-											"vendor": null,
-											"data": {
-												"line": 5,
-												"col": 9
-											}
-										}
-									]
-								},
-								{
-									"class": "Block",
-									"data": {
-										"line": 5,
-										"col": 12
-									},
-									"children": [
-										{
-											"class": "Declaration",
-											"name": "opacity",
-											"vendor": null,
-											"data": {
-												"line": 5,
-												"col": 14
-											},
-											"children": [
-												{
-													"class": "Value",
-													"data": {
-														"line": 5,
-														"col": 23
-													},
-													"children": [
-														{
-															"class": "Number",
-															"name": 0,
-															"data": {
-																"line": 5,
-																"col": 23
-															}
-														}
-													]
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "test",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "from",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "to",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

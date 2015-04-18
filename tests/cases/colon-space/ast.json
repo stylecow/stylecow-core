@@ -1,110 +1,62 @@
 {
-	"class": "Root",
-	"data": {
-		"line": 1,
-		"col": 1
-	},
-	"children": [
-		{
-			"class": "Rule",
-			"data": {
-				"line": 1,
-				"col": 1
-			},
-			"children": [
-				{
-					"class": "Selectors",
-					"data": {
-						"line": 1,
-						"col": 1
-					},
-					"children": [
-						{
-							"class": "Selector",
-							"data": {
-								"line": 1,
-								"col": 1
-							},
-							"children": [
-								{
-									"class": "TypeSelector",
-									"name": "a",
-									"data": {
-										"line": 1,
-										"col": 1
-									}
-								}
-							]
-						}
-					]
-				},
-				{
-					"class": "Block",
-					"data": {
-						"line": 1,
-						"col": 3
-					},
-					"children": [
-						{
-							"class": "Declaration",
-							"name": "margin",
-							"vendor": null,
-							"data": {
-								"line": 2,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 2,
-										"col": 15
-									},
-									"children": [
-										{
-											"class": "Keyword",
-											"name": "auto",
-											"vendor": null,
-											"data": {
-												"line": 2,
-												"col": 15
-											}
-										}
-									]
-								}
-							]
-						},
-						{
-							"class": "Declaration",
-							"name": "padding",
-							"vendor": null,
-							"data": {
-								"line": 3,
-								"col": 5
-							},
-							"children": [
-								{
-									"class": "Value",
-									"data": {
-										"line": 3,
-										"col": 15
-									},
-									"children": [
-										{
-											"class": "Number",
-											"name": 0,
-											"data": {
-												"line": 3,
-												"col": 15
-											}
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	]
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "margin",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "auto",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "padding",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Number",
+                      "name": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

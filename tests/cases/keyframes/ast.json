@@ -1,0 +1,110 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Keyframes",
+      "name": "keyframes",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "fade",
+          "vendor": null
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Comment",
+              "name": " from above "
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "from",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Comment",
+                      "name": " from inside "
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Comment",
+              "name": " to above "
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "to",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Comment",
+                      "name": " to inside "
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "opacity",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

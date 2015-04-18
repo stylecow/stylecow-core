@@ -1,0 +1,33 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Charset",
+      "name": "charset",
+      "children": [
+        {
+          "class": "String",
+          "name": "UTF-8"
+        }
+      ]
+    },
+    {
+      "class": "Comment",
+      "name": " Set the encoding of the style sheet to Unicode UTF-8 "
+    },
+    {
+      "class": "Charset",
+      "name": "charset",
+      "children": [
+        {
+          "class": "String",
+          "name": "iso-8859-15"
+        }
+      ]
+    },
+    {
+      "class": "Comment",
+      "name": " Set the encoding of the style sheet to Latin-9 (Western European languages, with euro sign) "
+    }
+  ]
+}

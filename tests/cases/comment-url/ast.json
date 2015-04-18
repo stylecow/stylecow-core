@@ -1,0 +1,66 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Comment",
+      "name": " http://foo.com/bar/baz.html "
+    },
+    {
+      "class": "Comment",
+      "name": null
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "foo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Comment",
+              "name": "/"
+            },
+            {
+              "class": "Comment",
+              "name": " something "
+            },
+            {
+              "class": "Declaration",
+              "name": "bar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "baz",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Comment",
+              "name": " http://foo.com/bar/baz.html "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

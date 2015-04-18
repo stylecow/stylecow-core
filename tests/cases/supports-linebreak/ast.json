@@ -1,0 +1,84 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Supports",
+      "name": "supports",
+      "children": [
+        {
+          "class": "ConditionalSelector",
+          "children": [
+            {
+              "class": "ConditionalExpression",
+              "children": [
+                {
+                  "class": "ConditionalFeature",
+                  "name": "display",
+                  "vendor": null,
+                  "children": [
+                    {
+                      "class": "Value",
+                      "children": [
+                        {
+                          "class": "Keyword",
+                          "name": "flex",
+                          "vendor": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "ClassSelector",
+                          "name": "test"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "display",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "flex",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

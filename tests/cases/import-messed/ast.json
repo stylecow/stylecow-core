@@ -1,0 +1,192 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "fineprint.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "print",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "bluish.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "projection",
+                  "vendor": null
+                }
+              ]
+            },
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "tv",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "custom.css"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "common.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                }
+              ]
+            },
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "projection",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "landscape.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "class": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "orientation",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "landscape",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

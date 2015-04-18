@@ -1,0 +1,42 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Namespace",
+      "name": "namespace",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "http://www.w3.org/1999/xhtml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Namespace",
+      "name": "namespace",
+      "children": [
+        {
+          "class": "Keyword",
+          "name": "svg",
+          "vendor": null
+        },
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "http://www.w3.org/2000/svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Charset",
+      "name": "charset",
+      "children": [
+        {
+          "class": "String",
+          "name": "UTF-8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Namespace",
+      "name": "namespace",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "http://www.w3.org/1999/xhtml"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

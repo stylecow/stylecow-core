@@ -1,0 +1,109 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "CustomMedia",
+      "name": "custom-media",
+      "children": [
+        {
+          "class": "ExtensionName",
+          "name": "--narrow-window"
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "max-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "em",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 30
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "CustomMedia",
+      "name": "custom-media",
+      "children": [
+        {
+          "class": "ExtensionName",
+          "name": "--wide-window"
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "class": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "min-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "em",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 40
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

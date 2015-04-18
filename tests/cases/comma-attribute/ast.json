@@ -1,0 +1,799 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": "baz,quz"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foobar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Number",
+                      "name": 123
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "bar"
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "bar"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "baz",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": "qux,foo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "qux"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foobar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Number",
+                      "name": 456
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "baz"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": ",foo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "baz"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": "foo,"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "baz"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": "foo,bar,baz"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "baz"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": ",foo,bar,baz,"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "baz"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": " , foo , bar , baz , "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foobar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Number",
+                      "name": 789
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "qux"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "foo",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": "bar,baz"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "qux"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": "baz,foo"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "qux"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "foo",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": "foobar"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "qux"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "foo",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": ",bar,baz, "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foobar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Number",
+                      "name": 12
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "foo",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": " "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": ","
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": ", "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": " ,"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "bar",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": " , "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "baz",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": " "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": ","
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": ", "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": " ,"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "IdSelector",
+                  "name": "foo"
+                },
+                {
+                  "class": "AttributeSelector",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "qux",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Combinator",
+                      "name": "="
+                    },
+                    {
+                      "class": "String",
+                      "name": " , "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "foobar",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Number",
+                      "name": 345
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

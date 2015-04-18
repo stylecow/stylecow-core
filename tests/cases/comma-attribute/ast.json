@@ -467,7 +467,7 @@
                     },
                     {
                       "class": "String",
-                      "name": ""
+                      "name": null
                     }
                   ]
                 }
@@ -629,7 +629,7 @@
                     },
                     {
                       "class": "String",
-                      "name": ""
+                      "name": null
                     }
                   ]
                 }

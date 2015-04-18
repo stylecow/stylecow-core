@@ -23,8 +23,6 @@
   },
   "devDependencies": {
     "benchmark": "*",
-    "microtime": "*",
-    "assert-plus": "*",
-    "stylecow-parser": "1.*"
+    "microtime": "*"
   }
 }

@@ -76,7 +76,7 @@
                           "children": [
                             {
                               "class": "Number",
-                              "name": 0
+                              "name": null
                             }
                           ]
                         }

@@ -52,7 +52,7 @@
             },
             {
               "class": "Comment",
-              "name": ""
+              "name": null
             },
             {
               "class": "Declaration",

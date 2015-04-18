@@ -7692,7 +7692,7 @@ body.ar .media-not-displayed p, body.fa .media-not-displayed p, body.ur .media-n
 	background-color: #55acee;
 	left: 35px;
 	z-index: 1;
-	border-radius: 3px  /  7px;
+	border-radius: 3px / 7px;
 }
 .conversation-module > li:after {
 	top: 59px;

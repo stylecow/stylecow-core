@@ -5871,7 +5871,7 @@ body.yt-dialog-active {
 	-moz-transition-delay: 50ms;
 	transition-delay: 50ms;
 }
-.exp-anim-nav-transitions-slide-rows .home .spf-animate-old li:nth-child(1n  +  5) .item-section, .exp-anim-nav-transitions-slide-rows .search .spf-animate-old .item-section li:nth-child(1n  +  5) {
+.exp-anim-nav-transitions-slide-rows .home .spf-animate-old li:nth-child(1n + 5) .item-section, .exp-anim-nav-transitions-slide-rows .search .spf-animate-old .item-section li:nth-child(1n + 5) {
 	-webkit-transition-delay: 0ms;
 	-moz-transition-delay: 0ms;
 	transition-delay: 0ms;
@@ -5901,7 +5901,7 @@ body.yt-dialog-active {
 	-moz-transition-delay: 450ms;
 	transition-delay: 450ms;
 }
-.exp-anim-nav-transitions-slide-rows .home .spf-animate-new li:nth-child(1n  +  5) .item-section, .exp-anim-nav-transitions-slide-rows .search .spf-animate-new .item-section li:nth-child(1n  +  5) {
+.exp-anim-nav-transitions-slide-rows .home .spf-animate-new li:nth-child(1n + 5) .item-section, .exp-anim-nav-transitions-slide-rows .search .spf-animate-new .item-section li:nth-child(1n + 5) {
 	-webkit-transition-delay: 500ms;
 	-moz-transition-delay: 500ms;
 	transition-delay: 500ms;
@@ -6024,7 +6024,7 @@ body.yt-dialog-active {
 	-moz-transition-delay: 175ms;
 	transition-delay: 175ms;
 }
-.exp-anim-nav-transitions-fly-items .home .spf-animate-old li:nth-child(1n  +  7) .yt-lockup, .exp-anim-nav-transitions-fly-items .search .spf-animate-old li:nth-child(1n  +  7) .yt-lockup, .exp-anim-nav-transitions-fly-items .watch .spf-animate-old .related-list-item:nth-child(1n  +  7) {
+.exp-anim-nav-transitions-fly-items .home .spf-animate-old li:nth-child(1n + 7) .yt-lockup, .exp-anim-nav-transitions-fly-items .search .spf-animate-old li:nth-child(1n + 7) .yt-lockup, .exp-anim-nav-transitions-fly-items .watch .spf-animate-old .related-list-item:nth-child(1n + 7) {
 	-webkit-transition-delay: 200ms;
 	-moz-transition-delay: 200ms;
 	transition-delay: 200ms;
@@ -6064,7 +6064,7 @@ body.yt-dialog-active {
 	-moz-transition-delay: 425ms;
 	transition-delay: 425ms;
 }
-.exp-anim-nav-transitions-fly-items .home .spf-animate-new li:nth-child(1n  +  7) .yt-lockup, .exp-anim-nav-transitions-fly-items .search .spf-animate-new li:nth-child(1n  +  7) .yt-lockup, .exp-anim-nav-transitions-fly-items .watch .spf-animate-new .related-list-item:nth-child(1n  +  7) {
+.exp-anim-nav-transitions-fly-items .home .spf-animate-new li:nth-child(1n + 7) .yt-lockup, .exp-anim-nav-transitions-fly-items .search .spf-animate-new li:nth-child(1n + 7) .yt-lockup, .exp-anim-nav-transitions-fly-items .watch .spf-animate-new .related-list-item:nth-child(1n + 7) {
 	-webkit-transition-delay: 400ms;
 	-moz-transition-delay: 400ms;
 	transition-delay: 400ms;

@@ -324,7 +324,7 @@
 	height: 100%;
 	width: 100%;
 	color: #fff;
-	background: url("/images/modules/integrations/circuits@2x.png") center bottom  /  1780px 295px no-repeat transparent;
+	background: url("/images/modules/integrations/circuits@2x.png") center bottom / 1780px 295px no-repeat transparent;
 }
 .integrations-illustration-container .lead {
 	color: #0a4568;
@@ -335,7 +335,7 @@
 	text-decoration: underline;
 }
 .integrations-intro {
-	background: url("/images/modules/integrations/circuits-animated.gif") center 238px  /  500px 350px no-repeat #1781c0;
+	background: url("/images/modules/integrations/circuits-animated.gif") center 238px / 500px 350px no-repeat #1781c0;
 	padding-bottom: 0;
 }
 .integrations-intro .lead {
@@ -345,12 +345,12 @@
 	margin-bottom: 0;
 }
 .integrations-outro {
-	background: url("/images/modules/integrations/circuits-animated-flipped.gif") center -74px  /  350px 262px no-repeat #1781c0;
+	background: url("/images/modules/integrations/circuits-animated-flipped.gif") center -74px / 350px 262px no-repeat #1781c0;
 	padding-top: 0;
 	padding-bottom: 218px;
 }
 .integrations-outro .integrations-illustration-container {
-	background: url("/images/modules/integrations/circuits-flipped@2x.png") center top  /  1685px 174px no-repeat transparent;
+	background: url("/images/modules/integrations/circuits-flipped@2x.png") center top / 1685px 174px no-repeat transparent;
 	padding-top: 240px;
 }
 .btn.outro-button {
@@ -1579,7 +1579,7 @@ input.subnav-search-input-wide {
 }
 .boxed-group-list > li.approved:before {
 	margin-right: 5px;
-	font: normal normal 16px  /  1 "octicons";
+	font: normal normal 16px / 1 "octicons";
 	display: inline-block;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
@@ -1588,7 +1588,7 @@ input.subnav-search-input-wide {
 }
 .boxed-group-list > li.rejected:before {
 	margin-right: 5px;
-	font: normal normal 16px  /  1 "octicons";
+	font: normal normal 16px / 1 "octicons";
 	display: inline-block;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
@@ -9461,7 +9461,7 @@ a.added_href, a.changed_href, span.removed_href {
 	margin-bottom: 4%;
 	color: #fff;
 }
-.recommended-showcase-link:nth-child(2n  +  1) {
+.recommended-showcase-link:nth-child(2n + 1) {
 	margin-left: 4%;
 }
 .recommended-showcase {
@@ -12585,7 +12585,7 @@ li.session-device.session-current .mega-octicon {
 	top: -1px;
 	left: 10px;
 }
-.collection-card:nth-child(3n  +  3) {
+.collection-card:nth-child(3n + 3) {
 	margin-right: 0;
 }
 .collection-card-title {

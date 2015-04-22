@@ -17,14 +17,18 @@ stylecow.testCases(__dirname + '/cases', function (test) {
 });
 
 stylecow.testCases(__dirname + '/tests', function (test) {
-	describe('tests/' + test.name, function() {
+	if (test.name !== 'plus.google.com') {
+		return;
+	}
 
+	describe('tests/' + test.name, function() {
 		it('should match output.css', function() {
 			//test.write('output.css', test.css.toString());
 			assert.equal(test.css.toString(), test.read('output.css'));
 		});
 
 		it('should match ast.json', function() {
+			this.timeout(3000);
 			//test.writeJson('ast.json', test.css.toAst());
 			assert.deepEqual(test.css.toAst(), test.readJson('ast.json'));
 		});

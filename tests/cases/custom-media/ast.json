@@ -7,7 +7,7 @@
       "children": [
         {
           "class": "ExtensionName",
-          "name": "--narrow-window"
+          "name": "narrow-window"
         },
         {
           "class": "MediaQueries",
@@ -54,7 +54,7 @@
       "children": [
         {
           "class": "ExtensionName",
-          "name": "--wide-window"
+          "name": "wide-window"
         },
         {
           "class": "MediaQueries",

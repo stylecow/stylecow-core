@@ -7,7 +7,7 @@
       "children": [
         {
           "class": "ExtensionName",
-          "name": "--test"
+          "name": "test"
         },
         {
           "class": "MediaQueries",

@@ -157,7 +157,7 @@
                           "children": [
                             {
                               "class": "Number",
-                              "name": null
+                              "name": 0
                             },
                             {
                               "class": "Keyword",

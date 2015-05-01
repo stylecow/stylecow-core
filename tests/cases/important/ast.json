@@ -1,0 +1,248 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "width",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Bang",
+                  "name": "important"
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "black",
+                      "vendor": null
+                    }
+                  ]
+                },
+                {
+                  "class": "Bang",
+                  "name": "important"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "prop",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "important",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "red",
+                      "vendor": null
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "important",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "margin",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Bang",
+                  "name": "important"
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "padding",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 20
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Bang",
+                  "name": "important"
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "width",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Bang",
+                  "name": "important"
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "height",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 100
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Comment",
+                      "name": "! test "
+                    },
+                    {
+                      "class": "Keyword",
+                      "name": "important",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

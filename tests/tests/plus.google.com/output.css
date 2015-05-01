@@ -10695,7 +10695,7 @@ a, a#visited {
 	color: #737373;
 }
 .S0WGG:before {
-	content: "\0000b7";
+	content: "0000b7";
 	margin: 0 1ex;
 }
 .FNc .Slc, .c4a .Slc, .Uc .Slc {
@@ -25001,7 +25001,7 @@ div.a-La-Cc {
 	content: "";
 }
 .fVb .IQa:before {
-	content: " \0000b7\0000a0";
+	content: " 0000b70000a0";
 }
 .eVb .USb {
 	width: 100%;
@@ -40986,7 +40986,7 @@ div.jUa div.ELb {
 	background-color: transparent;
 	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 10px);
 	background-image: linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 10px);
-	content: "\002026";
+	content: "002026";
 	float: right;
 	height: 34px;
 	left: 100%;

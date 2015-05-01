@@ -17,10 +17,6 @@ stylecow.testCases(__dirname + '/cases', function (test) {
 });
 
 stylecow.testCases(__dirname + '/tests', function (test) {
-	if (test.name !== 'plus.google.com') {
-		return;
-	}
-
 	describe('tests/' + test.name, function() {
 		it('should match output.css', function() {
 			//test.write('output.css', test.css.toString());
@@ -28,7 +24,7 @@ stylecow.testCases(__dirname + '/tests', function (test) {
 		});
 
 		it('should match ast.json', function() {
-			this.timeout(3000);
+			this.timeout(6000);
 			//test.writeJson('ast.json', test.css.toAst());
 			assert.deepEqual(test.css.toAst(), test.readJson('ast.json'));
 		});

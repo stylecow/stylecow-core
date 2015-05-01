@@ -769,278 +769,278 @@ hr {
 	line-height: 1;
 }
 .Icon--add:before {
-	content: "\f183";
+	content: "f183";
 }
 .Icon--arrowUp:before {
-	content: "\f188";
+	content: "f188";
 }
 .Icon--atSymbol:before {
-	content: "\f050";
+	content: "f050";
 }
 .Icon--audioBadge:before {
-	content: "\f311";
+	content: "f311";
 }
 .Icon--bird:before {
-	content: "\f179";
+	content: "f179";
 }
 .Icon--camera:before {
-	content: "\f027";
+	content: "f027";
 }
 .Icon--cameraPlus:before {
-	content: "\f111";
+	content: "f111";
 }
 .Icon--caretDown:before {
-	content: "\f181";
+	content: "f181";
 }
 .Icon--caretLeft:before {
-	content: "\f172";
+	content: "f172";
 }
 .Icon--caretRight:before {
-	content: "\f173";
+	content: "f173";
 }
 .Icon--caretUp:before {
-	content: "\f181";
+	content: "f181";
 	-webkit-transform: scaleY(-1);
 	-ms-transform: scaleY(-1);
 	transform: scaleY(-1);
 	-ms-filter: "FlipV";
 }
 .Icon--cvv:before {
-	content: "\f402";
+	content: "f402";
 }
 .Icon--check:before {
-	content: "\f170";
+	content: "f170";
 }
 .Icon--clock:before {
-	content: "\f177";
+	content: "f177";
 }
 .Icon--close:before {
-	content: "\f045";
+	content: "f045";
 }
 .Icon--cog:before {
-	content: "\f059";
+	content: "f059";
 }
 .Icon--cogWithCaret:before {
-	content: "\f124";
+	content: "f124";
 }
 .Icon--collapseTweets:before {
-	content: "\f051";
+	content: "f051";
 }
 .Icon--collections:before {
-	content: "\f008";
+	content: "f008";
 }
 .Icon--conversation:before {
-	content: "\f157";
+	content: "f157";
 }
 .Icon--creditCard:before {
-	content: "\f401";
+	content: "f401";
 }
 .Icon--delete:before {
-	content: "\f154";
+	content: "f154";
 }
 .Icon--dm:before {
-	content: "\f054";
+	content: "f054";
 }
 .Icon--dmCompose:before {
-	content: "\f035";
+	content: "f035";
 }
 .Icon--discover:before {
-	content: "\f052";
+	content: "f052";
 }
 .Icon--dots:before {
-	content: "\f150";
+	content: "f150";
 }
 .Icon--download:before {
-	content: "\f185";
+	content: "f185";
 }
 .Icon--editPencil:before {
-	content: "\f112";
+	content: "f112";
 }
 .Icon--envelope:before {
-	content: "\f187";
+	content: "f187";
 }
 .Icon--device:before {
-	content: "\f085";
+	content: "f085";
 }
 .Icon--tablet:before {
-	content: "\f086";
+	content: "f086";
 }
 .Icon--desktop:before {
-	content: "\f087";
+	content: "f087";
 }
 .Icon--fail:before {
-	content: "\f000";
+	content: "f000";
 }
 .Icon--favorite:before {
-	content: "\f147";
+	content: "f147";
 }
 .Icon--favorited:before {
-	content: "\f001";
+	content: "f001";
 }
 .Icon--filter:before {
-	content: "\f138";
+	content: "f138";
 }
 .Icon--follow:before {
-	content: "\f175";
+	content: "f175";
 }
 .Icon--follower:before {
-	content: "\f002";
+	content: "f002";
 }
 .Icon--following:before {
-	content: "\f176";
+	content: "f176";
 }
 .Icon--geo:before {
-	content: "\f031";
+	content: "f031";
 }
 .Icon--geoBadge:before {
-	content: "\f010";
+	content: "f010";
 }
 .Icon--gifBadge:before {
-	content: "\f309";
+	content: "f309";
 }
 .Icon--grid:before {
-	content: "\f046";
+	content: "f046";
 }
 .Icon--home:before {
-	content: "\f053";
+	content: "f053";
 }
 .Icon--lifeline:before {
-	content: "\f026";
+	content: "f026";
 }
 .Icon--lifelineBadge:before {
-	content: "\f000";
+	content: "f000";
 }
 .Icon--list:before {
-	content: "\f094";
+	content: "f094";
 }
 .Icon--listBadge:before {
-	content: "\f012";
+	content: "f012";
 }
 .Icon--logo:before {
-	content: "\f179";
+	content: "f179";
 }
 .Icon--markAllRead:before {
-	content: "\f036";
+	content: "f036";
 }
 .Icon--me:before {
-	content: "\f056";
+	content: "f056";
 }
 .Icon--media:before {
-	content: "\f159";
+	content: "f159";
 }
 .Icon--mediafill:before {
-	content: "\f032";
+	content: "f032";
 }
 .Icon--mediaplay:before {
-	content: "\f040";
+	content: "f040";
 }
 .Icon--message:before {
-	content: "\f054";
+	content: "f054";
 }
 .Icon--muted:before {
-	content: "\f101";
+	content: "f101";
 }
 .Icon--notifications:before {
-	content: "\f055";
+	content: "f055";
 }
 .Icon--notificationsDisabled:before {
-	content: "\f037";
+	content: "f037";
 }
 .Icon--newsBadge:before {
-	content: "\f009";
+	content: "f009";
 }
 .Icon--person:before {
-	content: "\f056";
+	content: "f056";
 }
 .Icon--photo:before {
-	content: "\f158";
+	content: "f158";
 }
 .Icon--pinned:before {
-	content: "\f003";
+	content: "f003";
 }
 .Icon--political:before {
-	content: "\f004";
+	content: "f004";
 }
 .Icon--promoted:before {
-	content: "\f004";
+	content: "f004";
 }
 .Icon--promotedTrend:before {
-	content: "\f011";
+	content: "f011";
 }
 .Icon--protected:before {
-	content: "\f096";
+	content: "f096";
 }
 .Icon--refresh:before {
-	content: "\f189";
+	content: "f189";
 }
 .Icon--reply:before {
-	content: "\f151";
+	content: "f151";
 }
 .Icon--report:before {
-	content: "\e609";
+	content: "e609";
 }
 .Icon--retweet:before {
-	content: "\f152";
+	content: "f152";
 }
 .Icon--retweeted:before {
-	content: "\f006";
+	content: "f006";
 }
 .Icon--search:before {
-	content: "\f058";
+	content: "f058";
 }
 .Icon--share:before {
-	content: "\f185";
+	content: "f185";
 }
 .Icon--summary:before {
-	content: "\f156";
+	content: "f156";
 }
 .Icon--top:before {
-	content: "\f007";
+	content: "f007";
 }
 .Icon--translator:before {
-	content: "\f089";
+	content: "f089";
 }
 .Icon--truck:before {
-	content: "\f400";
+	content: "f400";
 }
 .Icon--tweet:before {
-	content: "\f029";
+	content: "f029";
 }
 .Icon--unfollow:before {
-	content: "\f097";
+	content: "f097";
 }
 .Icon--unmuted:before {
-	content: "\f101";
+	content: "f101";
 }
 .Icon--url:before {
-	content: "\f098";
+	content: "f098";
 }
 .Icon--verified:before {
-	content: "\f099";
+	content: "f099";
 }
 .Icon--vineBadge:before {
-	content: "\f310";
+	content: "f310";
 }
 .Icon--warning:before {
-	content: "\f182";
+	content: "f182";
 }
 .Icon--smileyLayer1:before {
-	content: "\f032";
+	content: "f032";
 }
 .Icon--smileyLayer2:before {
-	content: "\f033";
+	content: "f033";
 }
 .Icon--cards:before {
-	content: "\f402";
+	content: "f402";
 }
 .Icon--analytics:before {
-	content: "\f200";
+	content: "f200";
 }
 .Icon--chevronDown:before {
-	content: "\f202";
+	content: "f202";
 }
 .Icon--chevronUp:before {
-	content: "\f201";
+	content: "f201";
 }
 .Icon--fail {
 	color: red;
@@ -3643,7 +3643,7 @@ html, body, #doc, #page-outer {
 	color: #0084b4;
 }
 #global-actions .new:before {
-	content: "\25CF";
+	content: "25CF";
 	font-size: 14px;
 	left: 5px;
 	position: absolute;
@@ -6381,7 +6381,7 @@ li.stream-item.highlighted {
 	color: #8899a6;
 }
 .tweet .time:before {
-	content: "\00b7";
+	content: "00b7";
 }
 .rtl .tweet .time {
 	display: inline-block;

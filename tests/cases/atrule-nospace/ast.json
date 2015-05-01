@@ -1,0 +1,21 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "test.css"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

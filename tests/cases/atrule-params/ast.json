@@ -1,0 +1,26 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Document",
+      "name": "document",
+      "vendor": "moz",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "example.com/{"
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

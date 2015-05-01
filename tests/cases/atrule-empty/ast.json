@@ -1,0 +1,16 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "AtRule",
+      "name": "page",
+      "vendor": null,
+      "children": [
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

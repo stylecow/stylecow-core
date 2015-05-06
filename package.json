@@ -1,7 +1,7 @@
 {
   "name": "stylecow-parser",
   "description": "Parse CSS to stylecow's AST",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "author": "Oscar Otero <oom@oscarotero.com>",
   "homepage": "https://github.com/stylecow/stylecow-parser",
   "bugs": "https://github.com/stylecow/stylecow-parser/issues",

@@ -1,4 +1,5 @@
 a::before {
     content: ";'@ /**/\"";
     content: '\'"\\';
+    content: "\f1234";
 }

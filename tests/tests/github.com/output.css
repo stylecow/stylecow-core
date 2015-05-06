@@ -1583,7 +1583,7 @@ input.subnav-search-input-wide {
 	display: inline-block;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
-	content: "f03a";
+	content: "\f03a";
 	color: #5ec051;
 }
 .boxed-group-list > li.rejected:before {
@@ -1592,7 +1592,7 @@ input.subnav-search-input-wide {
 	display: inline-block;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
-	content: "f050";
+	content: "\f050";
 	color: #bc0000;
 }
 .boxed-group-list > li.rejected a {
@@ -2578,7 +2578,7 @@ input.subnav-search-input-wide {
 }
 #bt-pp-cancel:before {
 	font-size: 16px !important;
-	content: "f081";
+	content: "\f081";
 }
 .payment-history .no-payments {
 	margin: 0;
@@ -5698,7 +5698,7 @@ a.task-progress:hover .progress-bar .progress {
 	background-color: #ccc;
 }
 .ellipsis-button:before {
-	content: "2026";
+	content: "\2026";
 }
 .oauth-permissions-details {
 	position: relative;
@@ -8663,7 +8663,7 @@ body.page-profile .user-actions {
 }
 .prose-diff.collapsed .rich-diff-level-zero.expandable:before {
 	font-family: "octicons";
-	content: "f039";
+	content: "\f039";
 	color: #d3d3d3;
 	display: block;
 	text-align: center;
@@ -8762,12 +8762,12 @@ body.page-profile .user-actions {
 }
 .prose-diff > .markdown-body li.added.moved-up:before {
 	font-family: "octicons";
-	content: "f03d ";
+	content: "\f03d ";
 	color: #d3d3d3;
 }
 .prose-diff > .markdown-body li.added.moved-down:before {
 	font-family: "octicons";
-	content: "f03f ";
+	content: "\f03f ";
 	color: #d3d3d3;
 }
 .prose-diff > .markdown-body li.added.moved {
@@ -11570,7 +11570,7 @@ table.security-history-detail td {
 	line-height: 1.1;
 }
 .two-factor-recovery-code::before {
-	content: "25a1";
+	content: "\25a1";
 	font-size: 26px;
 	margin-right: 10px;
 	color: #eaeaea;
@@ -13082,7 +13082,7 @@ input.tree-finder-input, input.tree-finder-input:focus {
 	font-size: 1.2em;
 	line-height: 1;
 	color: #aaa;
-	content: "231e";
+	content: "\231e";
 }
 #user-content-toc ul ul ul {
 	padding-left: 0.9em;

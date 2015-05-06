@@ -52,7 +52,23 @@
                   "children": [
                     {
                       "class": "String",
-                      "name": "'\"\\"
+                      "name": "'\"\\\\"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "content",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "String",
+                      "name": "\\f1234"
                     }
                   ]
                 }

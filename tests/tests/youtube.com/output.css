@@ -961,7 +961,7 @@ body #sb-wrapper {
 	position: absolute;
 }
 .yt-ui-ellipsis::before {
-	content: "002026";
+	content: "\002026";
 	right: 0;
 }
 .yt-ui-ellipsis::after {
@@ -1004,7 +1004,7 @@ body #sb-wrapper {
 	content: initial;
 }
 .webkit .yt-ui-ellipsis::after {
-	content: "00200c";
+	content: "\00200c";
 	position: static;
 	visibility: hidden;
 }
@@ -1616,7 +1616,7 @@ button.yt-close {
 	*zoom: 1;
 }
 .yt-lockup-meta-info > li:before {
-	content: "002022";
+	content: "\002022";
 	margin: 0 5px;
 }
 .yt-lockup-meta-info > li:first-child:before {
@@ -8247,7 +8247,7 @@ html[data-player-size="fullscreen"] .player-api {
 	display: inline-block;
 }
 #watch-appbar-playlist .playlist-details > li:after {
-	content: "002022";
+	content: "\002022";
 }
 #watch-appbar-playlist .playlist-details > li:last-child:after {
 	content: "";

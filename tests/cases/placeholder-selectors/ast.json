@@ -1,0 +1,134 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "PlaceholderSelector",
+                  "name": "media-block"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "overflow",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "auto",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "PlaceholderSelector",
+                  "name": "media-block"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "img"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "float",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "left",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "ClassSelector",
+                  "name": "image-post"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Extend",
+              "name": "extend",
+              "children": [
+                {
+                  "class": "Selector",
+                  "children": [
+                    {
+                      "class": "PlaceholderSelector",
+                      "name": "media-block"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -187,6 +187,59 @@
           ]
         }
       ]
+    },
+    {
+      "class": "Import",
+      "name": "import",
+      "children": [
+        {
+          "class": "Function",
+          "name": "url",
+          "children": [
+            {
+              "class": "String",
+              "name": "other.css"
+            }
+          ]
+        },
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "min-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 30
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -3,3 +3,4 @@
 @import url("custom.css");
 @import url("common.css") screen, projection;
 @import url("landscape.css") screen and (orientation: landscape);
+@import url("other.css") (min-width: 30px);

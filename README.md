@@ -1,6 +1,7 @@
 stylecow parser
 ===============
 
-Css parser used by stylecow.
+Fast css parser.
 
-[Docs](https://stylecow.github.io/docs.html) and [API](https://stylecow.github.io/api.html)
+* [See the wiki](https://github.com/stylecow/stylecow-parser/wiki) for more documentation
+* [Stylecow home page](http://stylecow.github.io/)

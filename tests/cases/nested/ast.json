@@ -1,0 +1,124 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "ul"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "margin-bottom",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "em",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "Combinator",
+                          "name": ">"
+                        },
+                        {
+                          "class": "TypeSelector",
+                          "name": "li"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Rule",
+                      "children": [
+                        {
+                          "class": "Selectors",
+                          "children": [
+                            {
+                              "class": "Selector",
+                              "children": [
+                                {
+                                  "class": "Combinator",
+                                  "name": "&"
+                                },
+                                {
+                                  "class": "PseudoElement",
+                                  "name": "after",
+                                  "vendor": null
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Block",
+                          "children": [
+                            {
+                              "class": "Declaration",
+                              "name": "content",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "String",
+                                      "name": ""
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

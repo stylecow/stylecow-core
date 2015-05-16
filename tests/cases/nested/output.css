@@ -1,0 +1,8 @@
+ul {
+	margin-bottom: 2em;
+	 > li {
+		&::after {
+			content: "";
+		}
+	}
+}

@@ -1,0 +1,360 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "table"
+                },
+                {
+                  "class": "ClassSelector",
+                  "name": "colortable"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "TypeSelector",
+                          "name": "td"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "text-align",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "center",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Rule",
+                      "children": [
+                        {
+                          "class": "Selectors",
+                          "children": [
+                            {
+                              "class": "Selector",
+                              "children": [
+                                {
+                                  "class": "Combinator",
+                                  "name": "&"
+                                },
+                                {
+                                  "class": "ClassSelector",
+                                  "name": "c"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Block",
+                          "children": [
+                            {
+                              "class": "Declaration",
+                              "name": "text-transform",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Keyword",
+                                      "name": "uppercase",
+                                      "vendor": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Rule",
+                      "children": [
+                        {
+                          "class": "Selectors",
+                          "children": [
+                            {
+                              "class": "Selector",
+                              "children": [
+                                {
+                                  "class": "Combinator",
+                                  "name": "&"
+                                },
+                                {
+                                  "class": "PseudoClass",
+                                  "name": "first-child",
+                                  "vendor": null
+                                }
+                              ]
+                            },
+                            {
+                              "class": "Selector",
+                              "children": [
+                                {
+                                  "class": "Combinator",
+                                  "name": "&"
+                                },
+                                {
+                                  "class": "PseudoClass",
+                                  "name": "first-child",
+                                  "vendor": null
+                                },
+                                {
+                                  "class": "Combinator",
+                                  "name": "+"
+                                },
+                                {
+                                  "class": "TypeSelector",
+                                  "name": "td"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Block",
+                          "children": [
+                            {
+                              "class": "Declaration",
+                              "name": "border",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "class": "Value",
+                                  "children": [
+                                    {
+                                      "class": "Unit",
+                                      "name": "px",
+                                      "children": [
+                                        {
+                                          "class": "Number",
+                                          "name": 1
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "class": "Keyword",
+                                      "name": "solid",
+                                      "vendor": null
+                                    },
+                                    {
+                                      "class": "Keyword",
+                                      "name": "black",
+                                      "vendor": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "TypeSelector",
+                          "name": "th"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "text-align",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "center",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "background",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "black",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "white",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            },
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Rule",
+              "children": [
+                {
+                  "class": "Selectors",
+                  "children": [
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "ClassSelector",
+                          "name": "keyword"
+                        }
+                      ]
+                    },
+                    {
+                      "class": "Selector",
+                      "children": [
+                        {
+                          "class": "ClassSelector",
+                          "name": "constant"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Block",
+                  "children": [
+                    {
+                      "class": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Keyword",
+                              "name": "red",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

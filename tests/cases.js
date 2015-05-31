@@ -18,24 +18,30 @@ stylecow.testCases(__dirname + '/cases', function (test) {
 
 stylecow.testCases(__dirname + '/tests', function (test) {
 	describe('tests/' + test.name, function() {
+		this.timeout(6000);
+
 		it('should match output.css', function() {
 			//test.write('output.css', test.css.toString());
 			assert.equal(test.css.toString(), test.read('output.css'));
 		});
 
 		it('should match ast.json', function() {
-			this.timeout(6000);
 			//test.writeJson('ast.json', test.css.toAst());
 			assert.deepEqual(test.css.toAst(), test.readJson('ast.json'));
 		});
 
+		it('should match output.normal.css', function() {
+			var coder = new stylecow.Coder(test.css, {style: 'normal'});
+
+			//test.write('output.normal.css', coder.code);
+			assert.equal(test.normalize(coder.code), test.read('output.normal.css'));
+		});
+
 		it('should match output.min.css', function() {
-			var coder = new stylecow.Coder(test.css, {
-				style: 'minify'
-			});
+			var coder = new stylecow.Coder(test.css, {style: 'minify'});
 
 			//test.write('output.min.css', coder.code);
-			assert.equal(coder.code, test.read('output.min.css'));
+			assert.equal(test.normalize(coder.code), test.read('output.min.css'));
 		});
 	});
 });

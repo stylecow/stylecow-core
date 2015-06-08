@@ -1871,31 +1871,31 @@ div._4746 {
 	width: 100%;
 	z-index: 199;
 }
-._5p3y[dir='ltr'],
-._5p3y[dir='ltr'] button,
-._5p3y[dir='ltr'] input,
-._5p3y[dir='ltr'] label,
-._5p3y[dir='ltr'] select,
-._5p3y[dir='ltr'] td,
-._5p3y[dir='ltr'] textarea,
-._5p3y[dir='ltr'] .uiMentionsInput .highlighter,
-._5p3y[dir='ltr'] .uiButtonText,
-._5p3y[dir='ltr'] .uiButton input,
-._5p3y[dir='ltr'] .uiLinkButton input,
-._5p3y[dir='ltr'] button.as_link,
-._5p3y[dir='ltr'] .fbChatSidebar,
-._5p3y[dir='ltr'] .fbDock,
-._5p3y[dir='ltr'] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage,
-._5p3y[dir='ltr'] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5,
-._5p3y[dir='ltr'] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6,
-._5p3y[dir='ltr'] .tickerDialogContent .uiStream .uiStreamMessage,
-._5p3y[dir='ltr'] .tickerDialogContent .uiStream .text_exposed_link,
-._5p3y[dir='ltr'] .uiTooltipX .tooltipContent,
-._5p3y[dir='ltr'] a[role='button'],
-._5p3y[dir='rtl'] *[dir='ltr'] {
+._5p3y[dir = 'ltr'],
+._5p3y[dir = 'ltr'] button,
+._5p3y[dir = 'ltr'] input,
+._5p3y[dir = 'ltr'] label,
+._5p3y[dir = 'ltr'] select,
+._5p3y[dir = 'ltr'] td,
+._5p3y[dir = 'ltr'] textarea,
+._5p3y[dir = 'ltr'] .uiMentionsInput .highlighter,
+._5p3y[dir = 'ltr'] .uiButtonText,
+._5p3y[dir = 'ltr'] .uiButton input,
+._5p3y[dir = 'ltr'] .uiLinkButton input,
+._5p3y[dir = 'ltr'] button.as_link,
+._5p3y[dir = 'ltr'] .fbChatSidebar,
+._5p3y[dir = 'ltr'] .fbDock,
+._5p3y[dir = 'ltr'] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage,
+._5p3y[dir = 'ltr'] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5,
+._5p3y[dir = 'ltr'] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6,
+._5p3y[dir = 'ltr'] .tickerDialogContent .uiStream .uiStreamMessage,
+._5p3y[dir = 'ltr'] .tickerDialogContent .uiStream .text_exposed_link,
+._5p3y[dir = 'ltr'] .uiTooltipX .tooltipContent,
+._5p3y[dir = 'ltr'] a[role = 'button'],
+._5p3y[dir = 'rtl'] *[dir = 'ltr'] {
 	font-family: helvetica, arial, 'lucida grande', sans-serif;
 }
-._5p3y[dir='ltr'] *[dir='rtl'] {
+._5p3y[dir = 'ltr'] *[dir = 'rtl'] {
 	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
 }
 ._5p3y,
@@ -8028,8 +8028,8 @@ html ._59_m._1tp7 {
 	right: 7px;
 	top: 11px;
 }
-.ie10 ._4ehf input[type='text']::-ms-clear,
-.ie11 ._4ehf input[type='text']::-ms-clear {
+.ie10 ._4ehf input[type = 'text']::-ms-clear,
+.ie11 ._4ehf input[type = 'text']::-ms-clear {
 	display: none;
 }
 html ._wrn._1tp7 {

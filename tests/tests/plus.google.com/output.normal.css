@@ -20288,7 +20288,7 @@ input.a-ie-L {
 	margin: 0;
 	border: 0;
 }
-.a-mz-Go[aria-selected='true'] {
+.a-mz-Go[aria-selected = 'true'] {
 	background-color: #fff;
 	border-color: #4d90fe;
 	-ms-filter: 'alpha(opacity=100)';

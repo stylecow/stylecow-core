@@ -12,6 +12,101 @@
               "class": "MediaQuery",
               "children": [
                 {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeature",
+                      "name": "min-width",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "class": "Number",
+                                  "name": 300
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "class": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeatureBoolean",
+                      "name": "scripts"
+                    }
+                  ]
+                },
+                {
+                  "class": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "class": "ConditionalExpression",
+                  "children": [
+                    {
+                      "class": "ConditionalFeatureRange",
+                      "children": [
+                        {
+                          "class": "Keyword",
+                          "name": "width",
+                          "vendor": null
+                        },
+                        {
+                          "class": "Comparator",
+                          "name": ">="
+                        },
+                        {
+                          "class": "Unit",
+                          "name": "px",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 300
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Media",
+      "name": "media",
+      "children": [
+        {
+          "class": "MediaQueries",
+          "children": [
+            {
+              "class": "MediaQuery",
+              "children": [
+                {
                   "class": "Keyword",
                   "name": "screen",
                   "vendor": null

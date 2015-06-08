@@ -1144,7 +1144,7 @@ body #sb-wrapper {
 	position: static;
 	visibility: hidden;
 }
-.yt-ui-ellipsis[dir='rtl']::before {
+.yt-ui-ellipsis[dir = 'rtl']::before {
 	left: 0;
 	right: auto;
 }
@@ -4165,7 +4165,7 @@ body .yt-uix-form-input-select-disabled {
 	overflow: hidden;
 	vertical-align: middle;
 }
-.yt-uix-checkbox-on-off input[type='checkbox'] {
+.yt-uix-checkbox-on-off input[type = 'checkbox'] {
 	position: absolute;
 	opacity: 0;
 }
@@ -4193,13 +4193,13 @@ body .yt-uix-form-input-select-disabled {
 .yt-uix-checkbox-on-off label .checked {
 	display: none;
 }
-.yt-uix-checkbox-on-off input[type='checkbox']:checked + label {
+.yt-uix-checkbox-on-off input[type = 'checkbox']:checked + label {
 	background-color: #167ac6;
 }
-.yt-uix-checkbox-on-off input[type='checkbox']:checked + label .unchecked {
+.yt-uix-checkbox-on-off input[type = 'checkbox']:checked + label .unchecked {
 	display: none;
 }
-.yt-uix-checkbox-on-off input[type='checkbox']:checked + label .checked {
+.yt-uix-checkbox-on-off input[type = 'checkbox']:checked + label .checked {
 	display: inline-block;
 	margin-top: 3px;
 	margin-left: 6px;
@@ -4208,7 +4208,7 @@ body .yt-uix-form-input-select-disabled {
 	width: 10px;
 	height: 7px;
 }
-.yt-uix-checkbox-on-off input[type='checkbox']:checked + label .toggle {
+.yt-uix-checkbox-on-off input[type = 'checkbox']:checked + label .toggle {
 	float: right;
 }
 .yt-uix-checkbox-on-off.large {
@@ -4223,7 +4223,7 @@ body .yt-uix-form-input-select-disabled {
 	height: 22px;
 	border-radius: 22px;
 }
-.yt-uix-checkbox-on-off.large input[type='checkbox']:checked + label .checked {
+.yt-uix-checkbox-on-off.large input[type = 'checkbox']:checked + label .checked {
 	margin-top: 7px;
 	margin-left: 11px;
 }
@@ -5211,25 +5211,25 @@ body.yt-dialog-active {
 #live-comments-controls .comments-approval-hold-warning .yt-alert {
 	margin: 10px 0 0;
 }
-#watch-live-comments .comments-textarea[dir='ltr'] {
+#watch-live-comments .comments-textarea[dir = 'ltr'] {
 	padding: 4px 6px 4px 30px;
 }
-#watch-live-comments .comments-textarea[dir='rtl'] {
+#watch-live-comments .comments-textarea[dir = 'rtl'] {
 	padding: 4px 30px 4px 6px;
 }
-#watch-live-comments .comments-textarea[dir='ltr'] + .emoji-picker-container {
+#watch-live-comments .comments-textarea[dir = 'ltr'] + .emoji-picker-container {
 	left: 0;
 	right: auto;
 }
-#watch-live-comments .comments-textarea[dir='rtl'] + .emoji-picker-container {
+#watch-live-comments .comments-textarea[dir = 'rtl'] + .emoji-picker-container {
 	left: auto;
 	right: 0;
 }
-#watch-live-comments .comments-textarea[dir='ltr'] + .emoji-picker-container .yt-uix-menu-trigger {
+#watch-live-comments .comments-textarea[dir = 'ltr'] + .emoji-picker-container .yt-uix-menu-trigger {
 	left: 4px;
 	right: auto;
 }
-#watch-live-comments .comments-textarea[dir='rtl'] + .emoji-picker-container .yt-uix-menu-trigger {
+#watch-live-comments .comments-textarea[dir = 'rtl'] + .emoji-picker-container .yt-uix-menu-trigger {
 	left: auto;
 	right: 4px;
 }
@@ -6006,7 +6006,7 @@ body.yt-dialog-active {
 .comments.embedded .mod-button:hover {
 	background-color: inherit;
 }
-.comments.embedded .mod-button[data-action='flag'] {
+.comments.embedded .mod-button[data-action = 'flag'] {
 	opacity: 0;
 }
 .comments.embedded .comment-item:hover .mod-button {
@@ -8647,7 +8647,7 @@ button.nudge-right .nudge-right-icon {
 .player-api {
 	background: #000;
 }
-html[data-player-size='fullscreen'] .player-api {
+html[data-player-size = 'fullscreen'] .player-api {
 	z-index: 100;
 }
 .player-api object,
@@ -8917,11 +8917,11 @@ html[data-player-size='fullscreen'] .player-api {
 .watch7-interstitial-button {
 	margin-top: 15px;
 }
-.playlist[data-autoplay-countdown='1'] .autoplay-notification-1,
-.playlist[data-autoplay-countdown='2'] .autoplay-notification-2,
-.playlist[data-autoplay-countdown='3'] .autoplay-notification-3,
-.playlist[data-autoplay-countdown='4'] .autoplay-notification-4,
-.playlist[data-autoplay-countdown='5'] .autoplay-notification-5 {
+.playlist[data-autoplay-countdown = '1'] .autoplay-notification-1,
+.playlist[data-autoplay-countdown = '2'] .autoplay-notification-2,
+.playlist[data-autoplay-countdown = '3'] .autoplay-notification-3,
+.playlist[data-autoplay-countdown = '4'] .autoplay-notification-4,
+.playlist[data-autoplay-countdown = '5'] .autoplay-notification-5 {
 	display: inline;
 }
 .yt-uix-button-playlist-remove-item {

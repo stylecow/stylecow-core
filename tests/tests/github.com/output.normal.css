@@ -4595,7 +4595,7 @@ body.split-diff .new-pr-form .discussion-sidebar {
 	padding: 0;
 	min-width: 80px;
 }
-#gollum-dialog-dialog-body fieldset input[type='text'] {
+#gollum-dialog-dialog-body fieldset input[type = 'text'] {
 	display: block;
 	margin: 3px 0 0;
 	width: 100%;
@@ -4953,7 +4953,7 @@ a.gollum-minibutton:visited:hover {
 	line-height: 1.1;
 	font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 }
-.hook-delivery-response-status[data-response-status^='2'] {
+.hook-delivery-response-status[data-response-status ^= '2'] {
 	background-color: #6cc644;
 }
 .redelivery-dialog .pending-message {
@@ -7789,7 +7789,7 @@ a.task-progress:hover .progress-bar .progress {
 .org-team-privacy {
 	padding-left: 40px;
 }
-.org-team-privacy input[type='checkbox'] {
+.org-team-privacy input[type = 'checkbox'] {
 	margin-left: -40px;
 }
 .org-team-privacy .octicon-lock {
@@ -9403,11 +9403,11 @@ span.removed_href {
 	padding: 30px;
 	border-radius: 0;
 }
-.file #readme table[data-table-type='yaml-metadata'] {
+.file #readme table[data-table-type = 'yaml-metadata'] {
 	line-height: 1;
 	font-size: 12px;
 }
-.file #readme table[data-table-type='yaml-metadata'] table {
+.file #readme table[data-table-type = 'yaml-metadata'] table {
 	margin: 0;
 }
 .user-recommendations-header {
@@ -9441,7 +9441,7 @@ span.removed_href {
 	font-size: 17px;
 	font-weight: bold;
 }
-.user-interests-input[type='text'] {
+.user-interests-input[type = 'text'] {
 	width: 100%;
 	min-height: 40px;
 	font-size: 16px;
@@ -10145,7 +10145,7 @@ span.removed_href {
 	font-size: 12px;
 	color: #999;
 }
-.uploaded-files input[type='text'] {
+.uploaded-files input[type = 'text'] {
 	width: 490px;
 	margin-right: 6px;
 	padding: 2px 4px;
@@ -11632,7 +11632,7 @@ li.ssh-key .ssh-key-icon {
 	font-size: 12px;
 	line-height: 25px;
 }
-.callback-urls dl dd input[type='text'] {
+.callback-urls dl dd input[type = 'text'] {
 	width: 100%;
 }
 .callback-urls.has-many .callback-url-action-cell {
@@ -11718,10 +11718,10 @@ li.ssh-key .ssh-key-icon {
 .boxed-group.application-show-group .has-uploaded-logo .logo-box img {
 	display: block;
 }
-.boxed-group.application-show-group dl.form > dd input[type='text'].wide {
+.boxed-group.application-show-group dl.form > dd input[type = 'text'].wide {
 	width: 460px;
 }
-.boxed-group.application-show-group dl.form > dd input[type='textarea'].short {
+.boxed-group.application-show-group dl.form > dd input[type = 'textarea'].short {
 	height: 50px;
 	min-height: 50px;
 }
@@ -12038,7 +12038,7 @@ only screen and (min-resolution: 2dppx) {
 	padding-bottom: 4px;
 	margin-right: 5px;
 }
-.two-factor-setup-container .select-menu .btn-sm input[type='radio'],
+.two-factor-setup-container .select-menu .btn-sm input[type = 'radio'],
 .two-factor-setup-container .select-menu .btn-sm .country {
 	display: none;
 }
@@ -12628,14 +12628,14 @@ li.session-device.session-current .mega-octicon {
 .setup-form {
 	padding-bottom: 15px;
 }
-.setup-form .form dd input[type='text'],
-.setup-form .form dd input[type='password'],
-.setup-form .form dd input[type='email'] {
+.setup-form .form dd input[type = 'text'],
+.setup-form .form dd input[type = 'password'],
+.setup-form .form dd input[type = 'email'] {
 	width: 100%;
 }
-.setup-form .form dd input[type='text'].short,
-.setup-form .form dd input[type='password'].short,
-.setup-form .form dd input[type='email'].short {
+.setup-form .form dd input[type = 'text'].short,
+.setup-form .form dd input[type = 'password'].short,
+.setup-form .form dd input[type = 'email'].short {
 	width: 250px;
 }
 .setup-form dd {
@@ -12687,7 +12687,7 @@ li.session-device.session-current .mega-octicon {
 .setup-form .setup-plans .name {
 	font-weight: bold;
 }
-.setup-form .setup-plans .choose_plan input[type='radio'] {
+.setup-form .setup-plans .choose_plan input[type = 'radio'] {
 	display: none;
 }
 .setup-creditcard-form .cc-extras {
@@ -13237,7 +13237,7 @@ li.session-device.session-current .mega-octicon {
 .bar-section {
 	display: table-cell;
 }
-.bar-section[style='width:0.0%'] {
+.bar-section[style = 'width:0.0%'] {
 	display: none;
 }
 .bar-section-positive {

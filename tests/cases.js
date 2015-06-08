@@ -3,7 +3,6 @@ var stylecow = require('../lib');
 
 stylecow.testCases(__dirname + '/cases', function (test) {
 	describe('cases/' + test.name, function() {
-
 		it('should match output.css', function() {
 			//test.write('output.css', test.css.toString());
 			assert.equal(test.css.toString(), test.read('output.css'));

@@ -23,7 +23,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -90,7 +90,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -157,7 +157,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -184,7 +184,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -211,7 +211,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -238,7 +238,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -265,7 +265,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -323,7 +323,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -350,7 +350,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -377,7 +377,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -404,7 +404,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -462,7 +462,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -489,7 +489,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -516,7 +516,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -543,7 +543,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -570,7 +570,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -597,7 +597,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -624,7 +624,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -651,7 +651,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -678,7 +678,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -705,7 +705,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -732,7 +732,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {
@@ -759,7 +759,7 @@
                       "vendor": null
                     },
                     {
-                      "class": "MatchCombinator",
+                      "class": "Comparator",
                       "name": "="
                     },
                     {

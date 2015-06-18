@@ -1,0 +1,413 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "Combinator",
+                  "name": "&"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                },
+                {
+                  "class": "Combinator",
+                  "name": "&"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "Combinator",
+                  "name": "&"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "Combinator",
+                  "name": "&"
+                },
+                {
+                  "class": "Combinator",
+                  "name": " "
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                },
+                {
+                  "class": "TypeSelector",
+                  "name": "p"
+                },
+                {
+                  "class": "Combinator",
+                  "name": ">"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

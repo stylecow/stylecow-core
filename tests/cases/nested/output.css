@@ -1,6 +1,6 @@
 ul {
 	margin-bottom: 2em;
-	 > li {
+	> li {
 		&::after {
 			content: "";
 		}

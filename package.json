@@ -1,13 +1,13 @@
 {
-  "name": "stylecow-parser",
-  "description": "Parse CSS to stylecow's AST",
-  "version": "2.6.1",
+  "name": "stylecow-core",
+  "description": "Stylecow core library",
+  "version": "1.0.0",
   "author": "Oscar Otero <oom@oscarotero.com>",
-  "homepage": "https://github.com/stylecow/stylecow-parser",
-  "bugs": "https://github.com/stylecow/stylecow-parser/issues",
+  "homepage": "https://github.com/stylecow/stylecow-core",
+  "bugs": "https://github.com/stylecow/stylecow-core/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stylecow/stylecow-parser.git"
+    "url": "https://github.com/stylecow/stylecow-core.git"
   },
   "scripts": {
     "test": "mocha tests/cases.js"

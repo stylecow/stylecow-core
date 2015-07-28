@@ -1,7 +1,7 @@
 {
   "name": "stylecow-core",
   "description": "Stylecow core library",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Oscar Otero <oom@oscarotero.com>",
   "homepage": "https://github.com/stylecow/stylecow-core",
   "bugs": "https://github.com/stylecow/stylecow-core/issues",

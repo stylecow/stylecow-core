@@ -4774,7 +4774,6 @@ body.yt-dialog-active {
 	border-radius: 2px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
-
 @-moz-document url-prefix() {
 	.yt-uix-tooltip-tip-mask + .yt-uix-tooltip-tip-body > .yt-uix-tooltip-tip-content {
 		background: #000;
@@ -4783,7 +4782,8 @@ body.yt-dialog-active {
 	.yt-uix-tooltip-tip-mask + .yt-uix-tooltip-tip-body + .yt-uix-tooltip-tip-arrow {
 		border-top-color: #000;
 	}
-}.yt-uix-tooltip-tip-reverse .yt-uix-tooltip-tip-body,
+}
+.yt-uix-tooltip-tip-reverse .yt-uix-tooltip-tip-body,
 .yt-uix-tooltip-tip-reverse .yt-uix-tooltip-tip-mask {
 	bottom: auto;
 	top: 4px;
@@ -5667,12 +5667,12 @@ body.yt-dialog-active {
 .comments .comments-list fieldset {
 	min-width: 0;
 }
-
 @-moz-document url-prefix() {
 	.comments .comments-list fieldset {
 		display: table-cell;
 	}
-}.comments .right-content {
+}
+.comments .right-content {
 	display: inline-block;
 	position: absolute;
 	right: 10px;
@@ -6328,7 +6328,6 @@ body.yt-dialog-active {
 .comments-iframe-container {
 	margin-left: -2px;
 }
-
 @-webkit-keyframes pulse {
 	30% {
 		opacity: 0.6;
@@ -6350,7 +6349,8 @@ body.yt-dialog-active {
 	to {
 		opacity: 0.6;
 	}
-}#progress {
+}
+#progress {
 	position: fixed;
 	z-index: 2147483647;
 	top: 0;
@@ -7114,13 +7114,13 @@ body.yt-dialog-active {
 .related-list-item.show-video-time:hover .video-time {
 	right: 2px;
 }
-
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 	.thumb-normal .video-list .yt-thumb-64 .yt-thumb-square .clip img {
 		position: relative;
 		left: -1px;
 	}
-}.video-list .video-list-item .yt-uix-button-subscription-container {
+}
+.video-list .video-list-item .yt-uix-button-subscription-container {
 	position: absolute;
 	left: 133px;
 	bottom: 4px;
@@ -8176,7 +8176,6 @@ button.nudge-right .nudge-right-icon {
 .content-snap-width-skinny-mode .watch #player.content-alignment {
 	min-width: 0;
 }
-
 @media screen and (min-width: 1080px) and (min-height: 560px) {
 	.watch-non-stage-mode #watch7-content {
 		width: 640px;
@@ -8232,7 +8231,8 @@ button.nudge-right .nudge-right-icon {
 	.watch-non-stage-mode #watch7-sidebar-contents {
 		min-height: 750px;
 	}
-}#watch7-speedyg-area .yt-alert {
+}
+#watch7-speedyg-area .yt-alert {
 	margin: 0;
 }
 #watch8-action-buttons {
@@ -8623,7 +8623,6 @@ button.nudge-right .nudge-right-icon {
 .watch-stage-mode .alerts-wrapper .yt-alert {
 	margin: 10px 0;
 }
-
 @media screen and (min-width: 894px) and (min-height: 630px) {
 	.watch-stage-mode #alerts {
 		width: 854px;
@@ -8633,7 +8632,8 @@ button.nudge-right .nudge-right-icon {
 	.watch-stage-mode #alerts {
 		width: 1280px;
 	}
-}#player {
+}
+#player {
 	margin: 10px auto 0;
 	color: #fff;
 	zoom: 1;
@@ -8697,7 +8697,6 @@ html[data-player-size = 'fullscreen'] .player-api {
 .exp-cougar-alternate-controls .watch-tiny .player-height {
 	height: 280px;
 }
-
 @media screen and (min-width: 1294px) and (min-height: 630px) {
 	.player-width {
 		width: 854px;
@@ -8737,7 +8736,8 @@ html[data-player-size = 'fullscreen'] .player-api {
 	.exp-cougar-alternate-controls .player-height {
 		height: 760px;
 	}
-}.watch-stage-mode #player {
+}
+.watch-stage-mode #player {
 	margin-top: 0;
 }
 .watch-stage-mode #player-api {
@@ -8755,7 +8755,6 @@ html[data-player-size = 'fullscreen'] .player-api {
 .exp-watch-controls-overlay .watch-stage-mode .player-height {
 	height: 480px;
 }
-
 @media screen and (min-width: 1320px) and (min-height: 870px) {
 	.watch-stage-mode .player-width {
 		width: 1280px;
@@ -8769,7 +8768,8 @@ html[data-player-size = 'fullscreen'] .player-api {
 	.exp-cougar-alternate-controls .watch-stage-mode .player-height {
 		height: 760px;
 	}
-}#theater-background {
+}
+#theater-background {
 	position: absolute;
 	left: 0;
 	width: 100%;

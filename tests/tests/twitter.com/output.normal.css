@@ -727,7 +727,6 @@ hr {
 .u-size11of12 {
 	width: 91.66666666666666% !important;
 }
-
 @media screen and (min-width: 1236px) {
 	.u-lg-sizeFit,
 	.u-lg-sizeFitAlt {
@@ -842,7 +841,8 @@ hr {
 	.u-lg-size11of12 {
 		width: 91.66666666666666% !important;
 	}
-}.u-mb10 {
+}
+.u-mb10 {
 	margin-bottom: 10px !important;
 }
 .u-mb50 {
@@ -876,14 +876,14 @@ hr {
 .u-textUppercase {
 	text-transform: uppercase !important;
 }
-
 @font-face  {
 	font-family: 'rosettaicons';
 	src: url('../../font/rosetta-icons-Regular.eot');
 	src: url('../../font/rosetta-icons-Regular.eot?#iefix') format('embedded-opentype'), url('../../font/rosetta-icons-Regular.woff') format('woff'), url('../../font/rosetta-icons-Regular.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
-}.Icon {
+}
+.Icon {
 	background: transparent;
 	display: inline-block;
 	font-style: normal;
@@ -3757,7 +3757,6 @@ body,
 	position: relative;
 	width: 890px;
 }
-
 @media (min-width: 1236px) {
 	body.three-col .wrapper {
 		width: 1190px;
@@ -3766,7 +3765,8 @@ body,
 	body.three-col .wrapper-permalink {
 		width: 642px;
 	}
-}.wrapper {
+}
+.wrapper {
 	padding-bottom: 0;
 }
 .wrapper-permalink {
@@ -3822,13 +3822,13 @@ body,
 	float: right;
 	width: 590px;
 }
-
 @media (min-width: 1236px) {
 	body.three-col .content-main {
 		float: left;
 		margin: 0 10px;
 	}
-}.content-narrow {
+}
+.content-narrow {
 	padding: 30px 50px;
 	margin: 0 auto 10px;
 	background-color: #fff;
@@ -3881,14 +3881,14 @@ body,
 .pushing-state .bird-topbar-etched {
 	display: none;
 }
-
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi) {
 	.pushing-state .pushstate-spinner {
 		background-image: url('../../img/t1/spinner-rosetta-blue-26x26@2x.gif');
 		background-size: 26px 26px;
 	}
-}.dashboard .SignupCallOut {
+}
+.dashboard .SignupCallOut {
 	margin-bottom: 10px;
 }
 .module {
@@ -4302,7 +4302,6 @@ screen and (min-resolution: 192dpi) {
 	text-align: center;
 	width: auto;
 }
-
 @media screen and (min-width: 1236px) {
 	.global-nav .container {
 		max-width: 1190px;
@@ -4348,7 +4347,8 @@ screen and (min-resolution: 192dpi) {
 	.global-nav .container {
 		padding: 0;
 	}
-}.global-nav [role = 'navigation'],
+}
+.global-nav [role = 'navigation'],
 .nav,
 .nav > li {
 	float: left;
@@ -4629,7 +4629,6 @@ screen and (min-resolution: 192dpi) {
 	display: inline-block;
 	transition: all 0.25s ease-in-out;
 }
-
 @media screen and (min-width: 1236px) {
 	.bird-topbar-etched {
 		position: absolute;
@@ -4641,7 +4640,8 @@ screen and (min-resolution: 192dpi) {
 		left: 50%;
 		margin-left: -13px;
 	}
-}.dm-nav {
+}
+.dm-nav {
 	float: left;
 	margin: 0;
 	height: 40px;
@@ -4737,7 +4737,6 @@ screen and (min-resolution: 192dpi) {
 	border: 0;
 	clip: rect(1px, 1px, 1px, 1px);
 }
-
 @media screen and (min-width: 1236px) {
 	#global-new-tweet-button {
 		padding: 0 13px 0 14px;
@@ -4752,7 +4751,8 @@ screen and (min-resolution: 192dpi) {
 		height: auto;
 		clip: auto;
 	}
-}.topbar-tweet-btn {
+}
+.topbar-tweet-btn {
 	float: left;
 }
 .btn-tweet {
@@ -8566,14 +8566,14 @@ body.ur .media-not-displayed p {
 	overflow: hidden;
 	display: inline-block;
 }
-
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi) {
 	.stream-item,
 	.unfocusable-stream-item {
 		background-clip: border-box;
 	}
-}.multi-photos {
+}
+.multi-photos {
 	position: relative;
 	height: 252px;
 	width: 506px;
@@ -11305,12 +11305,12 @@ textarea:focus::placeholder {
 	margin: 0 auto;
 	max-width: 890px;
 }
-
 @media screen and (min-width: 1236px) {
 	.AppContainer {
 		max-width: 1190px;
 	}
-}.AppContent {
+}
+.AppContent {
 	padding: 56px 14px 15px;
 	position: relative;
 }
@@ -11705,7 +11705,6 @@ textarea:focus::placeholder {
 	outline: dotted 1px #000;
 	outline: auto 5px -webkit-focus-ring-color;
 }
-
 @-webkit-keyframes pulse {
 	50% {
 		-webkit-transform: scale(1.25);
@@ -11725,7 +11724,8 @@ textarea:focus::placeholder {
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
-}.ProfileTweet-action--favorite.is-animating {
+}
+.ProfileTweet-action--favorite.is-animating {
 	-webkit-animation-duration: 0.5s;
 	animation-duration: 0.5s;
 	-webkit-animation-fill-mode: both;

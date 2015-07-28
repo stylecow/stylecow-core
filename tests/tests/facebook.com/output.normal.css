@@ -130,7 +130,6 @@
 ._50b0 {
 	-moz-animation: AdsAssetSelector_highlight 0.5s ease-out;
 }
-
 @-moz-keyframes AdsAssetSelector_highlight {
 	0% {
 		background-color: #fff;
@@ -141,7 +140,8 @@
 	100% {
 		background-color: #fff;
 	}
-}._3x14 {
+}
+._3x14 {
 	overflow-y: auto;
 }
 ._21wq {
@@ -2425,7 +2425,6 @@ div._4746 {
 ._2cx6 {
 	margin-top: 2px;
 }
-
 @-moz-keyframes PhotosetSearchPivot_up {
 	from {
 		opacity: 0;
@@ -2448,7 +2447,8 @@ div._4746 {
 		opacity: 0;
 		-moz-transform: translateY(100%);
 	}
-}._27g {
+}
+._27g {
 	-moz-backface-visibility: hidden;
 	bottom: 100%;
 	cursor: default;
@@ -6980,7 +6980,6 @@ div._32k_ {
 	top: -12px;
 	width: 25%;
 }
-
 @media screen and (max-width: 1100px) {
 	._2t0a {
 		margin-left: 90px;
@@ -6989,7 +6988,8 @@ div._32k_ {
 	._5vb_.hasLeftCol ._1dcb#contentCol {
 		margin-left: 272px;
 	}
-}.scrollable {
+}
+.scrollable {
 	overflow-y: auto;
 }
 ._54af {
@@ -8221,7 +8221,6 @@ html ._wrn._1tp7 {
 	height: 32px;
 	width: 32px;
 }
-
 @-moz-keyframes rotateSpinner {
 	0% {
 		-moz-transform: rotate(0deg);
@@ -8229,7 +8228,8 @@ html ._wrn._1tp7 {
 	100% {
 		-moz-transform: rotate(360deg);
 	}
-}.UFIAddComment .UFIAddCommentInput {
+}
+.UFIAddComment .UFIAddCommentInput {
 	display: block;
 	height: 20px;
 }

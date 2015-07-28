@@ -245,7 +245,6 @@
 	-webkit-animation: rotate 20s infinite linear;
 	animation: rotate 20s infinite linear;
 }
-
 @-webkit-keyframes rotate {
 	0% {
 		-webkit-transform: rotate(0);
@@ -265,7 +264,8 @@
 		-webkit-transform: rotate(-360deg);
 		transform: rotate(-360deg);
 	}
-}.nonprofit-steps {
+}
+.nonprofit-steps {
 	margin-left: 30px;
 	font-size: 20px;
 	font-weight: 300;
@@ -760,7 +760,6 @@
 	margin-top: -1px;
 	float: left;
 }
-
 @-webkit-keyframes teamDev {
 	3% {
 		border-color: #bd2c00;
@@ -1052,7 +1051,8 @@
 	100% {
 		opacity: 1;
 	}
-}.segmented-nav-tab {
+}
+.segmented-nav-tab {
 	display: none;
 	margin-top: 40px;
 }
@@ -1884,14 +1884,14 @@ input.subnav-search-input-wide {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
-
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 screen and (max--moz-device-pixel-ratio: 2) {
 	.context-loader {
 		background: url('/images/spinners/octocat-spinner-32-EAF2F5.gif') 10px 50% no-repeat #eee;
 		background-size: 16px auto;
 	}
-}.pagehead-nav {
+}
+.pagehead-nav {
 	float: right;
 	margin-bottom: -20px;
 }
@@ -3218,7 +3218,6 @@ screen and (max--moz-device-pixel-ratio: 2) {
 	text-align: center;
 	display: inline-block;
 }
-
 @-webkit-keyframes branch-bar-slide {
 	from {
 		width: 0%;
@@ -3234,7 +3233,8 @@ screen and (max--moz-device-pixel-ratio: 2) {
 	to {
 		width: 100%;
 	}
-}.branch-a-b-count {
+}
+.branch-a-b-count {
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -10502,7 +10502,6 @@ span.removed_href {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
@@ -10510,7 +10509,8 @@ only screen and (min-resolution: 2dppx) {
 		background-image: url('/images/spinners/octocat-spinner-32.gif');
 		background-size: 16px 16px;
 	}
-}.empty-repo {
+}
+.empty-repo {
 	font-size: 14px;
 }
 .empty-repo .url-box {
@@ -11878,7 +11878,6 @@ table.security-history-detail td {
 	position: relative;
 	top: 1px;
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
@@ -11886,7 +11885,8 @@ only screen and (min-resolution: 2dppx) {
 		background-image: url('/images/modules/settings/2fa_guide@2x.png');
 		background-size: 675px 135px;
 	}
-}.yubicat-box .yubicat-device {
+}
+.yubicat-box .yubicat-device {
 	margin-bottom: 10px;
 }
 .yubicat-box .yubicat-device .yubicat-device-success {

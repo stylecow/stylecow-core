@@ -2,7 +2,7 @@
   "type": "Root",
   "children": [
     {
-      "type": "Document",
+      "type": "AtRule",
       "name": "document",
       "vendor": "moz",
       "children": [

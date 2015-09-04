@@ -49,3 +49,24 @@ stylecow.testCases(__dirname + '/tests', function (test) {
 		});
 	});
 });
+
+
+stylecow
+	.use(require('./plugins/url-to-uri'))
+	.testCases(__dirname + '/tests', function (test) {
+		stylecow.run(test.css);
+
+		describe('cases/' + test.name, function() {
+			this.timeout(6000);
+
+			it('should match output.plugins.css', function() {
+				//test.write('output.plugins.css', test.css.toString());
+				assert.equal(test.css.toString(), test.read('output.plugins.css'));
+			});
+
+			it('should match ast.plugins.json', function() {
+				//test.writeJson('ast.plugins.json', test.css.toAst());
+				assert.deepEqual(test.css.toAst(), test.readJson('ast.plugins.json'));
+			});
+		});
+	}, ['plus.google.com']);

@@ -2,7 +2,7 @@
   "type": "Root",
   "children": [
     {
-      "type": "Supports",
+      "type": "AtRule",
       "name": "supports",
       "children": [
         {

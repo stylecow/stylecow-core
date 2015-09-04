@@ -1,36 +1,36 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " toc above "
     },
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "page",
       "vendor": null,
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "toc"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "index"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "blank",
                   "vendor": null
                 }
@@ -39,22 +39,22 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " toc inside "
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "green",
                       "vendor": null
                     }
@@ -67,27 +67,27 @@
       ]
     },
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "page",
       "vendor": null,
       "children": [
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-size",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "pt",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 16
                         }
                       ]
@@ -101,18 +101,18 @@
       ]
     },
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "page",
       "vendor": null,
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "left",
                   "vendor": null
                 }
@@ -121,22 +121,22 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin-left",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "cm",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 5
                         }
                       ]

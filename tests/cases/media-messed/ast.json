@@ -1,28 +1,28 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Media",
+      "type": "AtRule",
       "name": "media",
       "children": [
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "screen",
                   "vendor": null
                 }
               ]
             },
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "projection",
                   "vendor": null
                 }
@@ -31,19 +31,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "html"
                         }
                       ]
@@ -51,18 +51,18 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "background",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Hex",
+                              "type": "Hex",
                               "name": "fffef0"
                             }
                           ]
@@ -70,15 +70,15 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Hex",
+                              "type": "Hex",
                               "name": "300"
                             }
                           ]
@@ -90,16 +90,16 @@
               ]
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -107,22 +107,22 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "max-width",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "em",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 35
                                 }
                               ]
@@ -132,19 +132,19 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "margin",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 0
                             },
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "auto",
                               "vendor": null
                             }
@@ -161,17 +161,17 @@
       ]
     },
     {
-      "class": "Media",
+      "type": "AtRule",
       "name": "media",
       "children": [
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "print",
                   "vendor": null
                 }
@@ -180,19 +180,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "html"
                         }
                       ]
@@ -200,18 +200,18 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "background",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Hex",
+                              "type": "Hex",
                               "name": "fff"
                             }
                           ]
@@ -219,15 +219,15 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Hex",
+                              "type": "Hex",
                               "name": "000"
                             }
                           ]
@@ -239,16 +239,16 @@
               ]
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -256,22 +256,22 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "padding",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "in",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
@@ -281,30 +281,30 @@
                       ]
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "border",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "pt",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 0.5
                                 }
                               ]
                             },
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "solid",
                               "vendor": null
                             },
                             {
-                              "class": "Hex",
+                              "type": "Hex",
                               "name": "666"
                             }
                           ]

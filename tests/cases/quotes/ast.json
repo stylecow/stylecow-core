@@ -1,21 +1,21 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "a"
                 },
                 {
-                  "class": "PseudoElement",
+                  "type": "PseudoElement",
                   "name": "before",
                   "vendor": null
                 }
@@ -24,18 +24,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "content",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ";'@ /**/\""
                     }
                   ]
@@ -43,15 +43,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "content",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "'\"\\\\"
                     }
                   ]
@@ -59,15 +59,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "content",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "\\f1234"
                     }
                   ]

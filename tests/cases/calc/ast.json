@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -19,34 +19,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "calc",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 1
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "+"
                             },
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 1
                             }
                           ]
@@ -58,37 +58,37 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "calc",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "em",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "+"
                             },
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 0.5
                             }
                           ]
@@ -100,37 +100,37 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "calc",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "em",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "*"
                             },
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": -5.5
                             }
                           ]
@@ -142,48 +142,48 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "calc",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "em",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "*"
                             },
                             {
-                              "class": "Expression",
+                              "type": "Expression",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": -5.5
                                 },
                                 {
-                                  "class": "Operator",
+                                  "type": "Operator",
                                   "name": "+"
                                 },
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 6
                                 }
                               ]
@@ -197,59 +197,59 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "calc",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "rem",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 2
                                 }
                               ]
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "*"
                             },
                             {
-                              "class": "Expression",
+                              "type": "Expression",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 2
                                 },
                                 {
-                                  "class": "Operator",
+                                  "type": "Operator",
                                   "name": "*"
                                 },
                                 {
-                                  "class": "Expression",
+                                  "type": "Expression",
                                   "children": [
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 2
                                     },
                                     {
-                                      "class": "Operator",
+                                      "type": "Operator",
                                       "name": "+"
                                     },
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 3
                                     }
                                   ]
@@ -257,30 +257,30 @@
                               ]
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "+"
                             },
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 4
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "+"
                             },
                             {
-                              "class": "Expression",
+                              "type": "Expression",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 5
                                 },
                                 {
-                                  "class": "Operator",
+                                  "type": "Operator",
                                   "name": "/"
                                 },
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 2
                                 }
                               ]

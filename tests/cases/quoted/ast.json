@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "body"
                 }
               ]
@@ -19,48 +19,48 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "url",
                       "children": [
                         {
-                          "class": "String",
+                          "type": "String",
                           "name": "some;stuff;here"
                         }
                       ]
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 50
                         }
                       ]
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 50
                         }
                       ]
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "no-repeat",
                       "vendor": null
                     }

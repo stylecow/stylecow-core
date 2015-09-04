@@ -1,24 +1,24 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "font-face",
       "vendor": null,
       "children": [
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-family",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "Bitstream Vera Serif Bold"
                     }
                   ]
@@ -26,19 +26,19 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "src",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "url",
                       "children": [
                         {
-                          "class": "String",
+                          "type": "String",
                           "name": "http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf"
                         }
                       ]
@@ -52,16 +52,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "body"
                 }
               ]
@@ -69,27 +69,27 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-family",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "Bitstream Vera Serif Bold"
                     }
                   ]
                 },
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "serif",
                       "vendor": null
                     }

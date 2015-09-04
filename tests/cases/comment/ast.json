@@ -1,38 +1,38 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " 1 "
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "head"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "Comment",
+                  "type": "Comment",
                   "name": " footer, "
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "body"
                 },
                 {
-                  "class": "Comment",
+                  "type": "Comment",
                   "name": ", nav "
                 }
               ]
@@ -40,30 +40,30 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " 2 "
             },
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " 3 "
             },
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": ""
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "foo",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "bar"
                     }
                   ]
@@ -71,7 +71,7 @@
               ]
             },
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " 4 "
             }
           ]
@@ -79,11 +79,11 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " 5 "
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " 6 "
     }
   ]

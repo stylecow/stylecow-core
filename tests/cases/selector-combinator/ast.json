@@ -1,25 +1,25 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": " "
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -27,30 +27,30 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -58,30 +58,30 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -89,30 +89,30 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -120,34 +120,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": "&"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -155,34 +155,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": "&"
                 }
               ]
@@ -190,38 +190,38 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": " "
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": "&"
                 }
               ]
@@ -229,38 +229,38 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": "&"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": " "
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -268,30 +268,30 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -299,34 +299,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -334,34 +334,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -369,34 +369,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 }
               ]
@@ -404,7 +404,7 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]

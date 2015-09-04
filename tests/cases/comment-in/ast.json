@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "a"
                 }
               ]
@@ -19,22 +19,22 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 12
                         }
                       ]
@@ -44,47 +44,47 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 1
                         }
                       ]
                     },
                     {
-                      "class": "Comment",
+                      "type": "Comment",
                       "name": ""
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
                     },
                     {
-                      "class": "Comment",
+                      "type": "Comment",
                       "name": "13"
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 3
                         }
                       ]
@@ -94,15 +94,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "solid",
                       "vendor": null
                     }
@@ -111,15 +111,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none\\9",
                       "vendor": null
                     }

@@ -1,37 +1,37 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "CustomMedia",
+      "type": "AtRule",
       "name": "custom-media",
       "children": [
         {
-          "class": "ExtensionName",
+          "type": "ExtensionName",
           "name": "test"
         },
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "min-width",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "px",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 200
                                 }
                               ]

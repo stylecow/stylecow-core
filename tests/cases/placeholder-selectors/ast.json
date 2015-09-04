@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "PlaceholderSelector",
+                  "type": "PlaceholderSelector",
                   "name": "media-block"
                 }
               ]
@@ -19,18 +19,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "overflow",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -43,24 +43,24 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "PlaceholderSelector",
+                  "type": "PlaceholderSelector",
                   "name": "media-block"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": ">"
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "img"
                 }
               ]
@@ -68,18 +68,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "float",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "left",
                       "vendor": null
                     }
@@ -92,16 +92,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "image-post"
                 }
               ]
@@ -109,17 +109,17 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Extend",
+              "type": "AtRule",
               "name": "extend",
               "children": [
                 {
-                  "class": "Selector",
+                  "type": "Selector",
                   "children": [
                     {
-                      "class": "PlaceholderSelector",
+                      "type": "PlaceholderSelector",
                       "name": "media-block"
                     }
                   ]

@@ -1,33 +1,33 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bar",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "baz,quz"
                     }
                   ]
@@ -37,18 +37,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "foobar",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 123
                     }
                   ]
@@ -60,41 +60,41 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "bar"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "bar"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "baz",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "qux,foo"
                     }
                   ]
@@ -102,10 +102,10 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "qux"
                 }
               ]
@@ -113,18 +113,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "foobar",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 456
                     }
                   ]
@@ -136,32 +136,32 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "baz"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ",foo"
                     }
                   ]
@@ -169,26 +169,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "baz"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "foo,"
                     }
                   ]
@@ -196,26 +196,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "baz"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "foo,bar,baz"
                     }
                   ]
@@ -223,26 +223,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "baz"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ",foo,bar,baz,"
                     }
                   ]
@@ -250,26 +250,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "baz"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": " , foo , bar , baz , "
                     }
                   ]
@@ -279,18 +279,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "foobar",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 789
                     }
                   ]
@@ -302,32 +302,32 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "qux"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "foo",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "bar,baz"
                     }
                   ]
@@ -335,26 +335,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "qux"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bar",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "baz,foo"
                     }
                   ]
@@ -362,26 +362,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "qux"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "foo",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "foobar"
                     }
                   ]
@@ -389,26 +389,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "qux"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "foo",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ",bar,baz, "
                     }
                   ]
@@ -418,18 +418,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "foobar",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 12
                     }
                   ]
@@ -441,32 +441,32 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "foo",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ""
                     }
                   ]
@@ -474,26 +474,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bar",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": " "
                     }
                   ]
@@ -501,26 +501,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bar",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ","
                     }
                   ]
@@ -528,26 +528,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bar",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ", "
                     }
                   ]
@@ -555,26 +555,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bar",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": " ,"
                     }
                   ]
@@ -582,26 +582,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bar",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": " , "
                     }
                   ]
@@ -609,26 +609,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "baz",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ""
                     }
                   ]
@@ -636,26 +636,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": " "
                     }
                   ]
@@ -663,26 +663,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ","
                     }
                   ]
@@ -690,26 +690,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ", "
                     }
                   ]
@@ -717,26 +717,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": " ,"
                     }
                   ]
@@ -744,26 +744,26 @@
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "IdSelector",
+                  "type": "IdSelector",
                   "name": "foo"
                 },
                 {
-                  "class": "AttributeSelector",
+                  "type": "AttributeSelector",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "qux",
                       "vendor": null
                     },
                     {
-                      "class": "Comparator",
+                      "type": "Comparator",
                       "name": "="
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": " , "
                     }
                   ]
@@ -773,18 +773,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "foobar",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 345
                     }
                   ]

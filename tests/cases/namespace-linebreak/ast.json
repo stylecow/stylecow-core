@@ -1,16 +1,16 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Namespace",
+      "type": "AtRule",
       "name": "namespace",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "http://www.w3.org/1999/xhtml"
             }
           ]

@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "a"
                 }
               ]
@@ -19,22 +19,22 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 1
                         }
                       ]
@@ -42,28 +42,28 @@
                   ]
                 },
                 {
-                  "class": "Bang",
+                  "type": "Bang",
                   "name": "important"
                 }
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "black",
                       "vendor": null
                     }
                   ]
                 },
                 {
-                  "class": "Bang",
+                  "type": "Bang",
                   "name": "important"
                 }
               ]
@@ -73,16 +73,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "p"
                 }
               ]
@@ -90,18 +90,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "prop",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "important",
                       "vendor": null
                     }
@@ -110,20 +110,20 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "red",
                       "vendor": null
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "important",
                       "vendor": null
                     }
@@ -132,19 +132,19 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 10
                         }
                       ]
@@ -152,25 +152,25 @@
                   ]
                 },
                 {
-                  "class": "Bang",
+                  "type": "Bang",
                   "name": "important"
                 }
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 20
                         }
                       ]
@@ -178,25 +178,25 @@
                   ]
                 },
                 {
-                  "class": "Bang",
+                  "type": "Bang",
                   "name": "important"
                 }
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 100
                         }
                       ]
@@ -204,35 +204,35 @@
                   ]
                 },
                 {
-                  "class": "Bang",
+                  "type": "Bang",
                   "name": "important"
                 }
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "height",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 100
                         }
                       ]
                     },
                     {
-                      "class": "Comment",
+                      "type": "Comment",
                       "name": "! test "
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "important",
                       "vendor": null
                     }

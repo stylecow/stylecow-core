@@ -1,16 +1,16 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Namespace",
+      "type": "AtRule",
       "name": "namespace",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "http://www.w3.org/1999/xhtml"
             }
           ]
@@ -18,20 +18,20 @@
       ]
     },
     {
-      "class": "Namespace",
+      "type": "AtRule",
       "name": "namespace",
       "children": [
         {
-          "class": "Keyword",
+          "type": "Keyword",
           "name": "svg",
           "vendor": null
         },
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "http://www.w3.org/2000/svg"
             }
           ]

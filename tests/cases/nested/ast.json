@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "ul"
                 }
               ]
@@ -19,22 +19,22 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin-bottom",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "em",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 2
                         }
                       ]
@@ -44,20 +44,20 @@
               ]
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "Combinator",
+                          "type": "Combinator",
                           "name": ">"
                         },
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "li"
                         }
                       ]
@@ -65,23 +65,23 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Rule",
+                      "type": "Rule",
                       "children": [
                         {
-                          "class": "Selectors",
+                          "type": "Selectors",
                           "children": [
                             {
-                              "class": "Selector",
+                              "type": "Selector",
                               "children": [
                                 {
-                                  "class": "Combinator",
+                                  "type": "Combinator",
                                   "name": "&"
                                 },
                                 {
-                                  "class": "PseudoElement",
+                                  "type": "PseudoElement",
                                   "name": "after",
                                   "vendor": null
                                 }
@@ -90,18 +90,18 @@
                           ]
                         },
                         {
-                          "class": "Block",
+                          "type": "Block",
                           "children": [
                             {
-                              "class": "Declaration",
+                              "type": "Declaration",
                               "name": "content",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "String",
+                                      "type": "String",
                                       "name": ""
                                     }
                                   ]

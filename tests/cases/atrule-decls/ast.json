@@ -1,19 +1,19 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "page",
       "vendor": null,
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "left",
                   "vendor": null
                 }
@@ -22,18 +22,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "black",
                       "vendor": null
                     }
@@ -46,28 +46,28 @@
       ]
     },
     {
-      "class": "Media",
+      "type": "AtRule",
       "name": "media",
       "children": [
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "min-width",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 0
                             }
                           ]
@@ -81,18 +81,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "white",
                       "vendor": null
                     }
@@ -105,23 +105,23 @@
       ]
     },
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "font-face",
       "vendor": null,
       "children": [
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "family-name",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "A;' /**/"
                     }
                   ]
@@ -133,27 +133,27 @@
       ]
     },
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "viewport",
       "vendor": null,
       "children": [
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 110
                         }
                       ]
@@ -167,27 +167,27 @@
       ]
     },
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "viewport",
       "vendor": "ms",
       "children": [
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "px",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 100
                         }
                       ]

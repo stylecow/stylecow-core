@@ -1,33 +1,33 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "tobi"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": " "
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "loki"
                 },
                 {
-                  "class": "Combinator",
+                  "type": "Combinator",
                   "name": " "
                 },
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "jane"
                 }
               ]
@@ -35,18 +35,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "are",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "all"
                     }
                   ]
@@ -54,20 +54,20 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "the-species",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "called",
                       "vendor": null
                     },
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "ferrets"
                     }
                   ]
@@ -75,15 +75,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "*even",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "ie crap"
                     }
                   ]

@@ -1,21 +1,21 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " custom properties "
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "root",
                   "vendor": null
                 }
@@ -24,22 +24,22 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "--fontSize",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "rem",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 1
                         }
                       ]
@@ -49,15 +49,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "--mainColor",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Hex",
+                      "type": "Hex",
                       "name": "12345678"
                     }
                   ]
@@ -65,36 +65,36 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "--highlightColor",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "hwb",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 190
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "%",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 35
                                 }
                               ]
@@ -102,14 +102,14 @@
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "%",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 20
                                 }
                               ]
@@ -127,44 +127,44 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " custom media queries "
     },
     {
-      "class": "CustomMedia",
+      "type": "AtRule",
       "name": "custom-media",
       "children": [
         {
-          "class": "ExtensionName",
+          "type": "ExtensionName",
           "name": "viewport-medium"
         },
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeatureRange",
+                      "type": "ConditionalFeatureRange",
                       "children": [
                         {
-                          "class": "Keyword",
+                          "type": "Keyword",
                           "name": "width",
                           "vendor": null
                         },
                         {
-                          "class": "Comparator",
+                          "type": "Comparator",
                           "name": "<="
                         },
                         {
-                          "class": "Unit",
+                          "type": "Unit",
                           "name": "rem",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 50
                             }
                           ]
@@ -180,20 +180,20 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " some var() & calc() "
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "body"
                 }
               ]
@@ -201,26 +201,26 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "var",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "ExtensionName",
+                              "type": "ExtensionName",
                               "name": "mainColor"
                             }
                           ]
@@ -232,23 +232,23 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-size",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "var",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "ExtensionName",
+                              "type": "ExtensionName",
                               "name": "fontSize"
                             }
                           ]
@@ -260,31 +260,31 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "line-height",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "calc",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "var",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "ExtensionName",
+                                      "type": "ExtensionName",
                                       "name": "fontSize"
                                     }
                                   ]
@@ -292,11 +292,11 @@
                               ]
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "*"
                             },
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 1.5
                             }
                           ]
@@ -308,34 +308,34 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "calc",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Expression",
+                              "type": "Expression",
                               "children": [
                                 {
-                                  "class": "Function",
+                                  "type": "Function",
                                   "name": "var",
                                   "vendor": null,
                                   "children": [
                                     {
-                                      "class": "Value",
+                                      "type": "Value",
                                       "children": [
                                         {
-                                          "class": "ExtensionName",
+                                          "type": "ExtensionName",
                                           "name": "fontSize"
                                         }
                                       ]
@@ -343,25 +343,25 @@
                                   ]
                                 },
                                 {
-                                  "class": "Operator",
+                                  "type": "Operator",
                                   "name": "/"
                                 },
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 2
                                 }
                               ]
                             },
                             {
-                              "class": "Operator",
+                              "type": "Operator",
                               "name": "+"
                             },
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "px",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1
                                 }
                               ]
@@ -379,24 +379,24 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " custom media query usage "
     },
     {
-      "class": "Media",
+      "type": "AtRule",
       "name": "media",
       "children": [
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ExtensionName",
+                      "type": "ExtensionName",
                       "name": "viewport-medium"
                     }
                   ]
@@ -406,19 +406,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -426,34 +426,34 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "font-size",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "calc",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Function",
+                                      "type": "Function",
                                       "name": "var",
                                       "vendor": null,
                                       "children": [
                                         {
-                                          "class": "Value",
+                                          "type": "Value",
                                           "children": [
                                             {
-                                              "class": "ExtensionName",
+                                              "type": "ExtensionName",
                                               "name": "fontSize"
                                             }
                                           ]
@@ -461,11 +461,11 @@
                                       ]
                                     },
                                     {
-                                      "class": "Operator",
+                                      "type": "Operator",
                                       "name": "*"
                                     },
                                     {
-                                      "class": "Number",
+                                      "type": "Number",
                                       "name": 1.2
                                     }
                                   ]
@@ -485,70 +485,70 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " custom selectors "
     },
     {
-      "class": "CustomSelector",
+      "type": "AtRule",
       "name": "custom-selector",
       "children": [
         {
-          "class": "ExtensionName",
+          "type": "ExtensionName",
           "name": "heading"
         },
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "h1"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "h2"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "h3"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "h4"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "h5"
                 }
               ]
             },
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "h6"
                 }
               ]
@@ -558,16 +558,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ExtensionName",
+                  "type": "ExtensionName",
                   "name": "heading"
                 }
               ]
@@ -575,18 +575,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin-top",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -598,20 +598,20 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " colors stuff "
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "a"
                 }
               ]
@@ -619,26 +619,26 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "var",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "ExtensionName",
+                              "type": "ExtensionName",
                               "name": "highlightColor"
                             }
                           ]
@@ -650,24 +650,24 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "color",
                       "vendor": null
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 1
                         }
                       ]
@@ -677,7 +677,7 @@
               ]
             },
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " autoprefixed ! "
             }
           ]
@@ -685,20 +685,20 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "a"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "hover",
                   "vendor": null
                 }
@@ -707,39 +707,39 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "gray",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 255
                             }
                           ]
                         },
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "%",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 50
                                 }
                               ]
@@ -757,20 +757,20 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "a"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "active",
                   "vendor": null
                 }
@@ -779,18 +779,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "rebeccapurple",
                       "vendor": null
                     }
@@ -803,20 +803,20 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "a"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "visited",
                   "vendor": null
                 }
@@ -825,34 +825,34 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "var",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "ExtensionName",
+                                      "type": "ExtensionName",
                                       "name": "highlightColor"
                                     }
                                   ]
@@ -860,23 +860,23 @@
                               ]
                             },
                             {
-                              "class": "Function",
+                              "type": "Function",
                               "name": "blackness",
                               "vendor": null,
                               "children": [
                                 {
-                                  "class": "Value",
+                                  "type": "Value",
                                   "children": [
                                     {
-                                      "class": "Operator",
+                                      "type": "Operator",
                                       "name": "+"
                                     },
                                     {
-                                      "class": "Unit",
+                                      "type": "Unit",
                                       "name": "%",
                                       "children": [
                                         {
-                                          "class": "Number",
+                                          "type": "Number",
                                           "name": 20
                                         }
                                       ]
@@ -898,20 +898,20 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " font stuff "
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "h2"
                 }
               ]
@@ -919,18 +919,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-variant-caps",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "small-caps",
                       "vendor": null
                     }
@@ -943,16 +943,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "table"
                 }
               ]
@@ -960,18 +960,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-variant-numeric",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "lining-nums",
                       "vendor": null
                     }
@@ -984,20 +984,20 @@
       ]
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " filters "
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "blur"
                 }
               ]
@@ -1005,30 +1005,30 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "filter",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "blur",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "px",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 4
                                 }
                               ]
@@ -1046,16 +1046,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "ClassSelector",
+                  "type": "ClassSelector",
                   "name": "sepia"
                 }
               ]
@@ -1063,26 +1063,26 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "filter",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Function",
+                      "type": "Function",
                       "name": "sepia",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 0.8
                             }
                           ]

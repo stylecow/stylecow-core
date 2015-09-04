@@ -1,28 +1,28 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Import",
+      "type": "AtRule",
       "name": "import",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "fineprint.css"
             }
           ]
         },
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "print",
                   "vendor": null
                 }
@@ -33,37 +33,37 @@
       ]
     },
     {
-      "class": "Import",
+      "type": "AtRule",
       "name": "import",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "bluish.css"
             }
           ]
         },
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "projection",
                   "vendor": null
                 }
               ]
             },
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "tv",
                   "vendor": null
                 }
@@ -74,15 +74,15 @@
       ]
     },
     {
-      "class": "Import",
+      "type": "AtRule",
       "name": "import",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "custom.css"
             }
           ]
@@ -90,37 +90,37 @@
       ]
     },
     {
-      "class": "Import",
+      "type": "AtRule",
       "name": "import",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "common.css"
             }
           ]
         },
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "screen",
                   "vendor": null
                 }
               ]
             },
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "projection",
                   "vendor": null
                 }
@@ -131,48 +131,48 @@
       ]
     },
     {
-      "class": "Import",
+      "type": "AtRule",
       "name": "import",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "landscape.css"
             }
           ]
         },
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "screen",
                   "vendor": null
                 },
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "and",
                   "vendor": null
                 },
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "orientation",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "landscape",
                               "vendor": null
                             }
@@ -189,42 +189,42 @@
       ]
     },
     {
-      "class": "Import",
+      "type": "AtRule",
       "name": "import",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "other.css"
             }
           ]
         },
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "min-width",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "px",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 30
                                 }
                               ]

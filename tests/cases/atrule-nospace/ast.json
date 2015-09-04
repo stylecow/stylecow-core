@@ -1,16 +1,16 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Import",
+      "type": "AtRule",
       "name": "import",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "test.css"
             }
           ]

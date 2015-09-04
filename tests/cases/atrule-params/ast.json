@@ -1,23 +1,23 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Document",
+      "type": "Document",
       "name": "document",
       "vendor": "moz",
       "children": [
         {
-          "class": "Function",
+          "type": "Function",
           "name": "url",
           "children": [
             {
-              "class": "String",
+              "type": "String",
               "name": "example.com/{"
             }
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]

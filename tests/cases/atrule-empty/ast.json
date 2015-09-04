@@ -1,13 +1,13 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "AtRule",
+      "type": "AtRule",
       "name": "page",
       "vendor": null,
       "children": [
         {
-          "class": "Block",
+          "type": "Block",
           "children": []
         }
       ]

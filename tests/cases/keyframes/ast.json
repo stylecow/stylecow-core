@@ -1,53 +1,53 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Keyframes",
+      "type": "AtRule",
       "name": "keyframes",
       "vendor": null,
       "children": [
         {
-          "class": "Keyword",
+          "type": "Keyword",
           "name": "fade",
           "vendor": null
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " from above "
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "from",
                       "vendor": null
                     }
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Comment",
+                      "type": "Comment",
                       "name": " from inside "
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "opacity",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 0
                             }
                           ]
@@ -59,39 +59,39 @@
               ]
             },
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " to above "
             },
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "to",
                       "vendor": null
                     }
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Comment",
+                      "type": "Comment",
                       "name": " to inside "
                     },
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "opacity",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 1
                             }
                           ]

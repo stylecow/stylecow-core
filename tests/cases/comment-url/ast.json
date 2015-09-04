@@ -1,25 +1,25 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": " http://foo.com/bar/baz.html "
     },
     {
-      "class": "Comment",
+      "type": "Comment",
       "name": ""
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "foo"
                 }
               ]
@@ -27,26 +27,26 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": "/"
             },
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " something "
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "bar",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "baz",
                       "vendor": null
                     }
@@ -55,7 +55,7 @@
               ]
             },
             {
-              "class": "Comment",
+              "type": "Comment",
               "name": " http://foo.com/bar/baz.html "
             }
           ]

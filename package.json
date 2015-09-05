@@ -3,7 +3,8 @@
   "description": "Stylecow core library",
   "version": "2.0.0",
   "engines": {
-    "node" : ">=0.12"
+    "node": ">=4.0",
+    "iojs": ">=2.0"
   },
   "author": "Oscar Otero <oom@oscarotero.com>",
   "homepage": "https://github.com/stylecow/stylecow-core",

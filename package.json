@@ -2,6 +2,9 @@
   "name": "stylecow-core",
   "description": "Stylecow core library",
   "version": "2.0.0",
+  "engines": {
+    "node" : ">=0.12"
+  },
   "author": "Oscar Otero <oom@oscarotero.com>",
   "homepage": "https://github.com/stylecow/stylecow-core",
   "bugs": "https://github.com/stylecow/stylecow-core/issues",

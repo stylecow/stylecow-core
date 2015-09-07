@@ -14,7 +14,7 @@
     "url": "https://github.com/stylecow/stylecow-core.git"
   },
   "scripts": {
-    "test": "mocha tests/cases.js"
+    "test": "mocha tests/index.js"
   },
   "main": "./lib/index",
   "license": "MIT",

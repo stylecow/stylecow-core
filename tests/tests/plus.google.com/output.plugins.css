@@ -5729,7 +5729,7 @@ ozAspenPermaLinkHalfCard .efd {
 	line-height: 1.25em;
 	max-width: 820px;
 }
-a, a#visited {
+a, a.visited {
 	color: #3366cc;
 	text-decoration: none;
 }
@@ -5767,7 +5767,7 @@ a, a#visited {
 	border-top: 1px solid #e2e2e2;
 	border-bottom: 1px solid #e2e2e2;
 }
-.GXd, #content-root {
+.GXd, .content-root {
 	display: inline-block;
 	min-width: 100%;
 }
@@ -13149,7 +13149,7 @@ a.ehb {
 	font: 13px Roboto, arial, sans-serif;
 	margin: 0;
 }
-#notify-widget-pane {
+.notify-widget-pane {
 	pointer-events: none;
 	position: fixed;
 	width: 100%;
@@ -36198,7 +36198,7 @@ div.iUa {
 	cursor: pointer;
 	font-size: 100%;
 }
-.iUa .JEc-s, .iUa #tr_delete-image, .iUa #tr_module-options-link {
+.iUa .JEc-s, .iUa .tr_delete-image, .iUa .tr_module-options-link {
 	font-size: 100%;
 }
 .HEc {

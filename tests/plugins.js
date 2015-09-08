@@ -2,7 +2,9 @@ var assert    = require('assert');
 var stylecow  = require('../lib');
 
 var test      = (new stylecow.Test(__dirname + '/tests')).filter(['plus.google.com']);
-var tasks = (new stylecow.Tasks()).use(require('./plugins/url-to-uri'));
+var tasks     = (new stylecow.Tasks())
+                .use(require('./plugins/url-to-uri'))
+                .use(require('./plugins/id-to-class'));
 
 test.run(function (test) {
     tasks.run(test.css);

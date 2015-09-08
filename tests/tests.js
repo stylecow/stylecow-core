@@ -24,7 +24,7 @@ test.run(function (test) {
             assert.equal(test.normalize(code.run(test.css).css), test.read('output.normal.css'));
         });
 
-        var minify = minifier.sourceMap('output.min.css', 'output.min.map').run(test.css);
+        var minify = minifier.run(test.css, 'output.min.css', 'output.min.map');
 
         it('should match output.min.css', function() {
             //test.write('output.min.css', minify.css);

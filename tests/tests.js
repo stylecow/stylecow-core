@@ -24,9 +24,16 @@ test.run(function (test) {
             assert.equal(test.normalize(code.run(test.css).css), test.read('output.normal.css'));
         });
 
+        var minify = minifier.sourceMap('output.min.css', 'output.min.map').run(test.css);
+
         it('should match output.min.css', function() {
-            //test.write('output.min.css', coder.code);
-            assert.equal(test.normalize(minifier.run(test.css).css), test.read('output.min.css'));
+            //test.write('output.min.css', minify.css);
+            assert.equal(test.normalize(minify.css), test.read('output.min.css'));
+        });
+
+        it('should match output.min.map', function() {
+            //test.write('output.min.map', minify.map);
+            assert.equal(test.normalize(minify.map), test.read('output.min.map'));
         });
     });
 });

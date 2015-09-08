@@ -1,6 +1,6 @@
-# stylecow parser
+# Stylecow core
 
-Fast and furious css parser.
+Fast and furious css framework. For node >= v4.0
 
 [![Build Status](https://travis-ci.org/stylecow/stylecow-core.svg?branch=master)](https://travis-ci.org/stylecow/stylecow-core)
 

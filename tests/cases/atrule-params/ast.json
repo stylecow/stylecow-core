@@ -32,6 +32,69 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "url-prefix",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "http://www.w3.org/Style/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "domain",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "mozilla.org"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Value",
+          "children": [
+            {
+              "type": "Function",
+              "name": "regexp",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "https:.*"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "type": "Comment",

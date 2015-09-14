@@ -1,1 +1,3 @@
-@-moz-document/* near */ /* filter */ url("example.com/{") /* a */ {}
+@-moz-document/* near */ /* filter */ url("example.com/{"), url-prefix(http://www.w3.org/Style/),
+               domain(mozilla.org),
+               regexp("https:.*") /* a */ {}

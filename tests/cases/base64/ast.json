@@ -32,10 +32,16 @@
                     {
                       "type": "Function",
                       "name": "url",
+                      "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            }
+                          ]
                         }
                       ]
                     }

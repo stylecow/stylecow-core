@@ -8,10 +8,16 @@
         {
           "type": "Function",
           "name": "url",
+          "vendor": null,
           "children": [
             {
-              "type": "String",
-              "name": "test.css"
+              "type": "Value",
+              "children": [
+                {
+                  "type": "String",
+                  "name": "test.css"
+                }
+              ]
             }
           ]
         },

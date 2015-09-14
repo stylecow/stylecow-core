@@ -36,10 +36,16 @@
                     {
                       "type": "Function",
                       "name": "url",
+                      "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf"
+                            }
+                          ]
                         }
                       ]
                     }

@@ -6,8 +6,8 @@ var cases = new stylecow.Test(__dirname + '/cases');
 cases.run(function (test) {
     describe('cases/' + test.name, function() {
         it('should match output.css', function() {
-            //test.write('output.css', test.css.toString());
-            assert.equal(test.css.toString(), test.read('output.css'));
+            //test.writeString()
+            test.assertString();
         });
 
         it('clone should match output.css', function() {
@@ -16,8 +16,8 @@ cases.run(function (test) {
         });
 
         it('should match ast.json', function() {
-            //test.writeJson('ast.json', test.css.toAst());
-            assert.deepEqual(test.css.toAst(), test.readJson('ast.json'));
+            //test.writeAst()
+            test.assertAst();
         });
     });
 });

@@ -18,7 +18,7 @@
               "type": "Rule",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Keyword",
@@ -54,7 +54,7 @@
               "type": "Rule",
               "children": [
                 {
-                  "type": "Selectors",
+                  "type": "KeyframeSelector",
                   "children": [
                     {
                       "type": "Keyword",

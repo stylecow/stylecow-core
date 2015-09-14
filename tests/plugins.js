@@ -13,13 +13,13 @@ test.run(function (test) {
         this.timeout(6000);
 
         it('should match output.plugins.css', function() {
-            //test.write('output.plugins.css', test.css.toString());
-            assert.equal(test.css.toString(), test.read('output.plugins.css'));
+            //test.writeString('output.plugins.css')
+            test.assertString('output.plugins.css');
         });
 
         it('should match ast.plugins.json', function() {
-            //test.writeJson('ast.plugins.json', test.css.toAst());
-            assert.deepEqual(test.css.toAst(), test.readJson('ast.plugins.json'));
+            //test.writeString('ast.plugins.json')
+            test.assertString('ast.plugins.json');
         });
     });
 });

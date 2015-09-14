@@ -7,12 +7,35 @@
       "vendor": "moz",
       "children": [
         {
-          "type": "Function",
-          "name": "url",
+          "type": "Value",
           "children": [
             {
-              "type": "String",
-              "name": "example.com/{"
+              "type": "Comment",
+              "name": " near "
+            },
+            {
+              "type": "Comment",
+              "name": " filter "
+            },
+            {
+              "type": "Function",
+              "name": "url",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "example.com/{"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Comment",
+              "name": " a "
             }
           ]
         },

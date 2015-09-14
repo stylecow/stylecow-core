@@ -8,10 +8,16 @@
         {
           "type": "Function",
           "name": "url",
+          "vendor": null,
           "children": [
             {
-              "type": "String",
-              "name": "fineprint.css"
+              "type": "Value",
+              "children": [
+                {
+                  "type": "String",
+                  "name": "fineprint.css"
+                }
+              ]
             }
           ]
         },
@@ -39,10 +45,16 @@
         {
           "type": "Function",
           "name": "url",
+          "vendor": null,
           "children": [
             {
-              "type": "String",
-              "name": "bluish.css"
+              "type": "Value",
+              "children": [
+                {
+                  "type": "String",
+                  "name": "bluish.css"
+                }
+              ]
             }
           ]
         },
@@ -82,8 +94,13 @@
           "name": "url",
           "children": [
             {
-              "type": "String",
-              "name": "custom.css"
+              "type": "Value",
+              "children": [
+                {
+                  "type": "String",
+                  "name": "custom.css"
+                }
+              ]
             }
           ]
         }
@@ -98,8 +115,13 @@
           "name": "url",
           "children": [
             {
-              "type": "String",
-              "name": "common.css"
+              "type": "Value",
+              "children": [
+                {
+                  "type": "String",
+                  "name": "common.css"
+                }
+              ]
             }
           ]
         },
@@ -137,10 +159,16 @@
         {
           "type": "Function",
           "name": "url",
+          "vendor": null,
           "children": [
             {
-              "type": "String",
-              "name": "landscape.css"
+              "type": "Value",
+              "children": [
+                {
+                  "type": "String",
+                  "name": "landscape.css"
+                }
+              ]
             }
           ]
         },

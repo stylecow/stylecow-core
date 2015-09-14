@@ -4,6 +4,7 @@
     {
       "type": "AtRule",
       "name": "supports",
+      "vendor": null,
       "children": [
         {
           "type": "ConditionalSelector",

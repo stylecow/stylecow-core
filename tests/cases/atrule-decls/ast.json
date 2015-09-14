@@ -48,6 +48,7 @@
     {
       "type": "AtRule",
       "name": "media",
+      "vendor": null,
       "children": [
         {
           "type": "MediaQueries",

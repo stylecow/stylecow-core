@@ -32,10 +32,16 @@
                     {
                       "type": "Function",
                       "name": "url",
+                      "vendor": null,
                       "children": [
                         {
-                          "type": "String",
-                          "name": "some;stuff;here"
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "some;stuff;here"
+                            }
+                          ]
                         }
                       ]
                     },

@@ -14,7 +14,6 @@ test.run(function (test) {
             test.assertString();
         });
 
-        return;
         it('should match ast.json', function() {
             //test.writeAst()
             test.assertAst();

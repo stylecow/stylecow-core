@@ -19,7 +19,7 @@
               "name": " from above "
             },
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
                   "type": "KeyframeSelector",
@@ -63,7 +63,7 @@
               "name": " to above "
             },
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
                   "type": "KeyframeSelector",

@@ -15,7 +15,7 @@
           "type": "Block",
           "children": [
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
                   "type": "KeyframeSelector",
@@ -51,7 +51,7 @@
               ]
             },
             {
-              "type": "Rule",
+              "type": "Keyframe",
               "children": [
                 {
                   "type": "KeyframeSelector",

@@ -3,7 +3,7 @@ var stylecow = require('../lib');
 
 var cases = new stylecow.Test(__dirname + '/cases');
 
-cases.filter(['keyframes-complex']).run(function (test) {
+cases.run(function (test) {
     describe('cases/' + test.name, function() {
         it('should match output.css', function() {
             //test.writeString()

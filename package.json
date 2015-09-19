@@ -2,7 +2,7 @@
   "name": "stylecow-core",
   "description": "Stylecow core library",
   "keywords": ["css", "parser", "processor", "sourcemap"],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "engines": {
     "node": ">=4.0"
   },

@@ -2,13 +2,11 @@ var assert   = require('assert');
 var stylecow = require('../lib');
 
 var test     = new stylecow.Test(__dirname + '/tests');
-var code     = new stylecow.Coder();
+var normal   = new stylecow.Coder();
 var minifier = new stylecow.Coder('minify');
 
 test.run(function (test) {
     describe('tests/' + test.name, function() {
-        this.timeout(6000);
-
         it('should match output.css', function() {
             //test.writeString()
             test.assertString();
@@ -19,21 +17,22 @@ test.run(function (test) {
             test.assertAst();
         });
 
+        var normalCode = normal.run(test.css);
+        var minifyCode = minifier.run(test.css, 'output.min.css', 'output.min.map');
+
         it('should match output.normal.css', function() {
-            //test.write('output.normal.css', coder.code);
-            assert.equal(test.normalize(code.run(test.css).css), test.read('output.normal.css'));
+            //test.write('output.normal.css', normalCode.css);
+            assert.equal(test.normalize(normalCode.css), test.read('output.normal.css'));
         });
 
-        var minify = minifier.run(test.css, 'output.min.css', 'output.min.map');
-
         it('should match output.min.css', function() {
-            //test.write('output.min.css', minify.css);
-            assert.equal(test.normalize(minify.css), test.read('output.min.css'));
+            //test.write('output.min.css', minifyCode.css);
+            assert.equal(test.normalize(minifyCode.css), test.read('output.min.css'));
         });
 
         it('should match output.min.map', function() {
-            //test.write('output.min.map', minify.map);
-            assert.equal(test.normalize(minify.map), test.read('output.min.map'));
+            //test.write('output.min.map', minifyCode.map);
+            assert.equal(test.normalize(minifyCode.map), test.read('output.min.map'));
         });
     });
 });

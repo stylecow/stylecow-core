@@ -1,0 +1,20 @@
+.foo {
+  color: red;
+  @nest & > .bar {
+    color: blue;
+  }
+}
+
+.foo {
+  color: red;
+  @nest .parent & {
+    color: blue;
+  }
+}
+
+.foo {
+  color: red;
+  @nest :not(&) {
+    color: blue;
+  }
+}

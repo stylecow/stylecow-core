@@ -7,6 +7,8 @@ var minifier = new stylecow.Coder('minify');
 
 test.run(function (test) {
     describe('tests/' + test.name, function() {
+        this.timeout(6000);
+
         it('should match output.css', function() {
             //test.writeString()
             test.assertString();

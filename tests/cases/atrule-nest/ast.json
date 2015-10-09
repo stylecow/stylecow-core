@@ -1,0 +1,285 @@
+{
+  "type": "Root",
+  "children": [
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "ClassSelector",
+                  "name": "foo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "red",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "AtRule",
+              "name": "nest",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Selectors",
+                  "children": [
+                    {
+                      "type": "Selector",
+                      "children": [
+                        {
+                          "type": "Combinator",
+                          "name": "&"
+                        },
+                        {
+                          "type": "Combinator",
+                          "name": ">"
+                        },
+                        {
+                          "type": "ClassSelector",
+                          "name": "bar"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Block",
+                  "children": [
+                    {
+                      "type": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Keyword",
+                              "name": "blue",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "ClassSelector",
+                  "name": "foo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "red",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "AtRule",
+              "name": "nest",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Selectors",
+                  "children": [
+                    {
+                      "type": "Selector",
+                      "children": [
+                        {
+                          "type": "ClassSelector",
+                          "name": "parent"
+                        },
+                        {
+                          "type": "Combinator",
+                          "name": " "
+                        },
+                        {
+                          "type": "Combinator",
+                          "name": "&"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Block",
+                  "children": [
+                    {
+                      "type": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Keyword",
+                              "name": "blue",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "ClassSelector",
+                  "name": "foo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "red",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "AtRule",
+              "name": "nest",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Selectors",
+                  "children": [
+                    {
+                      "type": "Selector",
+                      "children": [
+                        {
+                          "type": "PseudoClass",
+                          "name": "not",
+                          "vendor": null,
+                          "children": [
+                            {
+                              "type": "Selector",
+                              "children": [
+                                {
+                                  "type": "Combinator",
+                                  "name": "&"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Block",
+                  "children": [
+                    {
+                      "type": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Keyword",
+                              "name": "blue",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

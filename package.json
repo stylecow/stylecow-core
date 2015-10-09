@@ -1,8 +1,13 @@
 {
   "name": "stylecow-core",
   "description": "Stylecow core library",
-  "keywords": ["css", "parser", "processor", "sourcemap"],
-  "version": "2.0.1",
+  "keywords": [
+    "css",
+    "parser",
+    "processor",
+    "sourcemap"
+  ],
+  "version": "2.0.2",
   "engines": {
     "node": ">=4.0"
   },
@@ -23,6 +28,6 @@
     "source-map": "^0.1.*"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.3.3"
   }
 }

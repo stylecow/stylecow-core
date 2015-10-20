@@ -1,0 +1,248 @@
+{
+  "type": "Root",
+  "children": [
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "PseudoClass",
+                  "name": "root",
+                  "vendor": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "CustomProperty",
+              "name": "toolbar-theme",
+              "children": [
+                {
+                  "type": "Block",
+                  "children": [
+                    {
+                      "type": "Declaration",
+                      "name": "background-color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Function",
+                              "name": "hsl",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "Number",
+                                      "name": 120
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "Unit",
+                                      "name": "%",
+                                      "children": [
+                                        {
+                                          "type": "Number",
+                                          "name": 70
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "Unit",
+                                      "name": "%",
+                                      "children": [
+                                        {
+                                          "type": "Number",
+                                          "name": 95
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Declaration",
+                      "name": "border-radius",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "type": "Number",
+                                  "name": 4
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Declaration",
+                      "name": "border",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Unit",
+                              "name": "px",
+                              "children": [
+                                {
+                                  "type": "Number",
+                                  "name": 1
+                                }
+                              ]
+                            },
+                            {
+                              "type": "Keyword",
+                              "name": "solid",
+                              "vendor": null
+                            },
+                            {
+                              "type": "Function",
+                              "name": "var",
+                              "vendor": null,
+                              "children": [
+                                {
+                                  "type": "Value",
+                                  "children": [
+                                    {
+                                      "type": "ExtensionName",
+                                      "name": "theme-color"
+                                    },
+                                    {
+                                      "type": "Keyword",
+                                      "name": "late",
+                                      "vendor": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "CustomProperty",
+              "name": "toolbar-title-theme",
+              "children": [
+                {
+                  "type": "Block",
+                  "children": [
+                    {
+                      "type": "Declaration",
+                      "name": "color",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "Keyword",
+                              "name": "green",
+                              "vendor": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "ClassSelector",
+                  "name": "foo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "color",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Keyword",
+                      "name": "blue",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "AtRule",
+              "name": "apply",
+              "children": [
+                {
+                  "type": "ExtensionName",
+                  "name": "toolbar-theme"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -27,9 +27,8 @@
           "type": "Block",
           "children": [
             {
-              "type": "Declaration",
-              "name": "--fontSize",
-              "vendor": null,
+              "type": "CustomProperty",
+              "name": "fontSize",
               "children": [
                 {
                   "type": "Value",
@@ -49,9 +48,8 @@
               ]
             },
             {
-              "type": "Declaration",
-              "name": "--mainColor",
-              "vendor": null,
+              "type": "CustomProperty",
+              "name": "mainColor",
               "children": [
                 {
                   "type": "Value",
@@ -65,9 +63,8 @@
               ]
             },
             {
-              "type": "Declaration",
-              "name": "--highlightColor",
-              "vendor": null,
+              "type": "CustomProperty",
+              "name": "highlightColor",
               "children": [
                 {
                   "type": "Value",

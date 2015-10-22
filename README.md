@@ -1,6 +1,6 @@
 # Stylecow core
 
-Fast and furious css framework. For node >= v4.0
+Fast and furious css processor. For node >= v4.0
 
 [![Build Status](https://travis-ci.org/stylecow/stylecow-core.svg?branch=master)](https://travis-ci.org/stylecow/stylecow-core)
 
@@ -12,8 +12,10 @@ Simple usage example:
 ```javascript
 var stylecow = require('stylecow-core');
 
-//Create a Tasks instance and add some tasks and browser support
+//Create a Tasks instance and add some stuff
 var tasks = (new stylecow.Tasks())
+
+	//minimum browser support
 	.minSupport({
 		explorer: 9,
 		firefox: 30,
@@ -22,9 +24,22 @@ var tasks = (new stylecow.Tasks())
 		ios: 6,
 		opera: 12
 	})
+
+	//add some plugins
 	.use(require('stylecow-plugin-prefixes'))
 	.use(require('stylecow-plugin-nested-rules'))
-	.use(require('stylecow-plugin-color'));
+	.use(require('stylecow-plugin-color'))
+
+	//custom tasks
+	.addTask({
+		filter: {
+			type: 'Keyword',
+			name: 'grey'
+		},
+		fn: function (keyword) {
+			keyword.name = 'gray';
+		}
+	});
 
 //Create a Coder instance to minify the css code
 var coder = new stylecow.Coder('minify');

@@ -10,10 +10,12 @@ Fast and furious css processor. For node >= v4.0
 Simple usage example:
 
 ```javascript
-var stylecow = require('stylecow-core');
+"use strict";
+
+let stylecow = require('stylecow-core');
 
 //Create a Tasks instance and add some stuff
-var tasks = (new stylecow.Tasks())
+let tasks = (new stylecow.Tasks())
 
 	//minimum browser support
 	.minSupport({
@@ -36,20 +38,20 @@ var tasks = (new stylecow.Tasks())
 			type: 'Keyword',
 			name: 'grey'
 		},
-		fn: function (keyword) {
-			keyword.name = 'gray';
-		}
+		fn: keyword => keyword.name = 'gray'
 	});
 
 //Create a Coder instance to minify the css code
-var coder = new stylecow.Coder('minify');
+let coder = new stylecow.Coder('minify');
 
 //Parse a css file
-var css = stylecow.parseFile('styles.css');
+let css = stylecow.parseFile('styles.css');
 
 //Execute the tasks
 tasks.run(css);
 
 //Get the minified code
-var code = coder.run(css);
+let code = coder.run(css);
+
+console.log(code.css);
 ```

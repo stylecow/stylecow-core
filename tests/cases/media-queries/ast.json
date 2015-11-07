@@ -1,0 +1,435 @@
+{
+  "type": "Root",
+  "children": [
+    {
+      "type": "AtRule",
+      "name": "media",
+      "vendor": null,
+      "children": [
+        {
+          "type": "MediaQueries",
+          "children": [
+            {
+              "type": "MediaQuery",
+              "children": [
+                {
+                  "type": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureRange",
+                      "children": [
+                        {
+                          "type": "Keyword",
+                          "name": "aspect-ratio",
+                          "vendor": null
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": ">="
+                        },
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 1
+                            },
+                            {
+                              "type": "Number",
+                              "name": 1000
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureRange",
+                      "children": [
+                        {
+                          "type": "Keyword",
+                          "name": "aspect-ratio",
+                          "vendor": null
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 16
+                            },
+                            {
+                              "type": "Number",
+                              "name": 9
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "AtRule",
+      "name": "media",
+      "vendor": null,
+      "children": [
+        {
+          "type": "MediaQueries",
+          "children": [
+            {
+              "type": "MediaQuery",
+              "children": [
+                {
+                  "type": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureRange",
+                      "children": [
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 1
+                            },
+                            {
+                              "type": "Number",
+                              "name": 1000
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Keyword",
+                          "name": "aspect-ratio",
+                          "vendor": null
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 16
+                            },
+                            {
+                              "type": "Number",
+                              "name": 9
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "AtRule",
+      "name": "media",
+      "vendor": null,
+      "children": [
+        {
+          "type": "MediaQueries",
+          "children": [
+            {
+              "type": "MediaQuery",
+              "children": [
+                {
+                  "type": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureRange",
+                      "children": [
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 0
+                            },
+                            {
+                              "type": "Number",
+                              "name": 0
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Keyword",
+                          "name": "aspect-ratio",
+                          "vendor": null
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 16
+                            },
+                            {
+                              "type": "Number",
+                              "name": 9
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "AtRule",
+      "name": "media",
+      "vendor": null,
+      "children": [
+        {
+          "type": "MediaQueries",
+          "children": [
+            {
+              "type": "MediaQuery",
+              "children": [
+                {
+                  "type": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureBoolean",
+                      "name": "aspect-ratio"
+                    }
+                  ]
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureRange",
+                      "children": [
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 1
+                            },
+                            {
+                              "type": "Number",
+                              "name": 1000
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Keyword",
+                          "name": "aspect-ratio",
+                          "vendor": null
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Ratio",
+                          "children": [
+                            {
+                              "type": "Number",
+                              "name": 16
+                            },
+                            {
+                              "type": "Number",
+                              "name": 9
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "AtRule",
+      "name": "media",
+      "vendor": null,
+      "children": [
+        {
+          "type": "MediaQueries",
+          "children": [
+            {
+              "type": "MediaQuery",
+              "children": [
+                {
+                  "type": "Keyword",
+                  "name": "screen",
+                  "vendor": null
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureBoolean",
+                      "name": "color"
+                    }
+                  ]
+                },
+                {
+                  "type": "Keyword",
+                  "name": "and",
+                  "vendor": null
+                },
+                {
+                  "type": "ConditionalExpression",
+                  "children": [
+                    {
+                      "type": "ConditionalFeatureRange",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 6
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Keyword",
+                          "name": "color",
+                          "vendor": null
+                        },
+                        {
+                          "type": "Comparator",
+                          "name": "<="
+                        },
+                        {
+                          "type": "Number",
+                          "name": 256
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

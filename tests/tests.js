@@ -20,7 +20,7 @@ test.run(function (test) {
         });
 
         var normalCode = normal.run(test.css);
-        var minifyCode = minifier.run(test.css, 'output.min.css', 'output.min.map');
+        var minifyCode = minifier.run(test.css, 'output.min.css');
 
         it('should match output.normal.css', function() {
             //test.write('output.normal.css', normalCode.css);

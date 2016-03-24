@@ -3,7 +3,7 @@ var stylecow = require('../lib');
 
 var cases = new stylecow.Test(__dirname + '/cases');
 
-cases.run(function (test) {
+cases.cssErrors(true).run(function (test) {
     describe('cases/' + test.name, function() {
         it('should match output.css', function() {
             //test.writeString()

@@ -163,7 +163,7 @@
                   "children": [
                     {
                       "type": "String",
-                      "name": "\\a Parser error! Unexpected \"none;\" in:\\a file: /Volumes/Documentos/www/stylecow/stylecow-core/tests/cases/errors/input.css\\a line: 2\\a col:  13"
+                      "name": "\\a Parser error! Unexpected \"none;\" in:\\a file: tests/cases/errors/input.css\\a line: 2\\a col:  13\\a         "
                     }
                   ]
                 }

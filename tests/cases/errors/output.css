@@ -6,7 +6,7 @@ body > * {
 	display: none !important;
 }
 body::before {
-	content: "\a Parser error! Unexpected \"none;\" in:\a file: /Volumes/Documentos/www/stylecow/stylecow-core/tests/cases/errors/input.css\a line: 2\a col:  13";
+	content: "\a Parser error! Unexpected \"none;\" in:\a file: tests/cases/errors/input.css\a line: 2\a col:  13\a         ";
 	font-family: monospace;
 	white-space: pre;
 	display: block;

@@ -1,0 +1,57 @@
+{
+  "type": "Root",
+  "children": [
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "clip-path",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Function",
+                      "name": "url",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "type": "Value",
+                          "children": [
+                            {
+                              "type": "String",
+                              "name": "#foo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

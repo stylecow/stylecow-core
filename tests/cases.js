@@ -5,6 +5,7 @@ var cases = new stylecow.Test(__dirname + '/cases');
 
 cases.cssErrors(true).run(function (test) {
     describe('cases/' + test.name, function() {
+
         it('should match output.css', function() {
             //test.writeString()
             test.assertString();

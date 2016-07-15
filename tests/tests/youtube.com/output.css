@@ -714,7 +714,7 @@ body #sb-wrapper {
 }
 .yt-alert-promo {
 	background: #fff;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=f0f0f0,EndColorStr=fff)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f0f0f0,EndColorStr=#fff)";
 	background-image: -moz-linear-gradient(top, #f0f0f0 0, #fff 45px);
 	background-image: -ms-linear-gradient(top, #f0f0f0 0, #fff 45px);
 	background-image: -o-linear-gradient(top, #f0f0f0 0, #fff 45px);
@@ -3361,7 +3361,7 @@ div.yt-uix-button-menu > table {
 	overflow: hidden;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 	background-color: #f8f8f8;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=fffcfcfc,EndColorStr=fff8f8f8)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#fffcfcfc,EndColorStr=#fff8f8f8)";
 	background-image: -moz-linear-gradient(top, #fcfcfc 0, #f8f8f8 100%);
 	background-image: -ms-linear-gradient(top, #fcfcfc 0, #f8f8f8 100%);
 	background-image: -o-linear-gradient(top, #fcfcfc 0, #f8f8f8 100%);
@@ -4080,7 +4080,7 @@ body.yt-dialog-active {
 	background-image: -o-linear-gradient(top, #fff 0, #f0f0f0 100%);
 	background-image: -webkit-linear-gradient(top, #fff 0, #f0f0f0 100%);
 	background-image: linear-gradient(to bottom, #fff 0, #f0f0f0 100%);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=fff,EndColorStr=f0f0f0)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#fff,EndColorStr=#f0f0f0)";
 }
 #ie .yt-tile-default {
 	border-bottom: 2px solid transparent;
@@ -7978,7 +7978,7 @@ html[data-player-size="fullscreen"] .player-api {
 	background-image: -o-linear-gradient(top, #383838 0, #131313 100%);
 	background-image: -webkit-linear-gradient(top, #383838 0, #131313 100%);
 	background-image: linear-gradient(to bottom, #383838 0, #131313 100%);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=ff383838,EndColorStr=ff131313)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ff383838,EndColorStr=#ff131313)";
 }
 .player-unavailable.with-background {
 	filter: none;
@@ -8509,7 +8509,7 @@ html[data-player-size="fullscreen"] .player-api {
 	background-image: -o-linear-gradient(top, #c95145 0, #913d37 100%);
 	background-image: -webkit-linear-gradient(top, #c95145 0, #913d37 100%);
 	background-image: linear-gradient(to bottom, #c95145 0, #913d37 100%);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=c95145,EndColorStr=913d37)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#c95145,EndColorStr=#913d37)";
 }
 .watch-queue-preview-button-actions .preview-addto-queue-button, .watch-queue-preview-button-actions .preview-addto-queue-button-success, .watch-queue-preview-button-actions .preview-addto-queue-button-error {
 	border-left: solid 1px #666;

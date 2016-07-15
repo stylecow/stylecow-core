@@ -40,6 +40,46 @@
           ]
         }
       ]
+    },
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "filter",
+              "vendor": "ms",
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "String",
+                      "name": "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f0f0f0,EndColorStr=#fff)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

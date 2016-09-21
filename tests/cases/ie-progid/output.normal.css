@@ -1,0 +1,6 @@
+a {
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Blur(pixelradius=2)progid:DXImageTransform.Microsoft.Wheel(duration=3)';
+}
+div {
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#f0f0f0,EndColorStr=#fff)';
+}

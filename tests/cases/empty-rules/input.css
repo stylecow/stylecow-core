@@ -1,0 +1,28 @@
+html {
+}
+p span {
+
+}
+
+p {
+	color: blue;
+	span {
+
+	}
+}
+
+@media (min-width: 400px) {
+	
+}
+
+@media (min-width: 400px) {
+	p {
+		
+	}
+}
+
+@media (min-width: 600px) {
+	p {
+		color: blue;
+	}
+}

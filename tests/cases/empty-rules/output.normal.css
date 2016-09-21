@@ -1,0 +1,8 @@
+p {
+	color: blue;
+}
+@media (min-width: 600px) {
+	p {
+		color: blue;
+	}
+}

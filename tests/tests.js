@@ -14,11 +14,6 @@ test.run(function (test) {
             test.assertString();
         });
 
-        it('should match ast.json', function() {
-            //test.writeAst()
-            test.assertAst();
-        });
-
         var normalCode = normal.run(test.css);
         var minifyCode = minifier.run(test.css, 'output.min.css');
 

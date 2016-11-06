@@ -7,7 +7,7 @@
     "processor",
     "sourcemap"
   ],
-  "version": "2.4.0",
+  "version": "2.4.1",
   "engines": {
     "node": ">=4.0"
   },
@@ -28,6 +28,6 @@
     "source-map": "^0.5.*"
   },
   "devDependencies": {
-    "mocha": "^3.0.2"
+    "mocha": "^3.1.2"
   }
 }

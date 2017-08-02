@@ -12,7 +12,6 @@ cases.cssErrors(true).run(function (test) {
         });
 
         var code = coder.run(test.css);
-
         it('should match output.normal.css', function() {
             //test.write('output.normal.css', code.css);
             assert.equal(test.normalize(code.css), test.read('output.normal.css'));

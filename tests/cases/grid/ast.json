@@ -1,0 +1,163 @@
+{
+  "type": "Root",
+  "children": [
+    {
+      "type": "Rule",
+      "children": [
+        {
+          "type": "Selectors",
+          "children": [
+            {
+              "type": "Selector",
+              "children": [
+                {
+                  "type": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Block",
+          "children": [
+            {
+              "type": "Declaration",
+              "name": "grid-template-columns",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Track",
+                      "name": "first"
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 40
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Track",
+                      "name": "line2"
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 50
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Track",
+                      "name": "line3"
+                    },
+                    {
+                      "type": "Keyword",
+                      "name": "auto",
+                      "vendor": null
+                    },
+                    {
+                      "type": "Track",
+                      "name": "col4-start"
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 50
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Track",
+                      "name": "five"
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 40
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Track",
+                      "name": "end"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Declaration",
+              "name": "grid-template-rows",
+              "vendor": null,
+              "children": [
+                {
+                  "type": "Value",
+                  "children": [
+                    {
+                      "type": "Track",
+                      "name": "row1-start"
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "%",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 25
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Track",
+                      "name": "row1-end"
+                    },
+                    {
+                      "type": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "type": "Number",
+                          "name": 100
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Track",
+                      "name": "third-line"
+                    },
+                    {
+                      "type": "Keyword",
+                      "name": "auto",
+                      "vendor": null
+                    },
+                    {
+                      "type": "Track",
+                      "name": "last-line"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

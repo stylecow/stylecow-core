@@ -1,9 +1,10 @@
-var assert   = require('assert');
-var stylecow = require('../lib');
+import { equal } from "https://deno.land/std/testing/asserts.ts";
+import Test from "../lib/test.js"
+import Coder from "../lib/coder.js"
 
-var test     = new stylecow.Test(__dirname + '/tests');
-var normal   = new stylecow.Coder();
-var minifier = new stylecow.Coder('minify');
+var test     = new Test(Deno.cwd() + '/tests/tests');
+var normal   = new Coder();
+var minifier = new Coder('minify');
 
 test.run(function (test) {
     describe('tests/' + test.name, function() {
@@ -19,17 +20,17 @@ test.run(function (test) {
 
         it('should match output.normal.css', function() {
             //test.write('output.normal.css', normalCode.css);
-            assert.equal(test.normalize(normalCode.css), test.read('output.normal.css'));
+            equal(test.normalize(normalCode.css), test.read('output.normal.css'));
         });
 
         it('should match output.min.css', function() {
             //test.write('output.min.css', minifyCode.css);
-            assert.equal(test.normalize(minifyCode.css), test.read('output.min.css'));
+            equal(test.normalize(minifyCode.css), test.read('output.min.css'));
         });
 
         it('should match output.min.map', function() {
             //test.write('output.min.map', minifyCode.map);
-            assert.equal(test.normalize(minifyCode.map), test.read('output.min.map'));
+            equal(test.normalize(minifyCode.map), test.read('output.min.map'));
         });
     });
 });

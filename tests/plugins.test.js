@@ -1,10 +1,13 @@
-var assert    = require('assert');
-var stylecow  = require('../lib');
+import Test from "../lib/test.js"
+import Tasks from "../lib/tasks.js"
 
-var test      = (new stylecow.Test(__dirname + '/tests')).filter(['plus.google.com']);
-var tasks     = (new stylecow.Tasks())
-                .use(require('./plugins/url-to-uri'))
-                .use(require('./plugins/id-to-class'));
+import urlToUri from "./plugins/url-to-uri.js"
+import idToClass from "./plugins/id-to-class.js"
+
+var test      = (new Test(Deno.cwd() + '/test/tests')).filter(['plus.google.com']);
+var tasks     = (new Tasks())
+                .use(urlToUri)
+                .use(idToClass);
 
 test.run(function (test) {
     tasks.run(test.css);

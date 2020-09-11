@@ -1,4 +1,4 @@
-module.exports = function (stylecow) {
+export default function (stylecow) {
 	stylecow.addTask({
 		filter: {
 			type: 'Function',

@@ -1,5 +1,4 @@
-import Test from "../lib/test.js";
-import Coder from "../lib/coder.js";
+import { Test, Coder } from "../mod.js";
 import { equal } from "https://deno.land/std/testing/asserts.ts";
 
 var cases = new Test(Deno.cwd() + "/tests/cases");

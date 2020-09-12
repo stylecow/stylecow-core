@@ -1,5 +1,4 @@
-import Test from "../lib/test.js";
-import Tasks from "../lib/tasks.js";
+import { Test, Tasks } from "../mod.js";
 
 import urlToUri from "./plugins/url-to-uri.js";
 import idToClass from "./plugins/id-to-class.js";

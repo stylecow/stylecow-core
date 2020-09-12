@@ -1,21 +1,18 @@
 # Stylecow core
 
-Fast and furious css processor. For node >= v4.0
-
-[![Build Status](https://travis-ci.org/stylecow/stylecow-core.svg?branch=master)](https://travis-ci.org/stylecow/stylecow-core)
-
-* [See the wiki](https://github.com/stylecow/stylecow-parser/wiki) for more documentation
-* [Stylecow home page](http://stylecow.github.io/)
+Fast and furious css processor. For Deno
 
 Simple usage example:
 
 ```javascript
-"use strict";
+import { Task, Coder, parseFile } from 'stylecow-core/mod.js';
 
-let stylecow = require('stylecow-core');
+import prefixes from 'stylecow-plugin-prefixes/mod.js';
+import nestedRules from 'stylecow-plugin-nested-rules/mod.js';
+import color from 'stylecow-plugin-color/mod.js';
 
 //Create a Tasks instance and add some stuff
-let tasks = (new stylecow.Tasks())
+const tasks = new Tasks()
 
 	//minimum browser support
 	.minSupport({
@@ -28,9 +25,9 @@ let tasks = (new stylecow.Tasks())
 	})
 
 	//add some plugins
-	.use(require('stylecow-plugin-prefixes'))
-	.use(require('stylecow-plugin-nested-rules'))
-	.use(require('stylecow-plugin-color'))
+	.use(prefixes)
+	.use(nestedRules)
+	.use(color)
 
 	//custom tasks
 	.addTask({
@@ -42,16 +39,16 @@ let tasks = (new stylecow.Tasks())
 	});
 
 //Create a Coder instance to minify the css code
-let coder = new stylecow.Coder('minify');
+const coder = new Coder('minify');
 
 //Parse a css file
-let css = stylecow.parseFile('styles.css');
+const css = parseFile('styles.css');
 
 //Execute the tasks
 tasks.run(css);
 
 //Get the minified code
-let code = coder.run(css);
+const code = coder.run(css);
 
 console.log(code.css);
 ```

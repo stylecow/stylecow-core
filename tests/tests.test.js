@@ -1,6 +1,5 @@
 import { equal } from "https://deno.land/std/testing/asserts.ts";
-import Test from "../lib/test.js";
-import Coder from "../lib/coder.js";
+import { Test, Coder } from "../mod.js";
 
 var test = new Test(Deno.cwd() + "/tests/tests");
 var normal = new Coder();

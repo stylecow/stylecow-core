@@ -7,7 +7,7 @@ var normal = new Coder();
 var minifier = new Coder("minify");
 
 test.run(function (test) {
-  Deno.test("should match output.css", function () {
+  Deno.test(`tests/${test.name}: should match output.css`, function () {
     //test.writeString()
     test.assertString();
   });
@@ -15,12 +15,12 @@ test.run(function (test) {
   var normalCode = normal.run(test.css);
   var minifyCode = minifier.run(test.css, "output.min.css");
 
-  Deno.test("should match output.normal.css", function () {
+  Deno.test(`tests/${test.name}: should match output.normal.css`, function () {
     //test.write('output.normal.css', normalCode.css);
     equal(test.normalize(normalCode.css), test.read("output.normal.css"));
   });
 
-  Deno.test("should match output.min.css", function () {
+  Deno.test(`tests/${test.name}: should match output.min.css`, function () {
     //test.write('output.min.css', minifyCode.css);
     equal(test.normalize(minifyCode.css), test.read("output.min.css"));
   });

@@ -12,12 +12,12 @@ var tasks = (new Tasks())
 test.run(function (test) {
   tasks.run(test.css);
 
-  Deno.test("should match output.plugins.css", function () {
+  Deno.test(`plugins/${test.name}: should match output.plugins.css`, function () {
     //test.writeString('output.plugins.css')
     test.assertString("output.plugins.css");
   });
 
-  Deno.test("should match ast.plugins.json", function () {
+  Deno.test(`plugins/${test.name}: should match ast.plugins.json`, function () {
     //test.writeString('ast.plugins.json')
     test.assertString("ast.plugins.json");
   });

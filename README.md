@@ -7,15 +7,13 @@ Simple usage example:
 ```javascript
 import { parseFile, Task, Coder } from 'https://deno.land/x/stylecow_core/mod.js';
 
-import prefixes from 'https://deno.land/x/stylecow_prefixes/mod.js';
-import nestedRules from 'https://deno.land/x/stylecow_nested_rules/mod.js';
-import color from 'https://deno.land/x/stylecow_color/mod.js';
+import importPlugin from 'https://deno.land/x/stylecow_import/mod.js';
+import nestedRulesPlugin from 'https://deno.land/x/stylecow_nested_rules/mod.js';
 
 //Create a Tasks instance and add some plugins
 const tasks = new Tasks()
-  .use(prefixes)
-  .use(nestedRules)
-  .use(color)
+  .use(importPlugin)
+  .use(nestedRulesPlugin)
 
   //custom tasks
   .addTask({
